@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<introduction>
+     
+    <preface>
+        <btec_first_section2>
+            <title>Purpose</title>
+            <text>
+                <describedlist>
+                    <list_description>The purpose of this specification, as defined by Ofqual, is to set out:</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>the qualifications’ objectives</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+            </text>
+        </btec_first_section2>
+        <btec_first_section2>
+            <title>Qualification titles and Qualification
+                Numbers
+            </title>
+            <qualification_unit>
+                <qtitle/>
+                <qnumber/>
+            </qualification_unit>
+            <text>
+                <paragraph/>
+            </text>
+
+        </btec_first_section2>
+    </preface>
+
+    <btec_first_section1>
+        <title>What are BTEC firsts?</title>
+        <text>
+            <paragraph/>
+        </text>
+        <btec_first_section2>
+            <title>The BTEC First suite of qualifications</title>
+            <text>
+                <paragraph/>
+            </text>
+            <BTEC_first_suite_of_qualifications_table>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification/>
+                    <award/>
+                    <certificate/>
+                    <extended_certificate/>
+                </BTEC_first_suite_of_qualifications_row>
+            </BTEC_first_suite_of_qualifications_table>
+        </btec_first_section2>
+    </btec_first_section1>
+    <btec_first_section1>
+        <title>Key features of the Edexcel BTEC First
+            Certificate and Extended Certificate
+        </title>
+        <text><paragraph></paragraph></text>
+    </btec_first_section1>
+</introduction>

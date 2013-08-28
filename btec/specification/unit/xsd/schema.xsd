@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:kode="http://kode1100.com" xmlns:x="http://www.xopus.com/xmlns/config" elementFormDefault="qualified">
+  <xs:include schemaLocation="../../shared/xsd/shared_types.xsd"/>
+
+  <xs:element name="unit" x:role="hidden-from-ui" kode:doc="Unit top level elements">
+    <xs:complexType>
+      <xs:sequence>
+        
+        
+          
+        <xs:element name="meta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="number" type="xs:int" x:placeholder="0"/>
+
+              <xs:element name="unit_title" type="plainText" x:placeholder="The title of the unit"/>
+
+              <xs:element name="level" type="level_def" x:placeholder="1"/>
+
+              <xs:element name="type" type="unit_type_def" x:placeholder="Right click for drop down list"/>
+
+              <xs:element name="guided_learning_hours" type="xs:float" x:placeholder="0"/>
+
+              <xs:element name="assessment_type" type="unit_assessment_type_def" x:role="hidden-from-ui" x:placeholder="Right click for drop down list"/>
+
+            </xs:sequence>
+          </xs:complexType>
+
+        </xs:element>
+        
+        <xs:element name="introduction">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="paragraph" x:placeholder="Paragraph introducing the unit" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="learning_objectives" x:role="hidden-from-ui">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="learning_objective" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="learning_objective_title" type="plainText" x:role="hidden-from-ui" x:placeholder="The title of the learning aim section"/>
+                    <xs:element name="distinct_objective" minOccurs="1" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="distinct_objective_title" type="plainText" x:placeholder="The title of a specific unique objective"/>
+                          <xs:element name="distinct_objective_text" type="paragraph_describedlist_choice_type" minOccurs="1"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="assessment_guidance" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="assessment_guidance_text" type="paragraph_describedlist_choice_type"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="assessment_criteria" type="assessment_criteria_type" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="suggested_assignment_outlines" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="distinct_suggested_assignment_outline" minOccurs="1" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="criteria_covered">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="criterion_id" type="criterion_id__type" minOccurs="1" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="assignment_title" type="plainText"/>
+                                <xs:element name="scenario" type="paragraph_describedlist_choice_type"/>
+                                <xs:element name="assessment_evidence" type="assessment_type"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                   <!-- <xs:element name="PLTS" type="plts"/>-->
+                  </xs:sequence>
+                <!--  <xs:attribute name="learn_obj_id" type="xs:ID" x:role="hidden-from-ui"/>-->
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="teacher_guidance" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="distinct_teacher_guidance" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="subtitle" type="plainText"/>
+                    <xs:element name="teacher_guidance_text" type="paragraph_describedlist_choice_type"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="global_assessment_guidance" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="assessment_guidance_text" type="paragraph_describedlist_choice_type"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- BEGIN ASSESSMENT CRITERIA -->
+
+  <xs:complexType name="assessment_criteria_type">
+    <xs:sequence>
+      <xs:element name="level_1_criteria" minOccurs="0" maxOccurs="1" x:role="hidden-from-ui">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="level_1_criterion" type="assessment_criterion_xtype" minOccurs="1" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="pass_criteria" minOccurs="0" maxOccurs="1" x:role="hidden-from-ui">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="pass_criterion" type="assessment_criterion_xtype" minOccurs="1" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="merit_criteria" minOccurs="0" maxOccurs="1" x:role="hidden-from-ui">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="merit_criterion" type="assessment_criterion_xtype" minOccurs="1" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="distinction_criteria" minOccurs="0" maxOccurs="1" x:role="hidden-from-ui">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="distinction_criterion" type="assessment_criterion_xtype" minOccurs="1" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="assessment_criterion_xtype">
+    <xs:sequence>
+
+      <xs:element name="criterion_id" type="criterion_id__type"/>
+      <xs:element name="criterion" type="paragraph_describedlist_choice_type" x:role="hidden-from-ui" x:placeholder="Insert criterion text"/>
+      <xs:element name="GSCE_english" type="yes_no_type"/>
+      <xs:element name="GSCE_math" type="yes_no_type"/>
+
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="paragraph" x:placeholder="Paragraph introducing the unit"/>
+        <xs:element name="describedlist" type="described_list_type"/>
+      </xs:choice>
+      <!--<xs:element name="pltsvalue" type="plts_value_type"/>-->
+      <xs:element name="criterion_guidance" type="paragraph_describedlist_choice_type" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

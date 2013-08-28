@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection stable="true">
+    <doc href="../../cover/xml/filled.xml"/>
+    <doc href="../../welcome_to_your_BTEC_First/xml/filled.xml"/>
+    <doc href="../../introduction/xml/filled.xml"/>
+    <doc href="../../edexcel_BTEC_Level_1_Level_2_First/xml/filled.xml"/>
+    <doc href="../../qualification_structure/xml/filled.xml"/>
+    <doc href="../../programme_delivery/xml/filled.xml"/>
+    <doc href="../../access_and_recruitment/xml/filled.xml"/>
+    <doc href="../../units_specification_layout/xml/filled.xml"/>
+    <doc href="../../internal_assessment/xml/filled.xml"/>
+    <doc href="../../external_assessment/xml/filled.xml"/>
+    <doc href="../../awarding_and_reporting_for_the_qualification/xml/filled.xml"/>
+    <doc href="../../quality_assurance_of_centres/xml/filled.xml"/>
+    <doc href="../../further_information_and_useful_publications/xml/filled.xml"/>
+    <doc href="../../professional_development_support/xml/filled.xml"/>
+    <doc href="../../unit/xml/filled.xml"/>
+    <doc href="../../annex/xml/filledA.xml"/>
+    <doc href="../../annex/xml/filledB.xml"/>
+    <doc href="../../annex/xml/filledC.xml"/>
+    <doc href="../../annex/xml/filledD.xml"/>
+    <doc href="../../annex/xml/filledE.xml"/>
+</collection>

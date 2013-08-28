@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    
+
+<annex>
+    <annex_letter>B</annex_letter>
+    <content>
+        <section1 apply_section_numbering="false">
+            <title>English knowledge and skills signposting</title>
+            <text>
+                <paragraph>This table shows where an assessment criterion in a BTEC First unit can provide an opportunity to practise a subject content area from the GCSE English subject criteria (including functional elements).</paragraph>
+            </text>
+            <generated_table_reference>GCSE english unit subject criteria assessment criterion annex table</generated_table_reference>
+        </section1>
+        <section1>
+            <title>GCSE English subject content area</title>
+            <text>
+                <paragraph>The topic areas below are drawn from the GCSE English subject criteria.</paragraph>
+                <describedlist>
+                    <list_description>
+                        <strong>Learners should:</strong>
+                    </list_description>
+                    <orderedlist>
+                        <item>
+                            <paragraph>analyse spoken and written language, exploring impact and how it is achieved</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>express ideas and information clearly, precisely, accurately and appropriately in spoken and written communication</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>form independent views and challenge what is heard or read on the grounds of reason, evidence or argument</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>understand and use the conventions of written language, including grammar, spelling and punctuation</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>explore questions, solve problems and develop ideas</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>engage with and make fresh connections between ideas, texts and words</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>experiment with language to create effects to engage the audience</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>reflect and comment critically on their own and others’ use of language.</paragraph>
+                        </item>
+                    </orderedlist>
+                </describedlist>
+                <describedlist>
+                    <list_description>
+                        <strong>In speaking and listening, learners should: </strong>
+                    </list_description>
+                    <orderedlist>
+                        <item>
+                            <paragraph>present and listen to information and ideas</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>respond appropriately to the questions and views of others</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>participate in a range of real-life contexts in and beyond the classroom, adapting talk to situation and audience and using standard English where appropriate</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>select and use a range of techniques and creative approaches to explore ideas, texts and issues in scripted and improvised work.</paragraph>
+                        </item>
+                    </orderedlist>
+                </describedlist>
+                <describedlist>
+                    <list_description>
+                        <strong>In reading, learners should:</strong>
+                    </list_description>
+                    <orderedlist>
+                        <item>
+                            <paragraph>understand how meaning is constructed through words, sentences and whole texts, recognising and responding to the effects of language variation</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>evaluate the ways in which texts may be interpreted differently according to the perspective of the reader.</paragraph>
+                        </item>
+                    </orderedlist>
+                </describedlist>
+                <describedlist>
+                    <list_description>
+                        <strong>In writing, learners should write accurately and fluently:</strong>
+                    </list_description>
+                    <orderedlist>
+                        <item>
+                            <paragraph>choosing content and adapting style and language to a wide range of forms, media, contexts, audiences and purposes</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>adapting form to a wide range of styles and genres.</paragraph>
+                        </item>
+                    </orderedlist>
+                </describedlist>
+            </text>
+        </section1>
+    </content>
+</annex>

@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:config xmlns:x="http://www.xopus.com/xmlns/config" xmlns:math="http://www.w3.org/2005/xpath-functions/math" version="1.0">
+
+  <x:import src="../../shared/xml/config.xml"/>
+
+  <x:miscellaneous>
+    <hideTableToolbar>true</hideTableToolbar>
+  </x:miscellaneous>
+
+
+  <x:nodeConfig>
+    <x:node match="unit">
+      <x:name>Unit</x:name>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+    <x:node match="meta">
+      <x:name>Meta</x:name>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+    <x:node match="number">
+      <x:name>Unit Number</x:name>
+      <x:placeholder>0</x:placeholder>
+    </x:node>
+
+    <x:node match="unit_title">
+      <x:name>Unit Title</x:name>
+      <x:placeholder>Insert unit title</x:placeholder>
+    </x:node>
+
+    <x:node match="level">
+      <x:name>Unit Level</x:name>
+      <x:placeholder>1</x:placeholder>
+    </x:node>
+
+    <x:node match="type">
+      <x:name>Unit Type</x:name>
+      <x:placeholder>Right click for drop down list</x:placeholder>
+    </x:node>
+
+    <x:node match="introduction">
+      <x:name>Unit Qualification structure</x:name>
+      <x:templates>
+        <x:template>
+
+          <paragraph><?start?></paragraph>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="guided_learning_hours">
+      <x:name>Unit Guided Learning Hours</x:name>
+      <x:placeholder>0</x:placeholder>
+    </x:node>
+
+    <x:node match="assessment_type">
+      <x:name>Unit Assessment Type</x:name>
+      <x:placeholder>Right click for drop down list</x:placeholder>
+    </x:node>
+
+
+    <x:node match="learning_objective_title">
+      <x:name>Learning Aim Title</x:name>
+      <x:role>hidden-from-ui</x:role>
+      <x:placeholder>Insert learning aim title</x:placeholder>
+    </x:node>
+
+
+    <x:node match="assignment_title">
+      <x:name>Assignment Title</x:name>
+      <x:role>hidden-from-ui</x:role>
+      <x:placeholder>Insert assignment title</x:placeholder>
+    </x:node>
+
+
+
+    <!-- LEARNING OBJECTIVE -->
+
+    <x:node match="learn_obj_id">
+      <x:name>Learn Obj Id</x:name>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+    <x:node match="learning_objective">
+      <x:name>Learning aim subsection</x:name>
+      <x:templates>
+        <x:template>
+
+          <learning_objective_title><?start?></learning_objective_title>
+          <distinct_objective>
+            <distinct_objective_title/>
+            <distinct_objective_text>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </distinct_objective_text>
+          </distinct_objective>
+          <assessment_guidance>
+            <assessment_guidance_text>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </assessment_guidance_text>
+          </assessment_guidance>
+          <assessment_criteria>
+            <level_1_criteria>
+              <level_1_criterion>
+                <criterion_id/>
+                <criterion>
+                  <paragraph/>
+                  <describedlist>
+                    <list_description/>
+                    <unorderedlist>
+                      <item>
+                        <paragraph/>
+                      </item>
+                    </unorderedlist>
+                  </describedlist>
+                </criterion>
+                <GSCE_english/>
+                <GSCE_math/>
+
+
+                <criterion_guidance>
+                  <paragraph/>
+                  <describedlist>
+                    <list_description/>
+                    <unorderedlist>
+                      <item>
+                        <paragraph/>
+                      </item>
+                    </unorderedlist>
+                  </describedlist>
+                </criterion_guidance>
+              </level_1_criterion>
+            </level_1_criteria>
+            <pass_criteria>
+              <pass_criterion>
+                <criterion_id/>
+                <criterion>
+                  <paragraph/>
+                  <describedlist>
+                    <list_description/>
+                    <unorderedlist>
+                      <item>
+                        <paragraph/>
+                      </item>
+                    </unorderedlist>
+                  </describedlist>
+                </criterion>
+                <GSCE_english/>
+                <GSCE_math/>
+
+                <criterion_guidance>
+                  <paragraph/>
+                  <describedlist>
+                    <list_description/>
+                    <unorderedlist>
+                      <item>
+                        <paragraph/>
+                      </item>
+                    </unorderedlist>
+                  </describedlist>
+                </criterion_guidance>
+              </pass_criterion>
+            </pass_criteria>
+            <merit_criteria>
+              <merit_criterion>
+                <criterion_id/>
+                <criterion>
+                  <paragraph/>
+                  <describedlist>
+                    <list_description/>
+                    <unorderedlist>
+                      <item>
+                        <paragraph/>
+                      </item>
+                    </unorderedlist>
+                  </describedlist>
+                </criterion>
+                <GSCE_english/>
+                <GSCE_math/>
+
+
+                <criterion_guidance>
+                  <paragraph/>
+                  <describedlist>
+                    <list_description/>
+                    <unorderedlist>
+                      <item>
+                        <paragraph/>
+                      </item>
+                    </unorderedlist>
+                  </describedlist>
+                </criterion_guidance>
+
+              </merit_criterion>
+            </merit_criteria>
+            <distinction_criteria>
+
+              <distinction_criterion>
+                <criterion_id/>
+                <criterion>
+                  <paragraph/>
+                  <describedlist>
+                    <list_description/>
+                    <unorderedlist>
+                      <item>
+                        <paragraph/>
+                      </item>
+                    </unorderedlist>
+                  </describedlist>
+                </criterion>
+                <GSCE_english/>
+                <GSCE_math/>
+
+                <criterion_guidance>
+                  <paragraph/>
+                  <describedlist>
+                    <list_description/>
+                    <unorderedlist>
+                      <item>
+                        <paragraph/>
+                      </item>
+                    </unorderedlist>
+                  </describedlist>
+                </criterion_guidance>
+              </distinction_criterion>
+            </distinction_criteria>
+          </assessment_criteria>
+          <suggested_assignment_outlines>
+            <distinct_suggested_assignment_outline>
+              <criteria_covered>
+                <criterion_id/>
+              </criteria_covered>
+              <assignment_title/>
+              <scenario>
+                <paragraph/>
+              </scenario>
+              <assessment_evidence>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </assessment_evidence>
+            </distinct_suggested_assignment_outline>
+          </suggested_assignment_outlines>
+
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+
+
+
+    <!-- DISTINCT OBJECTIVE BEGIN -->
+
+
+    <x:node match="distinct_objective">
+      <x:name>(aim) 'topic header' </x:name>
+      <x:templates>
+        <x:template>
+
+          <distinct_objective_title><?start?></distinct_objective_title>
+          <distinct_objective_text>
+            <paragraph/>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </distinct_objective_text>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="distinct_objective_title">
+      <x:name>(aim) 'topic title'</x:name>
+      <x:placeholder>Insert aim topic title</x:placeholder>
+    </x:node>
+
+    <x:node match="distinct_objective_text">
+      <x:name>(aim) 'topic text'</x:name>
+      <x:placeholder>Insert aim topic text</x:placeholder>
+      <x:templates>
+        <x:template>
+
+          <paragraph><?start?></paragraph>
+          <describedlist>
+            <list_description/>
+            <unorderedlist>
+              <item>
+                <paragraph/>
+              </item>
+            </unorderedlist>
+          </describedlist>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+    <!-- DISTINCT OBJECTIVE END -->
+
+
+    <x:node match="assessment_criteria">
+      <x:name>Assessment Criteria Section</x:name>
+      <x:templates>
+        <x:template>
+
+          <level_1_criteria>
+            <level_1_criterion>
+              <criterion_id/>
+              <criterion>
+                <paragraph><?start?></paragraph>
+                <describedlist>
+                  <list_description/>
+                  <unorderedlist>
+                    <item>
+                      <paragraph/>
+                    </item>
+                  </unorderedlist>
+                </describedlist>
+              </criterion>
+              <GSCE_english/>
+              <GSCE_math/>
+
+
+              <criterion_guidance>
+                <paragraph/>
+                <describedlist>
+                  <list_description/>
+                  <unorderedlist>
+                    <item>
+                      <paragraph/>
+                    </item>
+                  </unorderedlist>
+                </describedlist>
+              </criterion_guidance>
+            </level_1_criterion>
+          </level_1_criteria>
+          <pass_criteria>
+            <pass_criterion>
+              <criterion_id/>
+              <criterion>
+                <paragraph/>
+                <describedlist>
+                  <list_description/>
+                  <unorderedlist>
+                    <item>
+                      <paragraph/>
+                    </item>
+                  </unorderedlist>
+                </describedlist>
+              </criterion>
+              <GSCE_english/>
+              <GSCE_math/>
+
+              <criterion_guidance>
+                <paragraph/>
+                <describedlist>
+                  <list_description/>
+                  <unorderedlist>
+                    <item>
+                      <paragraph/>
+                    </item>
+                  </unorderedlist>
+                </describedlist>
+              </criterion_guidance>
+            </pass_criterion>
+          </pass_criteria>
+          <merit_criteria>
+            <merit_criterion>
+              <criterion_id/>
+              <criterion>
+                <paragraph/>
+                <describedlist>
+                  <list_description/>
+                  <unorderedlist>
+                    <item>
+                      <paragraph/>
+                    </item>
+                  </unorderedlist>
+                </describedlist>
+              </criterion>
+              <GSCE_english/>
+              <GSCE_math/>
+
+
+              <criterion_guidance>
+                <paragraph/>
+                <describedlist>
+                  <list_description/>
+                  <unorderedlist>
+                    <item>
+                      <paragraph/>
+                    </item>
+                  </unorderedlist>
+                </describedlist>
+              </criterion_guidance>
+
+            </merit_criterion>
+          </merit_criteria>
+          <distinction_criteria>
+
+            <distinction_criterion>
+              <criterion_id/>
+              <criterion>
+                <paragraph/>
+                <describedlist>
+                  <list_description/>
+                  <unorderedlist>
+                    <item>
+                      <paragraph/>
+                    </item>
+                  </unorderedlist>
+                </describedlist>
+              </criterion>
+              <GSCE_english/>
+              <GSCE_math/>
+
+              <criterion_guidance>
+                <paragraph/>
+                <describedlist>
+                  <list_description/>
+                  <unorderedlist>
+                    <item>
+                      <paragraph/>
+                    </item>
+                  </unorderedlist>
+                </describedlist>
+              </criterion_guidance>
+            </distinction_criterion>
+          </distinction_criteria>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+    <x:node match="suggested_assignment_outlines">
+      <x:name>Suggested Assignment Outlines</x:name>
+      <x:templates>
+        <x:template>
+
+          <distinct_suggested_assignment_outline>
+            <criteria_covered>
+              <criterion_id/>
+            </criteria_covered>
+            <assignment_title/>
+            <scenario>
+              <paragraph/>
+
+            </scenario>
+            <assessment_evidence>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </assessment_evidence>
+          </distinct_suggested_assignment_outline>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="distinct_suggested_assignment_outline">
+      <x:name>Distinct Suggested Assignment Outline</x:name>
+    </x:node>
+
+    <x:node match="distinct_suggested_assignment_outline">
+      <x:name>Distinct Suggested Assignment Outline</x:name>
+      <x:templates>
+        <x:template>
+          <suggested_assignment_outlines>
+            <distinct_suggested_assignment_outline>
+              <criteria_covered>
+                <criterion_id/>
+              </criteria_covered>
+              <assignment_title/>
+              <scenario>
+                <paragraph/>
+              </scenario>
+              <assessment_evidence>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </assessment_evidence>
+            </distinct_suggested_assignment_outline>
+          </suggested_assignment_outlines>
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+    <x:node match="teacher_guidance">
+      <x:name>Teacher Guidance Section</x:name>
+      <x:templates>
+        <x:template>
+
+          <distinct_teacher_guidance>
+            <subtitle><?start?></subtitle>
+            <teacher_guidance_text>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+              <paragraph/>
+            </teacher_guidance_text>
+          </distinct_teacher_guidance>
+          <global_assessment_guidance>
+            <assessment_guidance_text>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </assessment_guidance_text>
+          </global_assessment_guidance>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="distinct_teacher_guidance">
+      <x:name>Distinct Teacher Guidance Subsection</x:name>
+      <x:templates>
+        <x:template>
+
+          <subtitle><?start?></subtitle>
+          <teacher_guidance_text>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+            <paragraph/>
+          </teacher_guidance_text>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+    <x:node match="subtitle">
+      <x:name>Subtitle</x:name>
+      <x:placeholder>Insert subtitle text</x:placeholder>
+    </x:node>
+
+    <x:node match="assessment_guidance">
+      <x:name>Assessment Guidance Section</x:name>
+
+      <x:templates>
+        <x:template>
+
+          <assessment_guidance_text>
+            <paragraph/>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </assessment_guidance_text>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+    <x:node match="global_assessment_guidance">
+      <x:name>Global Assessment Guidance Section</x:name>
+      <x:templates>
+        <x:template>
+
+          <assessment_guidance_text>
+            <paragraph><?start?></paragraph>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </assessment_guidance_text>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+
+    <x:node match="level_1_criteria">
+      <x:name>Level 1 Criteria</x:name>
+      <x:templates>
+        <x:template>
+
+          <level_1_criterion>
+            <criterion_id/>
+            <criterion>
+              <paragraph><?start?></paragraph>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english/>
+            <GSCE_math/>
+
+
+            <criterion_guidance>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </level_1_criterion>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="level_1_criterion">
+      <x:name>Level 1 Criterion</x:name>
+      <x:templates>
+        <x:template>
+
+          <criterion_id/>
+          <criterion>
+            <paragraph><?start?></paragraph>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </criterion>
+          <GSCE_english/>
+          <GSCE_math/>
+          <criterion_guidance>
+            <paragraph/>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </criterion_guidance>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="pass_criteria">
+      <x:name>Pass Criteria</x:name>
+      <x:templates>
+        <x:template>
+
+          <pass_criterion>
+            <criterion_id/>
+            <criterion>
+              <paragraph><?start?></paragraph>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english/>
+            <GSCE_math/>
+            <criterion_guidance>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </pass_criterion>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="pass_criterion">
+      <x:name>Pass Criterion</x:name>
+      <x:templates>
+        <x:template>
+
+          <criterion_id/>
+          <criterion>
+            <paragraph><?start?></paragraph>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </criterion>
+          <GSCE_english/>
+          <GSCE_math/>
+          <criterion_guidance>
+            <paragraph/>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </criterion_guidance>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="merit_criteria">
+      <x:name>Merit Criteria</x:name>
+      <x:templates>
+        <x:template>
+
+          <merit_criterion>
+            <criterion_id/>
+            <criterion>
+              <paragraph><?start?></paragraph>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english/>
+            <GSCE_math/>
+            <criterion_guidance>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </merit_criterion>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="merit_criterion">
+      <x:name>Merit Criterion</x:name>
+      <x:templates>
+        <x:template>
+
+          <criterion_id/>
+          <criterion>
+            <paragraph><?start?></paragraph>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </criterion>
+          <GSCE_english/>
+          <GSCE_math/>
+          <criterion_guidance>
+            <paragraph/>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </criterion_guidance>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+    <x:node match="distinction_criteria">
+      <x:name>Distinction Criteria</x:name>
+      <x:templates>
+        <x:template>
+
+          <distinction_criterion>
+            <criterion_id/>
+            <criterion>
+              <paragraph><?start?></paragraph>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english/>
+            <GSCE_math/>
+            <criterion_guidance>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </distinction_criterion>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="distinction_criterion">
+      <x:name>Distinction Criterion</x:name>
+      <x:templates>
+        <x:template>
+
+          <criterion_id/>
+          <criterion>
+            <paragraph><?start?></paragraph>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </criterion>
+          <GSCE_english/>
+          <GSCE_math/>
+          <criterion_guidance>
+            <paragraph/>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          </criterion_guidance>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="criterion">
+      <x:name>Criterion</x:name>
+      <x:placeholder>Insert criterion text</x:placeholder>
+      <x:role>hidden-from-ui</x:role>
+      <x:templates>
+        <x:template>
+
+          <paragraph><?start?></paragraph>
+          <describedlist>
+            <list_description/>
+            <unorderedlist>
+              <item>
+                <paragraph/>
+              </item>
+            </unorderedlist>
+          </describedlist>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="criterion_guidance">
+      <x:name>Criterion Guidance</x:name>
+      <x:role>hidden-from-ui</x:role>
+      <x:templates>
+        <x:template>
+
+          <paragraph/>
+          <describedlist>
+            <list_description/>
+            <unorderedlist>
+              <item>
+                <paragraph/>
+              </item>
+            </unorderedlist>
+          </describedlist>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+    <x:node match="criterion_id">
+      <x:name>Criterion ID</x:name>
+      <x:placeholder>0X.X0</x:placeholder>
+      <x:description>Normally something like 2B.M3 but also possible are (1A.1) (18.1,18.3)</x:description>
+    </x:node>
+
+
+
+
+
+    <!-- <x:node match="pltsvalue">
+      <x:name>PLTS Value</x:name>
+      <x:templates>
+        <x:template>
+          <pltsvalue>
+            <initials><?start?></initials>
+            <number/>
+          </pltsvalue>
+        </x:template>
+      </x:templates>
+    </x:node>
+-->
+    <x:node match="initials">
+      <x:name>Initials</x:name>
+      <x:placeholder>XX</x:placeholder>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+
+  </x:nodeConfig>
+</x:config>

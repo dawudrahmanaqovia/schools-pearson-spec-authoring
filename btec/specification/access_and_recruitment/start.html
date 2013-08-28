@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="robots" content="noindex" />
+    <title>Access and recruitment</title>
+    <link rel="stylesheet" type="text/css" href="css/wysiwym.css" />
+    <script type="text/javascript" src="../../xopus/xopus/xopus.js"></script>
+  </head>
+  <body>
+    <div id="page">
+      <!-- The Xopus Canvas -->
+      <div xopus="true">
+        <xml>
+          <x:config version="1.0" xmlns:x="http://www.xopus.com/xmlns/config">
+            
+            <x:javascript>Editor.SpellChecking.addPersonalWords("en-US", ["Xopus", "wysiwyg"]);</x:javascript>
+            <x:pipeline xml="./xml/filled.xml" xsd="./xsd/schema.xsd">
+              <x:view name="WYSIWYG View">
+                <x:transform xsl="./xsl/stylesheet.xsl"></x:transform>
+              </x:view>
+              <x:view name="XML View">
+                <x:treeTransform></x:treeTransform>
+              </x:view>
+            </x:pipeline>
+            <x:import src="./xml/config.xml"></x:import>
+          </x:config>
+        </xml>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<introduction>
+     
+    <preface>
+        <btec_first_section2 >
+            <title>Purpose</title>
+            <text>
+                <describedlist>
+                    <list_description>The purpose of this specification, as defined by Ofqual, is to set out:</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>   the qualification’s objective
+                                
+                            </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>   any other qualification that a learner must have completed before taking the qualification
+                                
+                            </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>   any prior knowledge, skills or understanding that the learner is required to have before taking the qualification
+                                
+                            </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>   units that a learner must have completed before the qualification will be awarded, and any optional routes
+                                
+                            </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>   any other requirements that a learner must have satisfied before the learner will be assessed, or before the qualification will be awarded
+                                
+                            </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>   the knowledge, skills and understanding that will be assessed as part of the qualification (giving a clear indication of their coverage and depth)
+                                
+                            </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>   the method of any assessment and any associated requirements relating to it
+                                
+                            </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>   the criteria against which learners’ level of attainment will be measured(such as assessment criteria)
+                                
+                            </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>   any specimen materials (supplied separately)
+                                
+                            </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>   any specified levels of attainment.
+                            </paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+            </text>
+        </btec_first_section2>
+        <btec_first_section2>
+            <title>Qualification titles and Qualification
+                Numbers
+            </title>  
+            <qualification_unit>
+                <qtitle>Pearson BTEC Level 1/Level 2 First Diploma in Information and Creative Technology</qtitle>
+                <qnumber>XXX/XXXX/X</qnumber>
+            </qualification_unit>
+            <text>
+                <paragraph>This qualification is on the National Qualifications Framework (NQF).
+                    
+                </paragraph>
+                <paragraph>Your centre should use the Qualification Number (QN) when seeking funding foryour learners.
+                    
+                </paragraph>
+                <paragraph>The qualification title, units and QN will appear on each learner’s final certificate. You should tell your learners this when your centre recruits them and registers them with us. Further information about certification is in the Edexcel Information Manual on our website, www.edexcel.com
+                </paragraph>
+            </text>
+            
+        </btec_first_section2>
+    </preface>
+    
+    <btec_first_section1>
+        <title>What are BTEC firsts?</title>
+        <text>
+            <paragraph>BTEC First qualifications were originally designed for use in colleges, schools and the workplace as an introductory level 2 course for learners wanting to study in the context of a vocational sector. This is still relevant today. The knowledge, understanding and skills learned in studying a BTEC First will aid progression to further study and prepare learners to enter the workplace in due course. Potential employment opportunities, such as an apprenticeship or a supervised role (depending on the specific job requirements), should be available in the information technology sector and appropriate parts of the creative industries, such as computer games development. These BTEC First qualifications provide learners with a taste of what these sectors can offer, enabling them to make informed choices about their future career.</paragraph>
+            <paragraph>These qualifications are intended primarily for learners in the 14–19 age group, but may also be used by other learners who wish to gain an introductory understanding 
+                of a vocational area. When taken as part of a balanced curriculum, there is a clear progression route to a level 3 course or an apprenticeship. 
+            </paragraph>
+            <paragraph>BTECs are vocationally related qualifications, where learners develop knowledge 
+                and understanding by applying their learning and skills in a work-related context. Additionally, they are popular and effective because they engage learners to take responsibility for their own learning and to develop skills that are essential for the modern-day workplace. These skills include: teamworking; working from a prescribed brief; working to deadlines; presenting information effectively; and accurately completing administrative tasks and processes. BTEC Firsts motivate learners, and open doors to progression into further study and responsibility within the workplace.
+            </paragraph>
+            <paragraph>The BTEC First suite continues to reflect this ethos and builds on the recommendations outlined in the Review of Vocational Education – The Wolf Report (March 2011) and further emphasised in the Department for Education’s Study Programmes for 16–19 year olds consultation (June 2012). These reports confirmed the importance of a broad and balanced curriculum for all learners.</paragraph>
+        </text>
+        <btec_first_section2>
+            <title>The BTEC First suite of qualifications</title>
+            <text>
+                <paragraph>The following qualifications are part of the BTEC First suite for first teaching from
+                    Autumn 2012:</paragraph>
+            </text>
+            <BTEC_first_suite_of_qualifications_table>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification>Application of Science</qualification>
+                    <award>Checked</award>
+                    <certificate>Unchecked</certificate>
+                    <extended_certificate>Unchecked</extended_certificate>
+                </BTEC_first_suite_of_qualifications_row>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification>Applied Science</qualification>
+                    <award>Unchecked</award>
+                    <certificate>Unchecked</certificate>
+                    <extended_certificate>Checked</extended_certificate>
+                </BTEC_first_suite_of_qualifications_row>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification>Art and Design</qualification>
+                    <award>Checked</award>
+                    <certificate>Checked</certificate>
+                    <extended_certificate>Checked</extended_certificate>
+                </BTEC_first_suite_of_qualifications_row>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification>Business</qualification>
+                    <award>Checked</award>
+                    <certificate>Checked</certificate>
+                    <extended_certificate>Checked</extended_certificate>
+                </BTEC_first_suite_of_qualifications_row>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification>Engineering</qualification>
+                    <award>Checked</award>
+                    <certificate>Checked</certificate>
+                    <extended_certificate>Checked</extended_certificate>
+                </BTEC_first_suite_of_qualifications_row>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification>Health and Social Care</qualification>
+                    <award>Checked</award>
+                    <certificate>Checked</certificate>
+                    <extended_certificate>Checked</extended_certificate>
+                </BTEC_first_suite_of_qualifications_row>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification>Information and Creative Technology</qualification>
+                    <award>Checked</award>
+                    <certificate>Checked</certificate>
+                    <extended_certificate>Checked</extended_certificate>
+                </BTEC_first_suite_of_qualifications_row>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification>Performing Arts</qualification>
+                    <award>Checked</award>
+                    <certificate>Checked</certificate>
+                    <extended_certificate>Checked</extended_certificate>
+                </BTEC_first_suite_of_qualifications_row>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification>Principles of Applied Science</qualification>
+                    <award>Checked</award>
+                    <certificate>Unchecked</certificate>
+                    <extended_certificate>Unchecked</extended_certificate>
+                </BTEC_first_suite_of_qualifications_row>
+                <BTEC_first_suite_of_qualifications_row>
+                    <qualification>Sport</qualification>
+                    <award>Checked</award>
+                    <certificate>Checked</certificate>
+                    <extended_certificate>Checked</extended_certificate>
+                </BTEC_first_suite_of_qualifications_row>
+            </BTEC_first_suite_of_qualifications_table>
+            <text>
+                <paragraph>Visit www.btec.co.uk for information about these qualifications and also for
+                    information about additional qualifications in larger sizes (Diploma), and in different
+                    vocational sectors.</paragraph>
+            </text>
+        </btec_first_section2>
+        
+        <btec_first_section2>
+            <title>Objectives of the BTEC First suite</title>
+            <text>
+                <describedlist>
+                    <list_description>The BTEC First suite will:</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>enable you, as schools, colleges and training providers, to offer a high-quality vocational and applied curriculum that is broad and engaging for all learners</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>secure a balanced curriculum overall, so learners in the 14–19 age group have the opportunity to apply their knowledge, skills and understanding in the context of future development</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>provide learners with opportunities to link education and the world of work in engaging, relevant and practical ways</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>enable learners to enhance their English and mathematical competence in relevant, applied scenarios</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>support learners’ development of transferable interpersonal skills, including working with others, problem-solving, independent study, and personal, learning and thinking skills</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>provide learners with a route through education that has clear progression pathways into further study or an apprenticeship.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+            </text>
+        </btec_first_section2>
+        
+        <btec_first_section2>
+            <title>Breadth and progression</title>
+            <text>
+                <describedlist>
+                    <list_description>This qualification has a core of underpinning knowledge, skills and understanding, and a range of options to reflect the breadth of pathways within a sector. This gives learners the opportunity to:</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>gain a broad understanding and knowledge of a vocational sector </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>investigate areas of specific interest </paragraph>
+                        </item>
+                        <item>
+                            <paragraph>develop essential skills and attributes prized by employers, further education colleges and higher education institutions.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <paragraph>This suite of qualifications provides opportunities for learners to progress to either academic or more specialised vocational pathways.</paragraph>
+            </text>
+        </btec_first_section2>
+        
+        <btec_first_section2>
+            <title>Progression from Level 1</title>
+            <text>
+                <describedlist>
+                    <list_description>This qualification has been designed to provide a progression route from the following qualifications:</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>Pearson BTEC Level 1 Certificate for IT Users (QCF)</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>Pearson BTEC Level 1 Diploma for IT Users (QCF).</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <describedlist>
+                    <list_description>This qualification is also designed to provide a progression route from the following qualifications:</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>Pearson BTEC Level 1 Certificate in Vocational Studies (QCF)</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>Pearson BTEC Level 1 Diploma in Vocational Studies (QCF).</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <paragraph>See website for details: http://www.edexcel.com/quals/flt/Voc-Studies/ Pages/default.aspx</paragraph>
+            </text>
+        </btec_first_section2>       
+    </btec_first_section1>
+    
+    <btec_first_section1>
+        <title>Key features of the Pearson BTEC First Diploma 
+        </title>
+        <text>
+            <describedlist>
+                <list_description>The Pearson BTEC Level 1/Level 2 First Diploma:</list_description>
+                <unorderedlist>
+                    <item>
+                        <paragraph>is the largest size in the BTEC First suite of qualifications that includes these smaller sizes:</paragraph>
+                            <unorderedlist>
+                                <item>
+                                    <paragraph>Award – 120 guided learning hours (GLH)</paragraph>
+                                </item>
+                                <item>
+                                    <paragraph>Certificate – 240 GLH</paragraph>
+                                </item>
+                                <item>
+                                    <paragraph>Extended Certificate – 360 GLH</paragraph>
+                                </item>
+                            </unorderedlist>
+                    </item>
+                    <item>
+                        <paragraph>is a level 2 qualification; the grades range from Level 2 PP to Level 2 D*D*. Learners who do not achieve at Level 2 may be graded at Level 1. Learners whose level of achievement is below a Level 1 will receive an unclassified (U) result</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>is primarily aimed at learners aged 16 years and over</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>is a 480 guided-learning-hour qualification (equivalent in teaching time to four GCSEs)</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>has core, mandatory and optional specialist units </paragraph>
+                    </item>
+                    <item>
+                        <paragraph>has 12.5 per cent of the qualification that is externally assessed. Edexcel sets and marks these assessments</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>will be available on the National Qualifications Framework (NQF)</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>presents knowledge in a work-related context</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>gives learners the opportunity to develop and apply skills in English and mathematics in naturally occurring, work-related contexts</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>provides opportunities for synoptic assessment through applying skills, knowledge and understanding gained through realistic or work-related tasks, such as projects, work experience and event planning, and to deepen learning through more specialist units. See Annexe E for more detailed information.</paragraph>
+                    </item>   
+                </unorderedlist>
+            </describedlist>      
+            <paragraph>Learners can register for this BTEC Level 1/Level 2 First Diploma qualification from September 2013. The first certification opportunity for this qualification will be 2014.</paragraph>
+        </text>
+        
+        <btec_first_section2>
+            <title>Types of units within the qualification</title>
+            <text>
+                <paragraph>The BTEC First qualifications have core, mandatory and optional specialist units. 
+                    See Section 4 for more detailed information. For this qualification, learners will need to complete all the core and mandatory units. This is to ensure that all learners have a broad and balanced coverage of the vocational sector. 
+                </paragraph>
+                <describedlist>
+                    <list_description>Core units</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>Three of the four core units of this qualification are common to all qualification sizes in this sector (Units 1, 2 and 3).</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>The fourth core unit is a 60-GLH unit, which requires learners to bring together and apply their learning, in order to demonstrate their understanding of concepts and their development of transferable skills. This unit is internally assessed.</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>These core units are designed to cover the body of content that employers and educators within the sector consider essential for 14–19 year old learners. They support the remainder of the learning needed for this qualification. Two units will be internally assessed and two units will be externally assessed.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <describedlist>
+                    <list_description>Mandatory units</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>Mandatory units assess additional knowledge, skills and understanding that are not covered within the core units but that are essential to the curriculum area or vocational sector for either the qualification size or sector.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <describedlist>
+                    <list_description>Optional specialist units
+                    </list_description> 
+                    <unorderedlist>
+                        <item>
+                            <paragraph>Optional specialist units are sector specific, focus on a particular area within the vocational sector, and provide an opportunity to demonstrate knowledge, skills and understanding.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <paragraph>The remainder of the Pearson BTEC Level 1/Level 2 First Diploma will be formed from optional specialist units.</paragraph>
+            </text>
+        </btec_first_section2>
+        
+        <btec_first_section2>
+            <title>Pathways and endorsed titles</title>
+            <text>
+                <paragraph>Some learners may want to pursue a particular specialised pathway by selecting units from the sector that lead to an endorsed title. The specific combinations of units that can be chosen to lead to an endorsed title are shown in Section 4, Qualification structure.</paragraph>
+            </text>
+        </btec_first_section2>
+    </btec_first_section1>
+</introduction>

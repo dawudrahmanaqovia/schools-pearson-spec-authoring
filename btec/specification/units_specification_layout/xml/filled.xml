@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<units_specification_layout>
+        
+    
+    <section1 apply_section_numbering="true">
+        <title>The layout of units in the specification</title>
+        <text>
+            <paragraph>Each unit is laid out using the headings given below. Unit X below uses placeholder
+                text and is <strong>for illustrative purposes only.</strong>
+            </paragraph>
+        </text>
+    </section1>
+</units_specification_layout>

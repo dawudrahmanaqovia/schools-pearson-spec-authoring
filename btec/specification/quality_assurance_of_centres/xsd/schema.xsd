@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:kode="http://kode1100.com" xmlns:x="http://www.xopus.com/xmlns/config" elementFormDefault="qualified">
+  <xs:include schemaLocation="../../shared/xsd/shared_types.xsd"/>
+  
+  <xs:element name="quality_assurance_of_centres" x:role="hidden-from-ui">
+    <xs:complexType>
+      <xs:sequence>
+        
+        <xs:element name="section1" type="section1_type" minOccurs="1" maxOccurs="unbounded" x:name="Section1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+</xs:schema>

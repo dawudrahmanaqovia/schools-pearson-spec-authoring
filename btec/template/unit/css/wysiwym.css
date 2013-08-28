@@ -1,0 +1,297 @@
+html,
+body
+{
+    background:#F0F0F0;
+    color:black;
+    font-size:1em;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+.unit h1{
+    font-size:2.1em;
+}
+
+.unit h2{
+    font-size:1.7em;
+}
+
+.unit h3{
+    font-size:1.4em;
+}
+.unit h4{
+    font-size:1.1em;
+}
+
+.unit p{
+    margin-left:1.8em;
+}
+
+.box{
+    margin-left:3em;
+}
+/*td
+{
+    border:1px solid #EEEFEF;
+}*/
+
+a
+{
+    color:#007DAD;
+    cursor:text;
+}
+
+.list li
+{
+    padding:0.2em;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:#EEE;
+}
+
+.list ul
+{
+    margin-left:2.5em;
+
+}
+
+.list p
+{
+    margin-left:2.2em;
+}
+
+
+.unit
+{
+    background:#FFF;
+    padding:18px;
+    padding-bottom:18px;
+    width:85%;
+}
+
+.prelevel_criteria,
+.merit_criteria,
+.distinction_criteria,
+.pass_criteria
+{
+    background:#94DBFF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:black;
+    border-radius:3px;
+    padding:1em;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+
+.assessment_guidance,
+.learning_objectives
+{
+    background:#94DBFF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:black;
+    border-radius:3px;
+    padding:0.2em;
+    margin-bottom:0.2em;
+}
+
+
+.describedlist
+{
+    padding:0.2em;
+    margin:0.2em;
+    background:#A3FFFF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+}
+
+
+.prelevel_criterion,
+.merit_criterion,
+.distinction_criterion,
+.pass_criterion
+{
+    vertical-align:top;
+    padding-top:1em;
+    padding-bottom:1em;
+    margin-top:1em;
+    margin-bottom:1em;
+    background:#E0F5FF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+}
+
+
+.learning_objectives,
+.introduction,
+.teacher_guidance
+{
+    margin-top:3em;
+    margin-bottom:3em;
+}
+.box
+{
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+.GSCE_english,
+.GSCE_math,
+.criterion_id,
+.pltsvalue
+{
+   margin-top:0.5em;
+   margin-bottom:0.5em;
+    
+}
+.wrap
+{
+    margin-top:0.2em;
+    margin-bottom:0.5em;
+}
+
+
+.footer
+{
+    border-top:solid 0.1em #d1d2d4;
+    color:#000;
+    font-size:82%;
+    padding:14px 0 18px;
+    margin:3em 0 0;
+}
+
+.uneditable,
+.editable
+{
+    margin-right:0.2em;
+    margin-left:0.2em;
+    border-radius:2px;
+    padding:0.2em;
+
+}
+
+.uneditable
+{
+    background:#FEFEFE;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    border-style:dotted;
+    border-width:0.1em;
+    border-color:gray;
+}
+
+.editable
+{
+    margin-top:0.4em;
+    margin-bottom:0.4em;
+    background:#FDFDF9;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+}
+
+.shortcuts,
+.criteria_covered,
+.scenario,
+.assessment_evidence,
+.assignment_title
+{
+    height: 100%;
+    background:#DEEFEF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    border-radius:3px;
+    padding-top:0.4em;
+    padding-bottom:0.4em;
+   
+}
+
+.learning_objective,
+.teacher_guidance
+{
+    background:#FEEFEF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    border-radius:3px;
+    padding:0.2em;
+    margin-bottom:2em;
+}
+
+.suggested_assignment_outlines,
+.distinct_objective,
+.distinct_teacher_guidance,
+.assessment_guidance
+{
+    margin-top:0.7em;
+    margin-bottom:0.7em;
+    margin-left:0.2em;
+    background:#D1F0FF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    border-radius:2px;
+}
+
+
+
+.blurb,
+.plts_initials_reference{
+    background:#CCEBD6;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    padding-bottom:0.1em;
+    padding-left:0.1em;
+    padding-right:0.1em;
+    margin-bottom:0.3em;
+    margin-top:0.1em;
+    margin-left:0.1em;
+    border-radius:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Drop-shadow page layout {{{ */
+#canvas
+{
+    background:#F0F0F0;
+    padding:1px;
+    margin:0;
+    color:black;
+}
+
+#page
+{
+    margin:15px;
+    border:solid 1px #e9e9e9;
+    border-right-color:#DDD;
+    border-bottom-color:#DDD;
+    -webkit-box-shadow:5px 5px 3px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:5px 5px 3px 0px rgba(0, 0, 0, 0.6);
+    -box-shadow:5px 5px 3px 0px rgba(0, 0, 0, 0.6);
+}
+
+/* }}} */
+
+
+/* Expanding Collapsing Div*/
+.hover > div{
+    background-color:#0f0 !important;
+}
+.clear{
+    clear:both;
+}

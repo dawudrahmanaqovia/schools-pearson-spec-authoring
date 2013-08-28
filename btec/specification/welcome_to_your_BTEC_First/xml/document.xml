@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<welcome_to_your_BTEC_First>
+     
+    <section1 apply_section_numbering="false">
+        <title>Welcome to your BTEC First 2013 Specification</title>
+        <text>
+            <paragraph></paragraph>
+            <describedlist>
+                <list_description></list_description>
+                <unorderedlist>
+                    <item>
+                        <paragraph></paragraph>
+                    </item>
+                </unorderedlist>
+            </describedlist>
+        </text>
+        <section2>
+            <title></title>
+            <text>
+                <paragraph></paragraph>
+                <describedlist>
+                    <list_description></list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph></paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+            </text>           
+        </section2>
+    </section1>
+</welcome_to_your_BTEC_First>

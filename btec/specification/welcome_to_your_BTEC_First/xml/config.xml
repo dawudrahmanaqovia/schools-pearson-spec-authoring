@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:config xmlns:x="http://www.xopus.com/xmlns/config" xmlns:math="http://www.w3.org/2005/xpath-functions/math" version="1.0">
+  <x:import src="../../shared/xml/config.xml"/>
+  
+  <x:nodeConfig>
+
+    <x:node match="welcome_to_your_BTEC_First">
+      <x:name>welcome to your BTEC First Specification</x:name>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+    
+  </x:nodeConfig>
+
+</x:config>

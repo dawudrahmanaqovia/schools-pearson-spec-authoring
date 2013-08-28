@@ -1,0 +1,27 @@
+@import url("../../shared/css/wysiwym.css");
+
+.cover_image 
+{
+    background:#94DBFF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:black;
+    border-radius:3px;
+    padding:1em;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+
+.inside_cover,
+.front_cover
+{
+    background:#FEFEFE;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:black;
+    border-radius:3px;
+    padding:1em;
+    margin-bottom:2em;
+    margin-top:2em;
+}

@@ -1,0 +1,466 @@
+html,
+body
+{
+    background:#F0F0F0;
+    color:black;
+    font-size:1em;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+
+.image 
+{
+    background:#F4FFD4;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:black;
+    border-radius:3px;
+    padding:1em;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+table.color_blue                                               { background-color:#D2DFF6; }
+.color_blue  th                                                { background-color:#8FB5FB; color:#0258F5; }
+.color_blue  tbody.rowcoloring_alternate  tr.evenorodd_even    { background-color:#FFFFFF; }
+
+table.color_green                                              { background-color:#F2F6E0; }
+.color_green th                                                { background-color:#EAF1BE; color:#619102; }
+.color_green tbody.rowcoloring_alternate  tr.evenorodd_even    { background-color:#FFFFFF; }
+
+table.color_orange                                             { background-color:#F8EAE1; }
+.color_orange th                                               { background-color:#F6B88E; color:#F86401; }
+.color_orange tbody.rowcoloring_alternate tr.evenorodd_even    { background-color:#FFFFFF; }
+
+table.color_grey                                               { background-color:#ECECEC; }
+.color_grey th                                                 { background-color:#D9D9D9; color:#666666; }
+.color_grey tbody.rowcoloring_alternate   tr.evenorodd_even    { background-color:#FFFFFF; }
+
+table.border_row    th, table.border_row    td      { border-bottom:solid 1px #CCCCCC; }
+table.border_column th, table.border_column td      { border-right:solid 1px #CCCCCC; }
+table.border_cell                                   { border:solid #CCCCCC; border-width:1px 0px 0px 1px; }
+table.border_cell   th, table.border_cell   td      { border:solid #CCCCCC; border-width:0px 1px 1px 0px; }
+
+table { margin-bottom: 2em; }
+td, th { padding: 1px 1em; }
+
+
+table p
+{
+  margin:0;
+  
+}
+
+/*
+table,
+tr,
+td
+{
+    border-style:solid;
+    border-collapse:collapse;
+    border-width:0.1em;
+    border-color:grey;
+    padding:0.3em;
+
+}*/
+
+ol ol,
+ul ol
+{
+  list-style-type: lower-alpha;
+}
+
+ol ol ol,
+ul ol ol,
+ol ul ol,
+ul ul ol
+{
+  list-style-type: lower-roman;
+}
+
+
+
+.first_certificate_mandatory_units_table,
+.first_certificate_optional_specialist_units_table,
+.first_extended_certificate_mandatory_units_table,
+.first_extended_certificate_optional_specialist_units_table,
+.BTEC_first_suite_of_qualifications_table
+
+{
+   
+    margin-bottom:2em;
+    margin-left:0.4em;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+}
+
+
+.text
+{
+
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    padding-top:1em;
+    padding-bottom:1em;
+    margin-top:1em;
+    margin-bottom:1em;
+    background:#FEFEFE;
+}
+
+.generated_table_reference
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    padding-top:1em;
+    padding-bottom:1em;
+    margin-top:1em;
+    margin-bottom:1em;
+    background:#EDFDF9;
+}
+
+.caption{
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    margin-top:1em;
+    background:#FDFDF9;
+}
+
+.title{
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    margin-top:0.2em;
+    margin-bottom:0.2em;
+}
+
+
+.preface,
+.qualification_unit,
+.unit_introduction,
+.unit,
+.further_information_useful_publications,
+.welcome_to_your_BTEC_First,
+.units_specification_layout,
+.quality_assurance_of_centres,
+.qualification_structure,
+.programme_delivery,
+.Edexcel_BTEC_Level_1_Level_2_First,
+.professional_development_and_support,
+.introduction,
+.internal_assessment,
+.external_assessment,
+.edexcel_BTEC_Level_1_Level_2_First,
+.cover_pages,
+.front_cover,
+.inside_cover,
+.awarding_and_reporting_for_the_qualification,
+.access_and_recruitment,
+.annexes,
+.annexe,
+.btec_first_section1,
+.btec_first_section2,
+.btec_first_section3,
+.btec_first_section4,
+.btec_first_section5,
+.btec_first_section6,
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6
+{
+    padding-top:3em;
+    padding-bottom:3em;
+    margin-top:3em;
+    margin-bottom:3em;
+    margin-left:0.4em;
+    border-style:solid;
+    border-width:0.2em;
+    border-color:gray;
+    border-radius:5px;
+
+}
+
+.unit,
+.units_specification_layout,
+.welcome_to_your_BTEC_First,
+.further_information_useful_publications,
+.quality_assurance_of_centres,
+.qualification_structure,
+.programme_delivery,
+.Edexcel_BTEC_Level_1_Level_2_First,
+.professional_development_and_support,
+.introduction,
+.internal_assessment,
+.external_assessment,
+.edexcel_BTEC_Level_1_Level_2_First,
+.cover_pages,
+.awarding_and_reporting_for_the_qualification,
+.access_and_recruitment,
+.annexes
+{
+     background:#EFE1E1;
+}
+
+
+.preface,
+.qualification_unit,
+.front_cover,
+.inside_cover,
+.unit_introduction,
+.annexe,
+.btec_first_section1,
+.btec_first_section2,
+.btec_first_section3,
+.btec_first_section4,
+.btec_first_section5,
+.btec_first_section6,
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6
+{
+     background:#FEFEFE;
+}
+
+
+.btec_first_section1 .title,
+.section1 .title,
+.btec_first_section2 .title,
+.section2 .title,
+.btec_first_section3 .title,
+.section3 .title,
+.btec_first_section4 .title,
+.section4 .title,
+.btec_first_section5 .title,
+.section5 .title,
+.btec_first_section6 .title,
+.section6 .title
+{
+ border-right-style:none;
+ border-left-style:none;
+ padding-left:0.3em;
+}
+
+.btec_first_section1 .title,
+.section1 .title
+{
+    font-size:2.5em;
+   
+}
+
+/*.btec_first_section2,
+.section2{
+    background:#CDE1EF;
+}*/
+
+.btec_first_section2 .title,
+.section2 .title{
+    font-size:2em;
+}
+
+/*.btec_first_section3,
+.section3{
+    background:#B5CDDE;
+}*/
+
+.btec_first_section3 .title,
+.section3 .title{
+    font-size:1.5em;
+}
+
+/*.btec_first_section4,
+.section4{
+    background:#B4E0D3;
+}*/
+
+.btec_first_section4 .title,
+.section4 .title{
+    font-size:1.5em;
+}
+/*
+.btec_first_section5,
+.section5{
+    background:#FCCCA3;
+}*/
+
+.btec_first_section5 .title,
+.section5 .title{
+    font-size:1.5em;
+}
+
+/*.btec_first_section6,
+.section6{
+    background:#CCCFA3;
+}*/
+
+.btec_first_section6 .title,
+.section6 .title{
+    font-size:1.5em;
+}
+
+.box{
+    margin-left:3em;
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+.link,
+a
+{
+  color: #388ccc; 
+  text-decoration: none;
+}
+
+.link,
+a
+a:hover{ text-decoration:underline;
+}
+
+
+
+.list li
+{
+    padding:0.2em;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:#EEE;
+}
+
+.list ul
+{
+    margin-left:2.5em;
+
+}
+
+.list p
+{
+    margin-left:2.2em;
+}
+
+.describedlist
+{
+    padding:0.2em;
+    margin:0.2em;
+    background:#A3FFFF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+}
+
+.GSCE_english,
+.GSCE_math,
+.criterion_id,
+.pltsvalue
+{
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+
+}
+.wrap
+{
+    margin-top:0.2em;
+    margin-bottom:0.5em;
+}
+
+
+.uneditable,
+.editable
+{
+    margin-right:0.2em;
+    margin-left:0.2em;
+    border-radius:2px;
+    padding:0.2em;
+
+}
+
+.uneditable
+{
+    background:#FEFEFE;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    border-style:dotted;
+    border-width:0.1em;
+    border-color:gray;
+}
+
+.editable
+{
+    margin-top:0.4em;
+    margin-bottom:0.4em;
+    background:#FDFDF9;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+}
+
+
+
+.blurb,
+.plts_initials_reference{
+    background:#CCEBD6;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    padding-bottom:0.1em;
+    padding-left:0.1em;
+    padding-right:0.1em;
+    margin-bottom:0.3em;
+    margin-top:0.1em;
+    margin-left:0.1em;
+    border-radius:2px;
+}
+
+
+
+.shortcuts
+{
+    height:100%;
+    background:#DEEFEF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    border-radius:3px;
+    padding-top:0.4em;
+    padding-bottom:0.4em;
+
+}
+
+\
+
+/* Drop-shadow page layout {{{ */
+#canvas
+{
+    background:#F0F0F0;
+    padding:1px;
+    margin:0;
+    color:black;
+}
+
+#page
+{
+    margin:15px;
+    border:solid 1px #e9e9e9;
+    border-right-color:#DDD;
+    border-bottom-color:#DDD;
+    -webkit-box-shadow:5px 5px 3px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow:5px 5px 3px 0px rgba(0, 0, 0, 0.6);
+    -box-shadow:5px 5px 3px 0px rgba(0, 0, 0, 0.6);
+}
+
+/* }}} */
+

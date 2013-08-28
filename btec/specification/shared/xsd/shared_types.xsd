@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:kode="http://kode1100.com" xmlns:x="http://www.xopus.com/xmlns/config" elementFormDefault="qualified">
+
+
+      
+    
+    <xs:simpleType name="criterion_id__type" kode:doc="2D.P7">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="^\s*\(([0-9][A-Z]\.(P|M|D)?[0-9][0-9]?|,|\s)+\)|([0-9][A-Z]\.(P|M|D)?[0-9][0-9]?)\s*$"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="criteria_numbering_type">
+        <xs:restriction base="xs:int">
+            <xs:pattern value="^\s*[(0-9|A-Z)]?[0-9]\s*$"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="yes_no_type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Yes"/>
+            <xs:enumeration value="No"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <!-- END ASSESSMENT CRITERIA -->
+
+
+    <xs:simpleType name="unit_assessment_type_def">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Internal"/>
+            <xs:enumeration value="External"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="checked_unchecked_type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Checked"/>
+            <xs:enumeration value="Unchecked"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+
+    <xs:simpleType name="level_def">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="1"/>
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="1 and 2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="unit_type_def">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Core/Mandatory"/>
+            <xs:enumeration value="Core"/>
+            <xs:enumeration value="Mandatory"/>
+            <xs:enumeration value="Optional specialist"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="year_type">
+        <xs:restriction base="xs:int">
+            <xs:pattern value="^\s*[2-9][0-9]{3}\s*$"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="MonthType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="January"/>
+            <xs:enumeration value="February"/>
+            <xs:enumeration value="March"/>
+            <xs:enumeration value="April"/>
+            <xs:enumeration value="May"/>
+            <xs:enumeration value="June"/>
+            <xs:enumeration value="July"/>
+            <xs:enumeration value="August"/>
+            <xs:enumeration value="September"/>
+            <xs:enumeration value="October"/>
+            <xs:enumeration value="November"/>
+            <xs:enumeration value="December"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="generated_table_reference_type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Edexcel BTEC level 1/level 2 first certificate table"/>
+            <xs:enumeration value="Edexcel BTEC level 1/level 2 first extended certificate table"/>
+            <xs:enumeration value="GCSE english unit subject criteria assessment criterion annex table"/>
+            <xs:enumeration value="GCSE math unit subject criteria assessment criterion annex table"/>
+            <xs:enumeration value="Summary of the PLTS coverage throughout the programme annex table"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="publication_stage_type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Draft"/>
+            <xs:enumeration value="Final Draft"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="section">
+        <xs:sequence>
+            <xs:element name="section1" type="section1_type" x:role="section" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:simpleType name="apply_section_numbering_type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="false"/>
+            <xs:enumeration value="true"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+
+    <xs:complexType name="section1_type">
+        <xs:sequence>
+            <xs:element name="title" type="plainText" x:placeholder="Insert Section Title"/>
+            <xs:choice minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+                <xs:element name="section2" type="section2_type"/>
+                <xs:element name="image" type="image_type" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="table" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="generated_table_reference" type="generated_table_reference_type" minOccurs="0" maxOccurs="1"/>
+            </xs:choice>         
+        </xs:sequence>
+        <xs:attribute name="apply_section_numbering" type="apply_section_numbering_type" default="true"/>    
+    </xs:complexType>
+
+
+    <xs:complexType name="section2_type">
+        <xs:sequence>
+            <xs:element name="title" type="plainText" x:placeholder="Insert Sub-Section Title"/>
+            <xs:choice minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+                <xs:element name="section3" type="section3_type"/>
+                <xs:element name="image" type="image_type" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="table" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="generated_table_reference" type="generated_table_reference_type" minOccurs="0" maxOccurs="1"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="apply_section_numbering" type="apply_section_numbering_type" default="false"/>
+    </xs:complexType>
+
+
+    <xs:complexType name="section3_type">
+        <xs:sequence>
+            <xs:element name="title" type="plainText" x:placeholder="Insert Sub-Section Title"/>
+            <xs:choice minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+                <xs:element name="section4" type="section4_type"/>
+                <xs:element name="image" type="image_type" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="table" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="generated_table_reference" type="generated_table_reference_type" minOccurs="0" maxOccurs="1"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="apply_section_numbering" type="apply_section_numbering_type" default="false"/>
+    </xs:complexType>
+    
+    
+    
+    <xs:complexType name="section4_type">
+        <xs:sequence>
+            <xs:element name="title" type="plainText" x:placeholder="Insert Sub-Section Title"/>
+            <xs:choice minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+                <xs:element name="section5" type="section5_type"/>
+                <xs:element name="image" type="image_type" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="table" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="generated_table_reference" type="generated_table_reference_type" minOccurs="0" maxOccurs="1"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="apply_section_numbering" type="apply_section_numbering_type" default="false"/>
+    </xs:complexType>
+    
+    
+    
+    <xs:complexType name="section5_type">
+        <xs:sequence>
+            <xs:element name="title" type="plainText" x:placeholder="Insert Sub-Section Title"/>
+            <xs:choice minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+                <xs:element name="section6" type="section6_type"/>
+                <xs:element name="image" type="image_type" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="table" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="generated_table_reference" type="generated_table_reference_type" minOccurs="0" maxOccurs="1"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="apply_section_numbering" type="apply_section_numbering_type" default="false"/>
+    </xs:complexType>
+    
+    
+    <xs:complexType name="section6_type">
+        <xs:sequence>
+            <xs:element name="title" type="plainText" x:placeholder="Insert Sub-Section Title"/>
+            <xs:choice minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+                <xs:element name="image" type="image_type" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="table" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="generated_table_reference" type="generated_table_reference_type" minOccurs="0" maxOccurs="1"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="apply_section_numbering" type="apply_section_numbering_type" default="false"/>
+    </xs:complexType>
+
+
+    <xs:complexType name="paragraph_describedlist_choice_type">
+        <xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="paragraph" x:placeholder="Paragraph introducing the unit"/>
+                <xs:element name="describedlist" type="described_list_type"/>
+                <xs:element name="orderedlist" type="listType"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:complexType name="image_type">
+        <xs:attribute name="src" type="xs:string" use="required"/>
+        <xs:attribute name="width">
+            <xs:simpleType>
+                <xs:restriction base="xs:integer"> </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="height">
+            <xs:simpleType>
+                <xs:restriction base="xs:integer"> </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="halign" default="none">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="none"/>
+                    <xs:enumeration value="left"/>
+                    <xs:enumeration value="right"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+
+    <!-- XOPUS TYPES USING TO GET MORE ABILITY TO STYLE THE TEXT -->
+
+    <xs:element name="emphasis" type="inlineInsideType"/>
+    <xs:element name="strong" type="inlineInsideType"/>
+    <xs:element name="underline" type="inlineInsideType"/>
+    <xs:element name="subscript" type="xs:string"/>
+    <xs:element name="superscript" type="xs:string"/>
+
+
+    <xs:simpleType name="plainText">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+
+    <!-- 
+  <xs:complexType name="plainText" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="subscript"/>
+      <xs:element ref="superscript"/>
+    </xs:choice>
+  </xs:complexType>
+  -->
+
+    <xs:complexType name="inlineInsideType" mixed="true">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="strong"/>
+            <xs:element ref="emphasis"/>
+            <xs:element ref="underline"/>
+            <xs:element ref="link"/>
+            <xs:element ref="subscript"/>
+            <xs:element ref="superscript"/>
+        </xs:choice>
+    </xs:complexType>
+
+
+    <xs:element name="paragraph">
+        <xs:complexType>
+            <xs:complexContent mixed="true">
+                <xs:extension base="inlineInsideType"/>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:complexType name="assessment_type">
+        <xs:sequence>
+            <xs:group ref="list"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+
+
+
+
+    <xs:complexType name="described_list_type">
+        <xs:sequence>
+            <xs:element name="list_description" maxOccurs="1" minOccurs="1">
+                <xs:complexType>
+                    <xs:complexContent mixed="true">
+                        <xs:extension base="inlineInsideType"/>
+                    </xs:complexContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:group ref="list"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:element name="unorderedlist" type="listType"/>
+    <xs:element name="orderedlist" type="listType"/>
+
+    <xs:complexType name="listType">
+        <xs:sequence>
+            <xs:element name="item" type="listItemType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="listItemType">
+        <xs:sequence>
+            <xs:element ref="paragraph"/>
+            <xs:group ref="list" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="list">
+        <xs:choice>
+            <xs:element ref="unorderedlist"/>
+            <xs:element ref="orderedlist"/>
+        </xs:choice>
+    </xs:group>
+
+
+
+    <!--  <xs:complexType name="OlistType">
+        <xs:sequence>
+            <xs:element name="item" type="listItemType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="OlistItemType">
+        <xs:sequence>
+            <xs:element ref="paragraph"/>
+            <xs:group ref="list" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:group name="Olist">
+        <xs:choice>
+            <xs:element ref="orderedlist" />
+        </xs:choice>
+    </xs:group>-->
+
+
+    <xs:element name="link">
+        <xs:complexType mixed="true">
+            <xs:complexContent>
+                <xs:extension base="inlineInsideType">
+                    <xs:attribute name="href" type="xs:string" use="required"/>
+                    <xs:attribute name="target" default="_self">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="_self"/>
+                                <xs:enumeration value="_new"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                    <xs:attribute name="class" fixed="link"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="table" type="tableType">
+        <xs:annotation>
+            <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                <xopus:documentation>
+                    <xopus:name xml:lang="en">Table</xopus:name>
+                    <xopus:name xml:lang="nl">Tabel</xopus:name>
+                </xopus:documentation>
+            </xs:appinfo>
+        </xs:annotation>  
+    </xs:element>
+    
+    <xs:complexType name="tableType">
+        <xs:sequence>
+            <xs:element name="caption" type="xs:string" minOccurs="0">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Caption</xopus:name>
+                            <xopus:name xml:lang="nl">Tabel Titel</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="tbody" type="tbodyType">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Table Body</xopus:name>
+                            <xopus:name xml:lang="nl">Tabel Romp</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="width" type="xs:positiveInteger" use="optional">
+            <xs:annotation>
+                <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                    <xopus:documentation>
+                        <xopus:name xml:lang="en">Width</xopus:name>
+                        <xopus:name xml:lang="nl">Breedte</xopus:name>
+                    </xopus:documentation>
+                </xs:appinfo>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="border" type="borderType" use="optional" default="cell">
+            <xs:annotation>
+                <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                    <xopus:documentation>
+                        <xopus:name xml:lang="en">Borders</xopus:name>
+                        <xopus:name xml:lang="nl">Randen</xopus:name>
+                    </xopus:documentation>
+                </xs:appinfo>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="color" type="colorSchemesType" use="optional">
+            <xs:annotation>
+                <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                    <xopus:documentation>
+                        <xopus:name xml:lang="en">Color Scheme</xopus:name>
+                        <xopus:name xml:lang="nl">Kleurenschema</xopus:name>
+                    </xopus:documentation>
+                </xs:appinfo>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="alternaterowcolor" type="xs:boolean" use="required">
+            <xs:annotation>
+                <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                    <xopus:documentation>
+                        <xopus:name xml:lang="en">Alternate Row Colors</xopus:name>
+                        <xopus:name xml:lang="nl">Afwisselende Rijkleuren</xopus:name>
+                    </xopus:documentation>
+                </xs:appinfo>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="cellspacing" type="xs:nonNegativeInteger" default="0" use="optional">
+            <xs:annotation>
+                <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                    <xopus:documentation>
+                        <xopus:name xml:lang="en">Space Between Cells</xopus:name>
+                        <xopus:name xml:lang="nl">Ruimte Tussen Cellen</xopus:name>
+                    </xopus:documentation>
+                </xs:appinfo>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="cellpadding" use="optional">
+            <xs:annotation>
+                <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                    <xopus:documentation>
+                        <xopus:name xml:lang="en">Space In Cells</xopus:name>
+                        <xopus:name xml:lang="nl">Ruimte Binnen Cellen</xopus:name>
+                    </xopus:documentation>
+                </xs:appinfo>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:nonNegativeInteger">
+                    <xs:maxInclusive value="32"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="tbodyType" mixed="false">
+        <xs:sequence>
+            <xs:element name="tr" type="trType" maxOccurs="unbounded">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Row</xopus:name>
+                            <xopus:name xml:lang="nl">Rij</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="trType" mixed="false">
+        <xs:choice maxOccurs="unbounded">
+            <xs:element name="td" type="tdType">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Cell</xopus:name>
+                            <xopus:name xml:lang="nl">Cel</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="th" type="tdType">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Header Cell</xopus:name>
+                            <xopus:name xml:lang="nl">Kop Cel</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+    
+    <xs:complexType name="tdType" mixed="false">
+        <xs:sequence>
+            <xs:element ref="paragraph" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="colspan" type="xs:positiveInteger" use="optional">
+            <xs:annotation>
+                <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                    <xopus:documentation>
+                        <xopus:name xml:lang="en">Column Span</xopus:name>
+                        <xopus:name xml:lang="nl">Kolom Bereik</xopus:name>
+                    </xopus:documentation>
+                </xs:appinfo>
+            </xs:annotation>
+        </xs:attribute>    
+        <xs:attribute name="rowspan" type="xs:positiveInteger" use="optional">
+            <xs:annotation>
+                <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                    <xopus:documentation>
+                        <xopus:name xml:lang="en">Row Span</xopus:name>
+                        <xopus:name xml:lang="nl">Rij Bereik</xopus:name>
+                    </xopus:documentation>
+                </xs:appinfo>
+            </xs:annotation>
+        </xs:attribute>    
+    </xs:complexType>
+    
+    <xs:simpleType name="borderType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="no">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">No Border</xopus:name>
+                            <xopus:name xml:lang="nl">Geen Randen</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:enumeration>      
+            <xs:enumeration value="row">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Borders Under Rows</xopus:name>
+                            <xopus:name xml:lang="nl">Randen Onder Rijen</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:enumeration>      
+            <xs:enumeration value="column">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Borders Next To Columns</xopus:name>
+                            <xopus:name xml:lang="nl">Randen Naast Kolomen</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:enumeration>      
+            <xs:enumeration value="cell">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Borders Around Each Cell</xopus:name>
+                            <xopus:name xml:lang="nl">Randen Om Elke Cel</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:enumeration>      
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+    <xs:simpleType name="colorSchemesType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="blue">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Blue</xopus:name>
+                            <xopus:name xml:lang="nl">Blauw</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:enumeration>      
+            <xs:enumeration value="green">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Green</xopus:name>
+                            <xopus:name xml:lang="nl">Groen</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:enumeration>      
+            <xs:enumeration value="orange">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Orange</xopus:name>
+                            <xopus:name xml:lang="nl">Oranje</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:enumeration>      
+            <xs:enumeration value="grey">
+                <xs:annotation>
+                    <xs:appinfo xmlns:xopus="http://www.xopus.com/xmlns/xsd">
+                        <xopus:documentation>
+                            <xopus:name xml:lang="en">Grey</xopus:name>
+                            <xopus:name xml:lang="nl">Grijs</xopus:name>
+                        </xopus:documentation>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:enumeration>      
+        </xs:restriction>
+    </xs:simpleType>
+    
+
+    <xs:complexType name="plts">
+        <xs:sequence>
+            <xs:element name="initials" type="plts_initials_type" minOccurs="0" maxOccurs="unbounded" x:placeholder="XX"/>     
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:simpleType name="plts_initials_type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="IE"/>
+            <xs:enumeration value="CT"/>
+            <xs:enumeration value="RL"/>
+            <xs:enumeration value="TW"/>
+            <xs:enumeration value="SW"/>
+            <xs:enumeration value="EP"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+</xs:schema>

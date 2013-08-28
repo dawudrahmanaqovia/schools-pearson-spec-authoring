@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<annex>
+    <annex_letter>D</annex_letter>
+    <content>
+        <section1 apply_section_numbering="false">
+            <title>Level 2 Functional Skills </title>
+            <section2>
+                <title>Functional Skills standards for English level 2</title>
+                <section3>
+                    <title>Speaking, listening and communication</title>
+                    <text>
+                        <paragraph>Make a range of contributions to discussions in a range of contexts, including those that are unfamiliar, and make effective presentations</paragraph>
+                    </text>
+                </section3>
+                <section3>
+                    <title>Reading</title>
+                    <text>
+                        <paragraph>Select, read, understand and compare texts and use them to gather information, ideas, arguments and opinions</paragraph>
+                    </text>
+                </section3>
+                <section3>
+                    <title>Writing</title>
+                    <text>
+                        <paragraph>Write a range of texts, including extended written documents, communicating information, ideas and opinions, effectively and persuasively</paragraph>
+                    </text>
+                </section3>
+            </section2>
+            <section2>
+                <title>Functional Skills standards for mathematics level 2</title>
+                <text>
+                    <describedlist>
+                        <list_description>
+                            <strong>Representing</strong>
+                        </list_description>
+                        <orderedlist>
+                            <item>
+                                <paragraph>Understand routine and non-routine problems in familiar and unfamiliar contexts and situations</paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Identify the situation or problems and identify the mathematical methods needed to solve them</paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Select a range of mathematics to find solutions</paragraph>
+                            </item>
+                        </orderedlist>
+                    </describedlist>
+                    <describedlist>
+                        <list_description>
+                            <strong>Analysing</strong>
+                        </list_description>
+                        <orderedlist>
+                            <item>
+                                <paragraph>Apply a range of mathematics to find solutions </paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Use appropriate checking procedures and evaluate their effectiveness at each stage </paragraph>
+                            </item>
+                        </orderedlist>
+                    </describedlist>
+                    <describedlist>
+                        <list_description>
+                            <strong>Interpreting</strong>
+                        </list_description>
+                        <orderedlist>
+                            <item>
+                                <paragraph>Interpret and communicate solutions to multistage practical problems in familiar and unfamiliar contexts and situations</paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Draw conclusions and provide mathematical justifications</paragraph>
+                            </item>
+                        </orderedlist>
+                    </describedlist>
+                </text>
+            </section2>
+            <section2>
+                <title>Functional Skills standards for ICT level 2</title>
+                <text>
+                    <describedlist>
+                        <list_description>Using ICT</list_description>
+                        <orderedlist>
+                            <item>
+                                <paragraph>Plan solutions to complex tasks by analysing the necessary stages </paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Select, interact with and use ICT systems safely and securely for a complex task in non-routine and unfamiliar contexts</paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Manage information storage to enable efficient retrieval</paragraph>
+                            </item>
+                        </orderedlist>
+                    </describedlist>
+                    <describedlist>
+                        <list_description>Finding and selecting information</list_description>
+                        <orderedlist>
+                            <item>
+                                <paragraph>Use appropriate search techniques to locate and select relevant information</paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Select information from a variety of sources to meet requirements of a complex task</paragraph>
+                            </item>
+                        </orderedlist>
+                    </describedlist>
+                    <describedlist>
+                        <list_description>Developing, presenting and communicating information</list_description>
+                        <orderedlist>
+                            <item>
+                                <paragraph>Enter, develop and refine information using appropriate software to meet requirements of a complex task </paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Use appropriate software to meet the requirements of a complex data-handling task</paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Use communications software to meet requirements of a complex task</paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Combine and present information in ways that are fit for purpose and audience </paragraph>
+                            </item>
+                            <item>
+                                <paragraph>Evaluate the selection, use and effectiveness of ICT tools and facilities used to present information </paragraph>
+                            </item>
+                        </orderedlist>
+                    </describedlist>
+                </text>
+            </section2>
+            <section2>
+                <title>Mapping to level 2 Functional Skills </title>
+                <text>
+                    <paragraph>This table shows where a learning aim in a unit is of particular relevance for the learners being prepared for assessment in Functional Skills in English, mathematics and/or ICT at level 2. Centres may identify further opportunities arising in their own programmes in addition to those identified below, for example, group work, research, employment-related activities
+                        and work experience.</paragraph>
+                    <paragraph><strong>Key:</strong> a letter A, B, C and/or D indicates the learning aim where there are opportunities for development; a blank space indicates no opportunities for development</paragraph>
+                </text>
+            </section2>
+        </section1>
+    </content>
+</annex>

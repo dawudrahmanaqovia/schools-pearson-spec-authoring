@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programme_delivery>
+     
+    <section1>
+        <title>Programme delivery</title>
+        <text>
+            <paragraph></paragraph>
+            <describedlist>
+                <list_description></list_description>
+                <unorderedlist>
+                    <item>
+                        <paragraph></paragraph>
+                    </item>
+                </unorderedlist>
+            </describedlist>
+        </text>
+        <section2>
+            <title></title>
+            <text>
+                <paragraph></paragraph>
+                <describedlist>
+                    <list_description></list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph></paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+            </text>            
+        </section2>
+    </section1>
+</programme_delivery>

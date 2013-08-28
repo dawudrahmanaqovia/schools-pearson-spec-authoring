@@ -1,0 +1,105 @@
+<welcome_to_your_BTEC_First>
+        
+    <section1 apply_section_numbering="true">
+        <title>Welcome to your BTEC First 2013 Specification</title>
+        <text>
+            <paragraph>For more than 25 years, BTECs have earned their reputation as well-established,
+                enduringly effective qualifications. They have a proven track record in improving
+                motivation and achievement among young learners. Additionally, BTECs provide
+                progression routes to the next stage of education or into employment.</paragraph>
+        </text>
+        <section2>
+            <title>BTECs are evolving</title>
+            <text>     
+                <describedlist>
+                    <list_description>Informed by recent policy developments, including the Review of Vocational Education – The Wolf Report (March 2011) and the Department for Education’s Study Programmes for 16–19 year olds consultation (June 2012), we have designed this new suite of BTEC Firsts to:</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>ensure high quality and rigorous standards</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>conform to quality criteria for qualifications used in 14–19 programmes in schools and colleges</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>be fit for purpose for learners, pre- or post-16, in schools and in colleges.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <paragraph>We conducted in-depth, independent consultations with schools, colleges, higher education, employers, the Association of Colleges and other professional organisations. This new suite builds on the qualities – such as a clear vocational context for learning and teacher-led assessment based on centre-devised assignments – that you told us make BTECs so effective and engaging.</paragraph>
+                <paragraph>This new suite introduces additional features to meet the needs of educators, employers and the external environment. They are fully aligned with requirements for progression – to further study at level 3, into an apprenticeship or into the workplace. We believe these features will make BTECs even stronger and more highly valued.</paragraph>
+            </text>           
+        </section2>
+        
+        <section2>
+            <title>What are the key principles of the new suite of BTEC Firsts?</title>
+            <text>     
+                <paragraph>To support young people to succeed and progress in their education, we have drawn on our consultations with you and embedded four key design principles into the new BTEC Firsts.</paragraph>
+            </text>
+            <section3 apply_section_numbering="true">
+                <title>Standards: a common core and external assessment</title>
+                <text>
+                    <paragraph>Each new Level 2 BTEC First qualification has an essential core of knowledge and applied skills. We have introduced external assessment appropriate to the sector. This provides independent evidence of learning and progression alongside the predominantly portfolio-based assessment.</paragraph>
+                </text>
+            </section3>
+            <section3 apply_section_numbering="true">
+                <title>Quality: a robust quality-assurance modelt</title>
+                <text>
+                    <paragraph>Building on strong foundations, we have further developed our quality-assurance model to ensure robust support for learners, centres and assessors.</paragraph>
+                    <describedlist>
+                        <list_description>We will make sure that:</list_description>
+                        <unorderedlist>
+                            <item>
+                                <paragraph>every BTEC learner’s work is independently scrutinised through the external assessment process </paragraph>
+                            </item>
+                            <item>
+                                <paragraph>every BTEC assessor will take part in a sampling and quality review during the teaching cycle</paragraph>
+                            </item>
+                            <item>
+                                <paragraph>we visit each BTEC centre every year to review and support your quality processes.</paragraph>
+                            </item>
+                        </unorderedlist>
+                    </describedlist>
+                    <paragraph>We believe this combination of rigour, dialogue and support will underpin the validity of the teacher-led assessment and the learner-centric approach that lie at the heart of BTEC learning.</paragraph>
+                </text>
+            </section3>
+            <section3 apply_section_numbering="true">
+                <title>Breadth and progression: a range of options building on the core; contextualised English and mathematics</title>
+                <text>
+                    <paragraph>The essential core, developed in consultation with employers and educators,gives learners the opportunity to gain a broad understanding and knowledge ofa vocational sector.</paragraph>
+                    <paragraph>
+                        The mandatory units assess knowledge, understanding and skills that are not covered within the core units but are essential to the curriculum area or vocational industry. These mandatory units ensure all learners receive a thorough grounding in the sector to support progression to their next stage in education or employment.</paragraph>
+                    <paragraph>  
+                        The optional specialist units provide a closer focus on a vocational area, supporting progression into a more specialised level 3 vocational or academic course or into an apprenticeship.</paragraph>
+                    <paragraph>
+                        Opportunities to develop skills in English and mathematics are indicated in the units where appropriate. These give learners the opportunity to practise these essential skills in naturally occurring and meaningful contexts, where appropriate to the sector. The skills have been mapped against GCSE (including functional elements) English and mathematics subject content areas.</paragraph>
+                </text>
+            </section3>
+            <section3 apply_section_numbering="true">
+                <title>Recognising achievement: opportunity to achieve at level 1</title>
+                <text>
+                    <paragraph>The new BTEC Firsts are level 2 qualifications with Pass, Merit, Distinction 
+                        and Distinction* grades.
+                    </paragraph>
+                    <paragraph>However, we recognise that some learners may fail to achieve a Pass at Level 2, 
+                        so we have included the opportunity for learners to gain a level 1 qualification.
+                    </paragraph>
+                </text>
+            </section3>
+        </section2>
+        
+        <section2>
+            <title>Improved specification and support</title>
+            <text>
+                <paragraph>In our consultation, we also asked about what kind of guidance you, as teachers and tutors, need. As a result, we have streamlined the specification itself to make the units easier to navigate, and provided enhanced support in the accompanying Delivery Guide.</paragraph>
+            </text>
+        </section2>
+        
+        <section2>
+            <title>Thank you</title>
+            <text>
+                <paragraph>Finally, we would like to extend our thanks to everyone who provided support and feedback during the development of the new BTEC Firsts, particularly all of you who gave up many evenings of your own time to share your advice and experiences to shape these new qualifications. We hope you enjoy teaching the course.</paragraph>
+            </text>
+        </section2>
+        
+    </section1>
+</welcome_to_your_BTEC_First>

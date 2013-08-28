@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:config xmlns:x="http://www.xopus.com/xmlns/config" xmlns:math="http://www.w3.org/2005/xpath-functions/math" version="1.0">
+
+  <x:miscellaneous>
+    <x:saveWithIndentation>&#9;</x:saveWithIndentation>
+    <x:debugMode>true</x:debugMode>
+    <hideTableToolbar>true</hideTableToolbar>
+    <!-- <hideToolbar>true</hideToolbar>-->
+  </x:miscellaneous>
+
+  <x:nodeConfig>
+    
+    <x:node match="cover_image">
+      <x:role>image</x:role>
+      <x:role>symbol</x:role>
+      <x:name>Cover Image</x:name>
+    </x:node>
+    
+    <x:node match="cover_image/@src">
+      <x:role>imagesource</x:role>
+      <x:lookup url="../../lookup/flickr/flickr.html?width=770&amp;height=340" forceLookup="true" autoOpen="true"/>
+      <x:name>Source</x:name>
+    </x:node>
+    
+    <x:node match="cover_image/@width">
+      <x:name>Width</x:name>
+    </x:node>
+    
+    <x:node match="cover_image/@height">
+      <x:name>Height</x:name>
+    </x:node>
+    
+    <x:node match="cover_image/@halign">
+      <x:role>mediaalign</x:role>
+      <x:name>Alignment</x:name>
+      <x:enumeration value="none">
+        <x:name>No Alignment</x:name>
+      </x:enumeration>
+      <x:enumeration value="left">
+        <x:name>Align Left</x:name>
+      </x:enumeration>
+      <x:enumeration value="right">
+        <x:name>Align Right</x:name>
+      </x:enumeration>
+    </x:node>
+
+
+
+
+
+    <x:node match="cover_pages">
+      <x:name>Cover Pages</x:name>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+    <x:node match="front_cover">
+      <x:name>Front Cover</x:name>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+    
+    <x:node match="inside_cover">
+      <x:name>Inside Cover</x:name>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+    
+    <x:node match="cover_image">
+      <x:name>Cover Image</x:name>
+      <x:role>image</x:role>
+    </x:node>
+    
+    <x:node match="version">
+      <x:name>Version</x:name>
+      <x:placeholder>0</x:placeholder>
+    </x:node>
+    
+    
+    <x:node match="subject">
+      <x:name>Subject</x:name>
+      <x:placeholder>The subject of the specification</x:placeholder>
+    </x:node>
+    
+    <x:node match="first_teaching_month">
+      <x:name>First Teaching Month</x:name>
+      <x:placeholder>Month</x:placeholder>
+    </x:node>
+    
+    <x:node match="first_teaching_year">
+      <x:name>First Teaching Year</x:name>
+      <x:placeholder>2013</x:placeholder>
+    </x:node>
+    
+    <x:node match="publication_code">
+      <x:name>Publication Code</x:name>
+      <x:placeholder>XX000000</x:placeholder>
+    </x:node>
+    
+    <x:node match="publication_stage">
+      <x:name>Publication Stage</x:name>
+      <x:placeholder>Insert Publication Stage</x:placeholder>
+    </x:node>
+    
+    <x:node match="issue_number">
+      <x:name>Issue Number</x:name>
+      <x:placeholder>0</x:placeholder>
+    </x:node>
+  </x:nodeConfig>
+
+</x:config>

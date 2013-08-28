@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:kode="http://kode1100.com" xmlns:x="http://www.xopus.com/xmlns/config" elementFormDefault="qualified">
+  <xs:include schemaLocation="../../shared/xsd/shared_types.xsd"/>
+
+  <xs:element name="annex" x:role="hidden-from-ui" maxOccurs="unbounded" minOccurs="0">
+    <xs:complexType>
+      <xs:sequence>
+        
+        <xs:element name="annex_letter">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[A-Z]"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="content" type="section" x:role="hidden-from-ui"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

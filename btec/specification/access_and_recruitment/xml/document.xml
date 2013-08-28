@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<access_and_recruitment>
+     
+    <section1>
+        <title>Access and recruitment</title>
+        <text>
+            <paragraph></paragraph>
+            <describedlist>
+                <list_description></list_description>
+                <unorderedlist>
+                    <item>
+                        <paragraph></paragraph>
+                    </item>
+                </unorderedlist>
+            </describedlist>
+        </text>
+        <section2>
+            <title></title>
+            <text>
+                <paragraph></paragraph>
+                <describedlist>
+                    <list_description></list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph></paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+            </text>            
+        </section2>
+    </section1>
+</access_and_recruitment>

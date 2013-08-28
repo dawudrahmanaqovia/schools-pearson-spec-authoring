@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qualification_structure>
+     
+    <section1>
+        <title>Qualification structure</title>
+        <section2>
+            <title>Edexcel BTEC Level 1/Level 2 First Certificate in
+            </title>
+            <text>
+                <paragraph></paragraph>                
+            </text>
+            <generated_table_reference>Edexcel BTEC level 1/level 2 first certificate table</generated_table_reference>
+        </section2>
+        <section2>
+            <title>Edexcel BTEC Level 1/Level 2 First Extended Certificate in
+                Information and Creative Technology                
+            </title>
+            <text>
+                <paragraph></paragraph>
+            </text>
+            <generated_table_reference>Edexcel BTEC level 1/level 2 first extended certificate table</generated_table_reference>
+        </section2>
+    </section1>
+</qualification_structure>

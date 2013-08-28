@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qualification_structure xmlns:kode="http://kode1100.com" xmlns:x="http://www.xopus.com/xmlns/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/var/www/html/Xopus/examples/WYSIWYM/qualification_structure/xsd/schema.xsd">
+    <btec_first_section1>
+        <title>title0</title>
+        <text> </text>
+        <text> </text>
+    </btec_first_section1>
+    <btec_first_section1>
+        <title>title1</title>
+        <btec_first_section2>
+            <title>title2</title>
+            <btec_first_section3>
+                <title>title3</title>
+            </btec_first_section3>
+            <btec_first_section3>
+                <title>title4</title>
+            </btec_first_section3>
+        </btec_first_section2>
+        <btec_first_section2>
+            <title>title5</title>
+            <text> </text>
+            <text> </text>
+        </btec_first_section2>
+    </btec_first_section1>
+</qualification_structure>

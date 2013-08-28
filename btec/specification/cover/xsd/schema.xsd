@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:kode="http://kode1100.com" xmlns:x="http://www.xopus.com/xmlns/config" elementFormDefault="qualified">
+  <xs:include schemaLocation="../../shared/xsd/shared_types.xsd"/>
+
+
+  
+  
+  <xs:element name="cover_pages">
+    <xs:complexType>
+      <xs:sequence>
+        
+        <xs:element name="front_cover" x:role="hidden-from-ui" kode:doc="Cover top level elements">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="cover_image" type="image_type" x:role="image" minOccurs="0" maxOccurs="1"/>
+
+              <xs:element name="subject" type="plainText" x:placeholder="The subject of the specification"/>
+
+              <xs:element name="first_teaching_month" type="MonthType" x:placeholder="Month"/>
+
+              <xs:element name="first_teaching_year" type="year_type" x:placeholder="2013"/>
+
+              <xs:element name="issue_number" type="xs:int" x:placeholder="0"/>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="inside_cover">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="paragraph" maxOccurs="unbounded"/>
+              <xs:element name="publication_code" type="xs:string" x:placeholder="XX000000"/>
+              <xs:element name="publication_stage" type="publication_stage_type" x:placeholder="Insert Publication Stage"/>
+              <xs:element name="version" type="xs:float"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programme_delivery>
+     
+    <section1 apply_section_numbering="true">
+        <title>Programme delivery</title>
+        <text>
+            <paragraph>Edexcel does not define the mode of study for BTEC qualifications. Your centre is free to offer the qualification using any mode of delivery (such as full-time, part-time, evening only or distance learning) that meets your learners’ needs. As such, those already employed in the information technology sector or some aspects of the creative industries (such as working with computer animations) could study this qualification on a part-time basis, using industry knowledge and expertise gained from the workplace to develop evidence towards meeting the unit assessment criteria.</paragraph>
+            <paragraph>Whichever mode of delivery is used, your centre must ensure that learners have appropriate access to the resources identified in the specification and to the subject specialists who are delivering the units. This is particularly important for learners studying for the qualification through open or distance learning.</paragraph>
+            <describedlist>
+                <list_description>When planning the programme, you should aim to enhance the vocational nature of the qualification by:</list_description>
+                <unorderedlist>
+                    <item>
+                        <paragraph>using up-to-date and relevant teaching materials that make use of scenarios and case studies relevant to the scope and variety of employment opportunities available in the sector. These materials may be drawn from workplace settings, where feasible </paragraph>
+                    </item>
+                    <item>
+                        <paragraph>giving learners the opportunity to apply their learning through practical activities to be found in the workplace – for example, by developing a website for a small business</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>including employers in the delivery of the programme. You may, for example, want to invite guest speakers from a range of local employers working in both the information technology sector and appropriate parts of the creative industries, e.g. software businesses developing computer games, enabling learners to gain an insight into the world of work</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>liaising with employers to make sure a course is relevant to learners’ specific needs. You may, for example, wish to seek employer help in stressing the importance of English and mathematical skills, and of wider skills in the world of work.</paragraph>
+                    </item>
+                </unorderedlist>
+            </describedlist>
+        </text>
+        <section2>
+            <title>Resources</title>
+            <text>
+                <describedlist>
+                    <list_description>As part of the approval process, your centre must make sure that the resource requirements below are in place before offering the qualification.</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>Centres must have appropriate physical resources (for example, equipment, IT, learning materials, teaching rooms) to support the delivery and assessment of the qualification.</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>Staff involved in the assessment process must have relevant expertise and/or occupational experience.</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>There must be systems in place to ensure continuing professional development for staff delivering the qualification.</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>Centres must have appropriate health-and-safety policies in place relating to the use of equipment by learners.</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>Centres must deliver the qualification in accordance with current equality legislation.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <paragraph>Your centre should refer to the Teacher guidance section in individual units to check for any specific resources required.</paragraph>
+            </text>            
+        </section2>
+        
+        <section2>
+            <title>Delivery approach</title>
+            <text>
+                <paragraph>Your approach to teaching and learning should support the specialist vocational nature of BTEC First qualifications. These BTEC Firsts give a balance of practical 
+                    skill development and knowledge requirements, some of which can be theoretical 
+                    in nature.
+                </paragraph>
+                <paragraph>Instruction in the classroom is only part of the learning process. You need to reinforce the links between the theory and practical application, and make sure that the knowledge base is relevant and up to date, by using teaching methods and materials that allow learners to apply their learning to actual events and activities within the sector. Maximum use should be made of the learners’ experience where relevant, for example by encouraging them to reflect on their experience of work or the experiences of family and friends.</paragraph>
+                <describedlist>
+                    <list_description>One of the important aspects of your approach to delivery should be to instil into learners who have a limited experience of the world of work some insights into the daily operations that are met in the vocational area being studied. It is suggested that the delivery of the BTEC Firsts can be enriched and extended by the use of learning materials, classroom exercises and internal assessments that draw on current practice in and experience of the qualification sector being studied. This 
+                        may include:
+                    </list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>vocationally specific workplace case-study materials</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>visiting speakers, and the assistance of local employers</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>visits by learners to local workplaces</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>inviting relevant experts or contacts to come to speak to the learners about their involvement in information technology and creative industries at different levels and in different ways</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>asking a local employer to set learners a problem-solving activity to be carried out in groups</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>referring to trade journals, magazines or newspaper articles relevant to the sector.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+            </text>
+        </section2>
+        
+        <section2>
+            <title>Personal, learning and thinking skills</title>
+            <text>
+                <paragraph>Your learners have opportunities to develop personal, learning and thinking skills (PLTS) within a sector-related context. See Annexe A for detailed information about PLTS, and mapping to the units in this specification.</paragraph>
+            </text>
+        </section2>
+        
+        <section2>
+            <title>English and mathematics knowledge and skills</title>
+            <text>
+                <paragraph>It is likely that learners will be working towards English and mathematics qualifications at Key Stage 4 or above. This BTEC First qualification provides further opportunities to enhance and reinforce skills in English and mathematics in naturally occurring, relevant, work-related contexts. </paragraph>
+                <paragraph>English and mathematical skills are embedded in the assessment criteria – 
+                    see individual units for signposting to English (#) and mathematics (*), Annexe B 
+                    for mapping to GCSE English subject criteria (including functional elements) and Annexe C for mapping to the GCSE mathematics subject criteria (including 
+                    functional elements).
+                </paragraph>
+            </text>
+        </section2>
+        
+        <section2>
+            <title>Functional Skills at level 2</title>
+            <text>
+                <paragraph>Your learners can use opportunities within their learning programme to develop and practise Functional Skills. Annexe D sets out where units and learning aims are of particular relevance for learners being prepared for assessment in Functional Skills in English, mathematics and/or ICT at level 2. There may also be other opportunities to develop functional skills in programmes, for example through group work, research, employment-related activities and work experience.</paragraph>
+            </text>
+        </section2>
+    </section1>
+</programme_delivery>

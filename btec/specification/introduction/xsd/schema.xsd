@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:kode="http://kode1100.com" xmlns:x="http://www.xopus.com/xmlns/config" elementFormDefault="qualified">
+  <xs:include schemaLocation="../../shared/xsd/shared_types.xsd"/>
+  
+
+  
+  <xs:element name="introduction"  x:role="hidden-from-ui">
+    <xs:complexType>
+      <xs:sequence>
+        
+        <xs:element name="preface">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="btec_first_section2" type="btec_first_section2_type" x:role="hidden-from-ui" maxOccurs="unbounded" />
+              
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="btec_first_section1" type="btec_first_section1_type"  minOccurs="1" maxOccurs="unbounded" x:name="Section1"/>        
+        
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="qualification_unit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="qtitle" type="xs:string"/>
+        <xs:element name="qnumber" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+ 
+  <xs:element name="BTEC_first_suite_of_qualifications_table">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="BTEC_first_suite_of_qualifications_row" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="qualification" type="xs:string" x:placeholder="Insert Qualification Text" x:role="hidden-from-ui"/>
+              <xs:element name="award" type="checked_unchecked_type" x:placeholder="unchecked" x:role="hidden-from-ui"/>
+              <xs:element name="certificate" type="checked_unchecked_type" x:placeholder="unchecked" x:role="hidden-from-ui"/>
+              <xs:element name="extended_certificate" type="checked_unchecked_type" x:placeholder="unchecked" x:role="hidden-from-ui"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+
+  <xs:complexType name="btec_first_section1_type" >
+    <xs:sequence>
+      <xs:element name="title" type="plainText" x:placeholder="Insert Section Title"/>
+      <xs:choice minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+        <xs:element name="btec_first_section2" type="btec_first_section2_type" x:name="Section2"/>
+     </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  
+  
+  <xs:complexType name="btec_first_section2_type">
+    <xs:sequence>
+      <xs:element name="title" type="plainText" x:placeholder="Insert Sub-Section Title"/>
+      <xs:choice minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+        <xs:element name="btec_first_section3" type="btec_first_section3_type" x:name="Section3"/>
+        <xs:element ref="BTEC_first_suite_of_qualifications_table"/>
+        <xs:element ref="qualification_unit" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="btec_first_section3_type">
+    <xs:sequence>
+      <xs:element name="title" type="plainText" x:placeholder="Insert Sub-Section Title"/>
+      <xs:choice minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+        <xs:element name="btec_first_section4" type="btec_first_section4_type" x:name="Section3"/>
+        <xs:element ref="BTEC_first_suite_of_qualifications_table"/>
+        <xs:element ref="qualification_unit" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="btec_first_section4_type">
+    <xs:sequence>
+      <xs:element name="title" type="plainText" x:placeholder="Insert Sub-Section Title"/>
+      <xs:choice minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+        <xs:element name="btec_first_section5" type="btec_first_section5_type" x:name="Section3"/>
+        <xs:element ref="BTEC_first_suite_of_qualifications_table"/>
+        <xs:element ref="qualification_unit" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="btec_first_section5_type">
+    <xs:sequence>
+      <xs:element name="title" type="plainText" x:placeholder="Insert Sub-Section Title"/>
+      <xs:choice minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="text" type="paragraph_describedlist_choice_type"/>
+        <xs:element name="btec_first_section6" type="btec_first_section6_type" x:name="Section3"/>
+        <xs:element ref="BTEC_first_suite_of_qualifications_table"/>
+        <xs:element ref="qualification_unit" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="btec_first_section6_type">
+    <xs:sequence>
+      <xs:element name="title" type="plainText" x:placeholder="Insert Sub-Sub-Section Title"/>
+      <xs:element name="text" type="paragraph_describedlist_choice_type" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  
+</xs:schema>

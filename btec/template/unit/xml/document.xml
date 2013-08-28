@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl" view="defaultView" ?>
+
+<unit>
+  <meta>
+    <number/>
+
+    <unit_title> </unit_title>
+
+    <level/>
+
+    <type/>
+
+    <guided_learning_hours/>
+
+    <assessment_type/>
+  </meta>
+  <introduction>
+    <paragraph/>
+  </introduction>
+
+  <learning_objectives>
+    <learning_objective learn_obj_id="A">
+      <learning_objective_title/>
+      <distinct_objective>
+        <distinct_objective_title/>
+        <distinct_objective_text>
+          <paragraph/>
+          <describedlist>
+            <list_description/>
+            <unorderedlist>
+              <item>
+                <paragraph/>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </distinct_objective_text>
+      </distinct_objective>
+      <assessment_guidance>
+        <assessment_guidance_text>
+          <paragraph/>
+          <describedlist>
+            <list_description/>
+            <unorderedlist>
+              <item>
+                <paragraph/>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </assessment_guidance_text>
+      </assessment_guidance>
+      <assessment_criteria>
+        <prelevel_criteria>
+          <prelevel_criterion>
+            <criterion_id/>
+            <criterion>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english/>
+            <GSCE_math/>
+
+
+            <criterion_guidance>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </prelevel_criterion>
+        </prelevel_criteria>
+        <pass_criteria>
+          <pass_criterion>
+            <criterion_id/>
+            <criterion>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english/>
+            <GSCE_math/>
+
+            <criterion_guidance>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </pass_criterion>
+        </pass_criteria>
+        <merit_criteria>
+          <merit_criterion>
+            <criterion_id/>
+            <criterion>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english/>
+            <GSCE_math/>
+
+
+            <criterion_guidance>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+
+          </merit_criterion>
+        </merit_criteria>
+        <distinction_criteria>
+
+          <distinction_criterion>
+            <criterion_id/>
+            <criterion>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english/>
+            <GSCE_math/>
+
+            <criterion_guidance>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </distinction_criterion>
+        </distinction_criteria>
+      </assessment_criteria>
+      <suggested_assignment_outlines>
+        <distinct_suggested_assignment_outline>
+          <criteria_covered>
+            <criterion_id></criterion_id>
+          </criteria_covered>
+          <assignment_title></assignment_title>
+          <scenario>
+          </scenario>
+          <assessment_evidence>
+            <unorderedlist>
+              <item>
+                <paragraph></paragraph>
+              </item>
+            </unorderedlist>
+          </assessment_evidence>
+        </distinct_suggested_assignment_outline>
+      </suggested_assignment_outlines>
+      
+    </learning_objective>
+  </learning_objectives>
+
+
+  <teacher_guidance>
+    <distinct_teacher_guidance>
+      <subtitle/>
+      <teacher_guidance_text>
+        <describedlist>
+          <list_description/>
+          <unorderedlist>
+            <item>
+              <paragraph/>
+            </item>
+          </unorderedlist>
+        </describedlist>
+        <paragraph/>
+      </teacher_guidance_text>
+    </distinct_teacher_guidance>
+    <global_assessment_guidance>
+      <assessment_guidance_text>
+        <paragraph/>
+        <describedlist>
+          <list_description/>
+          <unorderedlist>
+            <item>
+              <paragraph/>
+            </item>
+          </unorderedlist>
+        </describedlist>
+      </assessment_guidance_text>
+    </global_assessment_guidance>
+  </teacher_guidance>
+</unit>

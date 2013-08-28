@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:config xmlns:x="http://www.xopus.com/xmlns/config" xmlns:math="http://www.w3.org/2005/xpath-functions/math" version="1.0">
+
+  <!--<x:changeTracking>
+    <x:enabled>true</x:enabled>
+    <x:visible>true</x:visible>
+    <x:allowAccept>true</x:allowAccept>
+    <x:allowReject>true</x:allowReject>
+  </x:changeTracking>-->
+  
+  <x:miscellaneous>
+    <x:saveWithIndentation>&#9;</x:saveWithIndentation>
+    <x:debugMode>false</x:debugMode>
+    <hideTableToolbar>false</hideTableToolbar>
+  </x:miscellaneous>
+
+
+  <x:roleMapping>
+    <!-- Used by the Table editor -->
+    <x:element name="table"         role="table" />
+    <x:element name="tbody"         role="tablerowcontainer" />
+    <x:element name="tbody"         role="tablebody" />
+    <x:element name="tfoot"         role="tablefooter" />
+    <x:element name="tr"            role="tablerow" />
+    <x:element name="tr"            role="tablecellcontainer" />
+    <x:element name="th"            role="tableheadercell" />
+    <x:element name="td"            role="tablecell" />
+    <x:element name="caption"       role="tablecaption" />
+    <x:attribute name="rowspan"     role="cellrowspan" />
+    <x:attribute name="colspan"     role="cellcolspan" />
+    <x:attribute name="border"      role="tableborder" />
+    <x:attribute name="cellspacing" role="tablecellspacing" />
+    <x:attribute name="cellpadding" role="tablecellpadding" />
+    
+    
+  </x:roleMapping>
+
+  <x:nodeConfig>
+
+
+
+    <x:node match="generated_table_reference">
+      <x:name>Automatically Generated Table Reference</x:name>
+    </x:node>
+
+    <x:node match="section1">
+      <x:name>Section1</x:name>
+      <x:templates>
+        <x:template>
+         
+            <title><?start?></title>
+            <text>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </text>
+          
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="section2">
+      <x:name>Section2</x:name>
+      <x:templates>
+        <x:template>
+        
+            <title><?start?></title>
+            <text>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </text>
+          
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="section3">
+      <x:name>Section3</x:name>
+      <x:templates>
+        <x:template>
+          
+            <title><?start?></title>
+            <text>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </text>
+          
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="section4">
+      <x:name>Section4</x:name>
+      <x:templates>
+        <x:template>
+          
+            <title><?start?></title>
+            <text>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </text>
+          
+        </x:template>
+      </x:templates>
+    </x:node>
+    
+    <x:node match="section5">
+      <x:name>Section5</x:name>
+      <x:templates>
+        <x:template>
+         
+            <title><?start?></title>
+            <text>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </text>
+          
+        </x:template>
+      </x:templates>
+    </x:node>
+    
+    <x:node match="section6">
+      <x:name>Section6</x:name>
+      <x:templates>
+        <x:template>
+         
+            <title><?start?></title>
+            <text>
+              <paragraph/>
+              <describedlist>
+                <list_description/>
+                <unorderedlist>
+                  <item>
+                    <paragraph/>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </text>
+          
+        </x:template>
+      </x:templates>
+    </x:node>
+    
+    <x:node match="@apply_section_numbering">
+      <x:name>Number Section</x:name>
+    </x:node>
+    
+    
+
+    <x:node match="title">
+      <x:name>Title</x:name>
+      <x:placeholder>Insert section title</x:placeholder>
+    </x:node>
+
+
+    <x:node match="text">
+      <x:name>Text</x:name>
+      <x:templates>
+        <x:template>
+        
+            <paragraph/>
+            <describedlist>
+              <list_description/>
+              <unorderedlist>
+                <item>
+                  <paragraph/>
+                </item>
+              </unorderedlist>
+            </describedlist>
+          
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="GSCE_math">
+      <x:name>GSCE Math</x:name>
+      <x:placeholder>yes</x:placeholder>
+      <x:description>Yes or No</x:description>
+    </x:node>
+
+    <x:node match="GSCE_english">
+      <x:name>GSCE english</x:name>
+      <x:placeholder>yes</x:placeholder>
+      <x:description>Yes or No</x:description>
+    </x:node>
+
+
+
+    <!-- <x:node match="pltsvalue">
+      <x:name>PLTS Value</x:name>
+      <x:templates>
+        <x:template>
+          <pltsvalue>
+            <initials><?start?></initials>
+            <number/>
+          </pltsvalue>
+        </x:template>
+      </x:templates>
+    </x:node>
+-->
+    <x:node match="initials">
+      <x:name>Initials</x:name>
+      <x:placeholder>XX</x:placeholder>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+
+    <x:node match="describedlist">
+      <x:name>Described List</x:name>
+      <x:templates>
+        <x:template>
+        
+            <list_description><?start?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph/>
+              </item>
+            </unorderedlist>
+          
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="list_description">
+      <x:name>List Description</x:name>
+      <x:placeholder>Insert list description text followed by a colon</x:placeholder>
+    </x:node>
+
+    <x:node match="paragraph">
+      <x:name>Paragraph</x:name>
+      <x:role>paragraph</x:role>
+  <!--    <x:placeholder>Insert paragraph text</x:placeholder>-->
+    </x:node>
+
+    <x:node match="emphasis">
+      <x:role>emphasis</x:role>
+      <x:name>Italic Emphasis</x:name>
+      <x:description>You can use Emphasis to emphasize a few words. This typically is shown as italic.</x:description>
+    </x:node>
+
+    <x:node match="strong">
+      <x:role>strong</x:role>
+      <x:name>Strong Emphasis</x:name>
+      <x:description>You can use Strong Emphasis to strongly emphasize a few words. This typically is shown as bold.</x:description>
+    </x:node>
+
+    <x:node match="underline">
+      <x:role>underline</x:role>
+      <x:name>Underline</x:name>
+      <x:description>You can use Underline to mark up a few words with a line below. If you want to indicate a link or reference, use Hyperlink instead.</x:description>
+    </x:node>
+
+    <x:node match="subscript">
+      <x:role>subscript</x:role>
+      <x:name>Subscript</x:name>
+      <x:description>Display a few characters in a smaller font and placed slightly below the normal text. As in H₂O for example.</x:description>
+    </x:node>
+
+    <x:node match="superscript">
+      <x:role>superscript</x:role>
+      <x:name>Superscript</x:name>
+      <x:description>Display a few characters in a smaller font and placed slightly above the normal text. As in x² for example.</x:description>
+    </x:node>
+
+    <x:node match="unorderedlist">
+      <x:role>list</x:role>
+      <x:name>Unordered List</x:name>
+    </x:node>
+
+
+    <x:node match="orderedlist">
+      <x:role>list</x:role>
+      <x:name>Ordered List</x:name>
+    </x:node>
+
+    <x:node match="item">
+      <x:role>listitem</x:role>
+      <x:name>Item</x:name>
+    </x:node>
+
+    <x:node match="link">
+      <x:role>hyperlink</x:role>
+      <x:name xml:lang="en">Hyperlink</x:name>
+      <x:name xml:lang="nl">Hyperlink</x:name>
+      <x:description xml:lang="en">Use a Hyperlink to create a reference to another document or website.</x:description>      
+    </x:node>
+    <x:node match="link/@href">
+      <x:role>hyperlinkreference</x:role>
+      <x:lookup 
+        url="../link/index.html" 
+        forceLookup="false" 
+        autoOpen="true"/>
+      <x:name xml:lang="en">URL</x:name>
+      <x:name xml:lang="nl">URL</x:name>
+    </x:node>
+    <x:node match="link/@target">
+      <x:name xml:lang="en">Target</x:name>
+      <x:name xml:lang="nl">Doel</x:name>
+      <x:enumeration value="_self">
+        <x:name xml:lang="en">Current Window</x:name>
+        <x:name xml:lang="nl">Huidige Venster</x:name>
+      </x:enumeration>
+      <x:enumeration value="_new">
+        <x:name xml:lang="en">New Window</x:name>
+        <x:name xml:lang="nl">Nieuw Venster</x:name>
+      </x:enumeration>
+    </x:node>
+
+
+    <x:node match="image">
+      <x:role>image</x:role>
+      <x:role>symbol</x:role>
+      <x:name>Image</x:name>
+    </x:node>
+
+    <x:node match="image/@src">
+      <x:role>imagesource</x:role>
+      <x:lookup url="../../lookup/flickr/flickr.html?width=770&amp;height=340" forceLookup="true" autoOpen="true"/>
+      <x:name>Source</x:name>
+    </x:node>
+
+    <x:node match="image/@width">
+      <x:name>Width</x:name>
+    </x:node>
+
+    <x:node match="image/@height">
+      <x:name>Height</x:name>
+    </x:node>
+
+    <x:node match="image/@halign">
+      <x:role>mediaalign</x:role>
+      <x:name>Alignment</x:name>
+      <x:enumeration value="none">
+        <x:name>No Alignment</x:name>
+      </x:enumeration>
+      <x:enumeration value="left">
+        <x:name>Align Left</x:name>
+      </x:enumeration>
+      <x:enumeration value="right">
+        <x:name>Align Right</x:name>
+      </x:enumeration>
+    </x:node>
+    
+    <x:node match="title | footer | caption | td | th | dataItem">
+      <x:placeholder>{name}</x:placeholder>
+    </x:node>
+
+
+  </x:nodeConfig>
+</x:config>

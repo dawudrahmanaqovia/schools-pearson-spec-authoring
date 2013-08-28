@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qualification_structure>
+     
+    <section1 apply_section_numbering="true">
+        <title>Qualification structure</title>
+        <text>
+            <paragraph>The Pearson BTEC Level 1/Level 2 First Diploma in Information and Creative Technology is taught over 480 guided learning hours (GLH). It has core, mandatory and optional specialist units.</paragraph>
+            <describedlist>
+                <list_description>
+                    The BTEC First Diploma is the largest size in the BTEC First suite of qualifications that includes these smaller sizes:
+                </list_description>
+                <unorderedlist>
+                    <item>
+                        <paragraph>Award – 120 GLH</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>Certificate – 240 GLH</paragraph>
+                    </item>
+                    <item>
+                        <paragraph>Extended Certificate – 360 GLH.</paragraph>
+                    </item>
+                </unorderedlist>
+            </describedlist>
+            <paragraph>Some units for the Pearson BTEC Level 1/Level 2 First Diploma qualification only appear in this qualification size, while other units are included in the smaller qualification sizes within the suite. The ‘Summary of units’ table (see Annexe F) lists each unit in the suite and how it is used within individual qualifications, i.e. whether the unit is core, mandatory (Mand), optional specialist (Opt), or not included (—). </paragraph>
+            <paragraph>The qualification structure shows the permitted combinations for the qualification and for the endorsed titles for particular pathways. </paragraph>
+            <paragraph>If a learner has already achieved a BTEC Level 1/Level 2 First Award, Certificate or Extended Certificate qualification within the same sector, they may carry forward their unit results for use in this qualification. It is the responsibility of the centre to ensure that the required number of guided learning hours – 480 GLH in total – and correct unit combination are adhered to. </paragraph>
+            <paragraph>Please see Annexe G for the structure of the Pearson BTEC Level 1/Level 2 First Award in Information and Creative Technology qualification.</paragraph>
+            <paragraph>See Annexe H for the structure of the Pearson BTEC Level 1/Level 2 First Certificate in Information and Creative Technology qualification.</paragraph>
+            <paragraph>See Annexe I for the structure of the Pearson BTEC Level 1/Level 2 First Extended Certificate in Information and Creative Technology qualification.</paragraph>
+        </text>
+        <section2>
+            <title>Qualification structure of the Pearson BTEC Level 1/Level 2 First Diploma in Information and Creative Technology  
+            </title>
+            <text>
+                <paragraph>Learners will take a total of 10–12 units to complete this qualification. The number of units taken is dependent on the size of optional units selected, and the combination of all units should total 480 guided learning hours (GLH). </paragraph>                
+                <describedlist>
+                    <list_description>These units will include:</list_description>
+                    <unorderedlist>
+                        <item> 
+                            <paragraph>4 core units (totalling 150 GLH)</paragraph>
+                        </item>
+                        <item> 
+                            <paragraph>2 mandatory units (totalling 90 GLH) </paragraph>
+                        </item>
+                        <item> 
+                            <paragraph>4–6 optional specialist units (totalling 240 GLH), of which at least two must be chosen from Group A.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <paragraph>This BTEC First Diploma has units that your centre assesses (internal) and units that Edexcel sets and marks (external).</paragraph>
+            </text>
+            <generated_table_reference>Edexcel BTEC level 1/level 2 first certificate table</generated_table_reference>
+        </section2>
+        <section2>
+            <title>Qualification structure of the Pearson BTEC Level 1/Level 2 First Diploma in Information and Creative Technology (Computer Science)               
+            </title>
+            <text>
+                <paragraph>Learners will take a total of 10–12 units to complete this qualification. The number of units taken is dependent on the size of optional units selected, and the combination of all units should total 480 guided learning hours (GLH).</paragraph>
+                <describedlist>
+                    <list_description>
+                        These units will include:
+                    </list_description>
+                    <unorderedlist>
+                        <item> 
+                            <paragraph>4 core units (totalling 150 GLH)</paragraph>
+                        </item>
+                        <item> 
+                            <paragraph>4 mandatory units (totalling 210 GLH) </paragraph>
+                        </item>
+                        <item> 
+                            <paragraph>2–4 optional specialist units (totalling 120 GLH).</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <paragraph>This BTEC First Diploma has units that your centre assesses (internal) and units that Edexcel sets and marks (external).</paragraph>
+            </text>
+            <generated_table_reference>Edexcel BTEC level 1/level 2 first extended certificate table</generated_table_reference>
+            <text>
+                <paragraph>Please note that Unit 22: Computer Security in Practice is NOT available in the Computer Science pathway.</paragraph>
+            </text>
+        </section2>
+        <section2>
+            <title>Qualification structure of the Pearson BTEC Level 1/Level 2 First Diploma in Information and Creative Technology (Systems Development and Support)</title>
+            <text>
+                <paragraph>Learners will take a total of 10–12 units to complete this qualification. The number of units taken is dependent on the size of optional units selected, and the combination of all units should total 480 guided learning hours (GLH).</paragraph>
+                <describedlist>
+                    <list_description>These units will include:</list_description>
+                    <unorderedlist>
+                        <item> 
+                            <paragraph>4 core units (totalling 150 GLH)</paragraph>
+                        </item>
+                        <item> 
+                            <paragraph>4 mandatory units (totalling 210 GLH) </paragraph>
+                        </item>
+                        <item> 
+                            <paragraph>2–4 optional specialist units (totalling 120 GLH).</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <paragraph>This BTEC First Diploma has units that your centre assesses (internal) and units that Edexcel sets and marks (external).</paragraph>
+            </text>
+            <generated_table_reference>Edexcel BTEC level 1/level 2 first extended certificate table</generated_table_reference>
+            <text>
+                <paragraph>Please note that Unit 24: Software Systems Development is NOT available in the Systems Development and Support pathway.</paragraph>
+            </text>
+        </section2>
+    </section1>
+</qualification_structure>

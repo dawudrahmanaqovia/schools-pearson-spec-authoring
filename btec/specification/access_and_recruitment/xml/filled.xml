@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<access_and_recruitment>
+     
+    <section1 apply_section_numbering="true">
+        <title>Access and recruitment</title>
+        <text>
+            <describedlist>
+                <list_description>Our policy regarding access to our qualifications is that:</list_description>
+                <unorderedlist>
+                    <item>
+                        <paragraph>they should be available to everyone who is capable of reaching the required standards</paragraph>
+                    </item><item>
+                        <paragraph>they should be free from any barriers that restrict access and progression</paragraph>
+                    </item><item>
+                        <paragraph>there should be equal opportunities for all those wishing to access the qualifications.</paragraph>
+                    </item>
+                </unorderedlist>
+            </describedlist>
+            <paragraph>This is a qualification aimed at level 2 learners. Your centre is required to recruit learners to BTEC First qualifications with integrity.</paragraph>
+            <paragraph>You need to make sure that applicants have relevant information and advice about the qualification to make sure it meets their needs.</paragraph>
+            <paragraph>Your centre should review the applicant’s prior qualifications and/or experience to consider whether this profile shows that they have the potential to achieve the qualification.</paragraph>
+            <paragraph>For learners with disabilities and specific needs, this review will need to take account of the support available to the learner during the teaching and assessment of the qualification.</paragraph>               
+        </text>
+        <section2>
+            <title>Prior knowledge, skills and understanding</title>
+            <text>
+                <paragraph>Learners do not need to achieve any other qualifications before registering for 
+                    a BTEC First. No prior knowledge, skills or understanding are necessary. There are no specific requirements for this qualification.
+                </paragraph>
+                <paragraph>This qualification can be taken as a stand-alone qualification, or learners can extend the achievement they have demonstrated through the Pearson BTEC Level 1/Level 2 First Award in Information and Creative Technology, Pearson BTEC Level 1/Level 2 First Certificate in Information and Creative Technology or Pearson BTEC Level 1/Level 2 First Extended Certificate in Information and Creative Technology qualification by taking additional units. See the Information Manual for further details. Learners can then make up the requisite number of guided learning hours, ensuring the correct unit combination is adhered to, in order to fulfil the rules of combination for the Pearson BTEC Level 1/Level 2 First Diploma in Information and Creative Technology. See Section 4, Qualification structure.</paragraph>
+                <paragraph>Please see Annexe G for the structure of the Pearson BTEC Level 1/Level 2 First Award in Information and Creative Technology qualification.</paragraph>
+                <paragraph>See Annexe H for the structure of the Pearson BTEC Level 1/Level 2 First Certificate in Information and Creative Technology qualification.</paragraph>
+                <paragraph>See Annexe I for the structure of the Pearson BTEC Level 1/Level 2 First Extended Certificate in Information and Creative Technology qualification.</paragraph>
+            </text>            
+        </section2>
+        
+        <section2>
+            <title>Access to qualifications for learners with disabilities or specific needs</title>
+            <text>
+                <paragraph>Equality and fairness are central to our work. Our equality policy requires that all learners should have equal opportunity to access our qualifications and assessments, and that our qualifications are awarded in a way that is fair to every learner.</paragraph>
+                <describedlist>
+                    <list_description>We are committed to making sure that:</list_description>
+                    <unorderedlist>
+                        <item> 
+                            <paragraph>learners with a protected characteristic (as defined by the Equality Act 2010) are not, when they are undertaking one of our qualifications, disadvantaged in comparison to learners who do not share that characteristic</paragraph>
+                        </item>
+                        <item> 
+                            <paragraph>all learners achieve the recognition they deserve for undertaking a qualification and that this achievement can be compared fairly to the achievement of their peers.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <paragraph>You can find details on how to make adjustments for learners with protected characteristics in the policy document Access Arrangements, Reasonable Adjustments and Special Considerations, which is on our website, www.edexcel.com/Policies</paragraph>
+            </text>
+        </section2>
+        
+    </section1>
+</access_and_recruitment>

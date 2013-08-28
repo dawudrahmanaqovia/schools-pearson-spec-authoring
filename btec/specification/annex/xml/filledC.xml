@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    
+<annex>
+    <annex_letter>C</annex_letter>
+    <content>
+        <section1 apply_section_numbering="false">
+            <title>Mathematics knowledge and skills signposting</title>
+            <text>
+                <paragraph>This table shows where an assessment criterion in a BTEC First unit can provide an opportunity to practise a subject content area from the GCSE mathematics subject criteria (including functional elements).</paragraph>
+            </text>
+            <generated_table_reference>GCSE math unit subject criteria assessment criterion annex table</generated_table_reference>
+        </section1>
+        <section1>
+            <title>GCSE mathematics subject content area</title>
+            <text>
+                <paragraph>The topic areas below are drawn from the GCSE mathematics subject criteria.</paragraph>
+                <describedlist>
+                    <list_description>Learners should be able to:</list_description>
+                    <orderedlist>
+                        <item>
+                            <paragraph>understand number size and scale and the quantitative relationship between units</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>understand when and how to use estimation</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>carry out calculations involving +, –, ×, ÷, either singly or in combination, decimals, fractions, percentages and positive whole number powers</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>understand and use number operations and the relationships between them, including inverse operations and the hierarchy of operations</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>provide answers to calculations to an appropriate degree of accuracy, including a given power of ten, number of decimal places and significant figures</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>understand and use the symbols =, &lt;, &gt;, ~</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>understand and use direct proportion and simple ratios</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>calculate arithmetic means</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>understand and use common measures and simple compound measures such as speed</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>make sensible estimates of a range of measures in everyday settings and choose appropriate units for estimating or carrying out measurement</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>interpret scales on a range of measuring instruments, work out time intervals and recognise that measurements given to the nearest whole unit may be inaccurate by up to one half in either direction</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>plot and draw graphs (line graphs, bar charts, pie charts, scatter graphs, histograms) selecting appropriate scales for the axes</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>substitute numerical values into simple formulae and equations using appropriate units</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>translate information between graphical and numerical form</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>design and use data-collection sheets, including questionnaires, for grouped, discrete or continuous data, process, represent, interpret and discuss the data</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>extract and interpret information from charts, graphs and tables</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>understand the idea of probability</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>calculate area and perimeters of shapes made from triangles and rectangles</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>calculate volumes of right prisms and of shapes made from cubes and cuboids</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>use Pythagoras’ theorem in 2-D</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>use calculators effectively and efficiently</paragraph>
+                        </item>
+                    </orderedlist>
+                </describedlist>
+                <describedlist>
+                    <list_description>In addition, level 2 learners should be able to:</list_description>
+                    <orderedlist>
+                        <item>
+                            <paragraph>interpret, order and calculate with numbers written in standard form</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>carry out calculations involving negative powers (only –1 for rate of change)</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>change the subject of an equation</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>understand and use inverse proportion</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>understand and use percentiles and deciles</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>use Pythagoras’ theorem in 2-D and 3-D</paragraph>
+                        </item>
+                        <item>
+                            <paragraph>use trigonometric ratios to solve 2-D and 3-D problems.</paragraph>
+                        </item>
+                    </orderedlist>
+                </describedlist>
+            </text>
+        </section1>
+    </content>
+</annex>

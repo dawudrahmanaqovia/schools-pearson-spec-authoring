@@ -1,0 +1,131 @@
+@import url("../../shared/css/wysiwym.css");
+
+.unit h1{
+    font-size:2.1em;
+}
+
+.unit h2{
+    font-size:1.7em;
+}
+
+.unit h3{
+    font-size:1.4em;
+}
+.unit h4{
+    font-size:1.1em;
+}
+
+.unit p{
+    margin-left:1.8em;
+}
+
+.box{
+    margin-left:3em;
+}
+
+
+/*.unit
+{
+    background:#FFF;
+    padding:18px;
+    padding-bottom:18px;
+    width:85%;
+}
+*/
+.level_1_criteria,
+.merit_criteria,
+.distinction_criteria,
+.pass_criteria
+{
+    background:#94DBFF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:black;
+    border-radius:3px;
+    padding:1em;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+
+.assessment_guidance,
+.learning_objectives
+{
+    background:#94DBFF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:black;
+    border-radius:3px;
+    padding:0.2em;
+    margin-bottom:0.2em;
+}
+
+
+
+.level_1_criterion,
+.merit_criterion,
+.distinction_criterion,
+.pass_criterion
+{
+    vertical-align:top;
+    padding-top:1em;
+    padding-bottom:1em;
+    margin-top:1em;
+    margin-bottom:1em;
+    background:#E0F5FF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+}
+
+
+.learning_objectives,
+.introduction,
+.teacher_guidance
+{
+    margin-top:3em;
+    margin-bottom:3em;
+}
+
+.criteria_covered,
+.scenario,
+.assessment_evidence,
+.assignment_title
+{
+    height: 100%;
+    background:#DEEFEF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    border-radius:3px;
+    padding-top:0.4em;
+    padding-bottom:0.4em;
+   
+}
+
+.learning_objective,
+.teacher_guidance
+{
+    background:#FEEFEF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    border-radius:3px;
+    padding:0.2em;
+    margin-bottom:2em;
+}
+
+.suggested_assignment_outlines,
+.distinct_objective,
+.distinct_teacher_guidance,
+.assessment_guidance
+{
+    margin-top:0.7em;
+    margin-bottom:0.7em;
+    margin-left:0.2em;
+    background:#D1F0FF;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:gray;
+    border-radius:2px;
+}

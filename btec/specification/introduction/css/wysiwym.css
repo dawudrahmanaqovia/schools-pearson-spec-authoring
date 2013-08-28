@@ -1,0 +1,46 @@
+@import url("../../shared/css/wysiwym.css");
+
+
+.qualification_unit
+{
+    background:#FEEEEE;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:black;
+    border-radius:3px;
+    padding:1em;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+
+.preface
+{
+    background:#EEEEED;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:black;
+    border-radius:3px;
+    padding:0.5em;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+.qualification,
+.award,
+.certificate,
+.extended_certificate,
+.BTEC_first_suite_of_qualifications_row{
+    background:#EEEEED;
+    border-style:solid;
+    border-width:0.1em;
+    border-color:black;
+    border-radius:3px;
+    padding:1em;
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+
+ 
+

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<awarding_and_reporting_for_the_qualification>
+     
+    <section1 apply_section_numbering="true">
+        <title>Awarding and reporting for the qualification</title>
+        <text>
+            <paragraph>The awarding and certification of this qualification will comply with the requirements of the Office of Qualifications and Examinations Regulation (Ofqual).</paragraph>
+        </text>
+        <section2>
+            <title>Calculation of the qualification grade </title>
+            <text>
+                <paragraph>This qualification is a level 2 qualification, and the certification may show a grade ranging from Level 2 PP to Level 2 D*D*. (Please refer to the Calculation of qualification grade table for the full list of grades.†)</paragraph>
+                <paragraph>If these are not achieved, a Level 1 grade may be awarded. Learners whose level of achievement is below a Level 1 will receive an Unclassified (U) result.</paragraph>
+                <paragraph>The qualification grade is calculated on the basis of grades in individual units. Each unit will be awarded a grade of Level 2 Pass, Level 2 Merit, Level 2 Distinction or Level 1. Learners whose level of achievement is below a Level 1 will receive an Unclassified (U) for that unit. There is no unit grade of D*; grades of D*D and D*D* can be awarded as an aggregated grade for the qualification based on the learner’s overall performance. In order to achieve this grade, learners will have to demonstrate a strong performance across the qualification as a whole.</paragraph>
+                <describedlist>
+                    <list_description>To achieve a level 2 qualification, learners must:</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>complete and report an outcome for all units within the permitted combination (NB Unclassified is a permitted unit outcome), <strong>and</strong></paragraph>
+                        </item>
+                        <item>
+                            <paragraph>have sufficient points across Unit 3 and either Unit 1 or Unit 2, i.e. a minimum of 24 points, <strong>and</strong></paragraph>
+                        </item>
+                        <item>
+                            <paragraph>have sufficient points from Unit 19, i.e. a minimum of 24 points, <strong>and</strong></paragraph>
+                        </item>
+                        <item>
+                            <paragraph>achieve the minimum number of points at a grade threshold from the permitted combination. (See the Calculation of qualification grade table. For comparison, the table includes all qualification sizes in the suite.)</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <describedlist>
+                    <list_description>Learners who do not achieve a Level 2 may be entitled to achieve a Level 1 where they:</list_description>
+                    <unorderedlist>
+                        <item>
+                            <paragraph>complete and report an outcome for all units within the permitted combination (NB Unclassified is a permitted unit outcome), <strong>and</strong></paragraph>
+                        </item>
+                        <item>
+                            <paragraph>have sufficient points across Unit 3 and either Unit 1 or Unit 2, i.e. a minimum of 12 points, <strong>and</strong></paragraph>
+                        </item>
+                        <item>
+                            <paragraph>have sufficient points from Unit 19, i.e. a minimum of 12 points, <strong>and</strong></paragraph>
+                        </item>
+                        <item>
+                            <paragraph>achieve the minimum number of points for a Level 1. See the Calculation of qualification grade table. For comparison, the table includes all qualification sizes in the suite.</paragraph>
+                        </item>
+                    </unorderedlist>
+                </describedlist>
+                <paragraph>Learners who fail to reach the minimum standard for a Level 1 to be awarded will be recorded as Unclassified (U) and will not be certificated. </paragraph>
+                <paragraph>It is the responsibility of a centre to ensure that the correct unit combination is adhered to.</paragraph>
+                <paragraph>Learners who do not achieve sufficient points for the Diploma qualification may be eligible to achieve the Award, Certificate or Extended Certificate provided they have sufficient points across the core units, have completed the correct combination of units and meet the appropriate qualification grade points threshold.</paragraph>
+                <paragraph>Please see Annexe G for the structure of the Pearson BTEC Level 1/Level 2 First Award in Information and Creative Technology, Annexe H for the structure of the Pearson BTEC Level 1/Level 2 First Certificate in Information and Creative Technology and Annexe I for the structure of the Pearson BTEC Level 1/Level 2 First Extended Certificate in Information and Creative Technology. The latest versions of the Pearson BTEC Level 1/Level 2 First Award, Certificate and Extended Certificates in Information and Creative Technology are available on our website (www.edexcel.com).</paragraph>
+                <paragraph>† The Calculation of qualification grade table provides centres with guidance on the performance levels expected for the award of individual grades. Grade thresholds may be reviewed based on unit grade performance.</paragraph>
+            </text>
+            <section3>
+                <title>Points available for unit size and grades</title>
+                <text>
+                    <paragraph>The table below shows the <strong>number of points scored per 10 guided learning hours</strong> at each grade.</paragraph>
+                </text>
+                    <table cellspacing="0" cellpadding="1" alternaterowcolor="false">
+                        <tbody>
+                            <tr>
+                                <th colspan="5">
+                                    <paragraph>Points per grade per 10 guided learning hours</paragraph>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <paragraph>Unclassified</paragraph>
+                                </th>
+                                <th>
+                                    <paragraph>Level 1</paragraph>
+                                </th>
+                                <th>
+                                    <paragraph>Level 2 </paragraph>
+                                    <paragraph>Pass (P)</paragraph>
+                                </th>
+                                <th>
+                                    <paragraph>Level 2</paragraph>
+                                    <paragraph>Merit (M)</paragraph>
+                                </th>
+                                <th>
+                                    <paragraph>Level 2</paragraph>
+                                    <paragraph>Distinction (D)</paragraph>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <paragraph>0</paragraph>
+                                </td>
+                                <td>
+                                    <paragraph>2</paragraph>
+                                </td>
+                                <td>
+                                    <paragraph>4</paragraph>
+                                </td>
+                                <td>
+                                    <paragraph>6</paragraph>
+                                </td>
+                                <td>
+                                    <paragraph>8</paragraph>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                <text>
+                    <paragraph>Edexcel will automatically calculate the qualification grade for your learners when your learner unit grades are submitted. Learners will be awarded qualification grades for achieving the sufficient number of points within the ranges shown in the Calculation of qualification grade table.</paragraph>
+                    <paragraph>Example: </paragraph>
+                    <paragraph>A learner achieves a Level 2 Pass grade for a unit. The unit size is 30 guided learning hours (GLH). Therefore they gain 12 points for that unit, i.e. 4 points for each 
+                        10 GLH, therefore 12 points for 30 GLH.
+                    </paragraph>
+                </text>
+            </section3>            
+        </section2>
+        <section2>
+            <title>Calculation of qualification grade</title>
+            <text>
+                <paragraph>The tables below give examples of how the overall grade is determined.</paragraph>
+                <paragraph><strong>Examples used are for illustrative purposes only. Other unit combinations are possible, see Section 4, Qualification structure.</strong></paragraph>
+            </text>
+            <section3>
+                <title>Example 1</title>
+                <text>
+                    <paragraph><strong>Achievement of a Diploma with a Level 2 MM grade</strong></paragraph>
+                </text> 
+            </section3>
+            <section3>
+                <title>Example 2</title>
+                <text>
+                    <paragraph><strong>Achievement of a Diploma with a Level 2 DD grade</strong></paragraph>
+                </text>
+            </section3>
+            <section3>
+                <title>Example 3</title>
+                <text>
+                    <paragraph><strong>Achievement of a Diploma at Level 1 (but with a Level 2 PP grade points total)</strong></paragraph>
+                </text>
+            </section3>
+            <section3>
+                <title>Example 4</title>
+                <text>
+                    <paragraph><strong>The learner has not achieved sufficient points in the core units to gain a Level 2 or Level 1 qualification</strong></paragraph>
+                </text>
+            </section3>
+        </section2>
+    </section1>
+</awarding_and_reporting_for_the_qualification>

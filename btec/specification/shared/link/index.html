@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Link selection lookup dialog example</title>
+    <script type="text/javascript"><!--
+             
+                
+                function chooseLink() {
+                    return top.choose({
+                        href: this.originalHref
+                    });
+                }
+                
+                
+                function handleChooseForm(e) {
+                    var field = document.getElementById('locationField').value;
+                    if (field && field.length > 0) {
+                        top.choose({
+                            href: field
+                        });
+                        return true;
+                    }
+                    return false;
+                }
+                
+                
+                function handleOnLoad(id) {
+                    var list = document.getElementById(id).getElementsByTagName('a');
+                    for (var i = 0; i < list.length; i++) {
+                        var anchor = list.item(i);
+                        anchor.onclick = chooseLink;
+                        anchor.originalHref = anchor.href;
+                        anchor.href = 'javascript:void(0)';
+                    }
+                }//--></script>
+    <link rel="stylesheet" href="../css/style-lookups.css" type="text/css" />
+  </head>
+  <body onload="handleOnLoad('links');">
+
+
+    <div id="chooseDialog">
+      <div id="chooseBox">
+
+        <form action="#" method="get" id="chooseForm" onsubmit="return handleChooseForm(event);">
+          <div class="chooseField">
+            <label for="locationField">Location</label>
+            <input type="text" id="locationField" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <ul class="picklist" id="links">
+      <li>
+        <a href="www.pearsoned.co.uk">
+          <span>www.pearsoned.co.uk</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://www.edexcel.com/quals/firsts/Pages/default.aspx">
+          <span>http://www.edexcel.com/quals/firsts/Pages/default.aspx</span>
+        </a>
+      </li>
+    </ul>
+  </body>
+</html>

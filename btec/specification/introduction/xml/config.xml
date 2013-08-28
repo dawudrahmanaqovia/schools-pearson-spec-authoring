@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:config xmlns:x="http://www.xopus.com/xmlns/config" xmlns:math="http://www.w3.org/2005/xpath-functions/math" version="1.0">
+  <x:import src="../../shared/xml/config.xml"/>
+
+  <x:nodeConfig>
+
+    <x:node match="introduction">
+      <x:name>Qualification structure</x:name>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+    <x:node match="qualification_unit">
+      <x:name>Qualification Unit</x:name>
+      <x:templates>
+        <x:template>
+
+          <qtitle> </qtitle>
+          <qnumber> </qnumber>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="qtitle">
+      <x:name>Title</x:name>
+      <x:role>hidden-from-ui</x:role>
+      <x:placeholder>Insert Qualification Title</x:placeholder>
+    </x:node>
+
+    <x:node match="qnumber">
+      <x:name>Number</x:name>
+      <x:role>hidden-from-ui</x:role>
+      <x:placeholder>Insert Qualification Number</x:placeholder>
+    </x:node>
+
+    <x:node match="BTEC_first_suite_of_qualifications_table">
+      <x:name>BTEC First Suite Of Qualifications Table</x:name>
+      <x:templates>
+        <x:template>
+
+          <BTEC_first_suite_of_qualifications_row>
+            <qualification><?start?></qualification>
+            <award/>
+            <certificate/>
+            <extended_certificate/>
+          </BTEC_first_suite_of_qualifications_row>          
+          <BTEC_first_suite_of_qualifications_row>
+            <qualification></qualification>
+            <award/>
+            <certificate/>
+            <extended_certificate/>
+          </BTEC_first_suite_of_qualifications_row>
+          <BTEC_first_suite_of_qualifications_row>
+            <qualification></qualification>
+            <award/>
+            <certificate/>
+            <extended_certificate/>
+          </BTEC_first_suite_of_qualifications_row>
+          <BTEC_first_suite_of_qualifications_row>
+            <qualification></qualification>
+            <award/>
+            <certificate/>
+            <extended_certificate/>
+          </BTEC_first_suite_of_qualifications_row>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="BTEC_first_suite_of_qualifications_row">
+      <x:name>BTEC First Suite Of Qualifications Row</x:name>
+      <x:templates>
+        <x:template>
+
+
+          <qualification><?start?></qualification>
+          <award/>
+          <certificate/>
+          <extended_certificate/>
+
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="qualification">
+      <x:name>Qualification</x:name>
+      <x:placeholder>Insert Qualification Text</x:placeholder>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+    <x:node match="award">
+      <x:name>Award</x:name>
+      <x:placeholder>unchecked</x:placeholder>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+    <x:node match="certificate">
+      <x:name>Certificate</x:name>
+      <x:placeholder>unchecked</x:placeholder>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+    <x:node match="extended_certificate">
+      <x:name>Extended Certificate</x:name>
+      <x:placeholder>unchecked</x:placeholder>
+      <x:role>hidden-from-ui</x:role>
+    </x:node>
+
+
+    <x:node match="btec_first_section1">
+      <x:name>Section1</x:name>
+      <x:templates>
+        <x:template>
+
+          <title><?start?></title>
+          <text>
+            <paragraph/>
+          </text>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="btec_first_section2">
+      <x:name>Section2</x:name>
+      <x:templates>
+        <x:template>
+
+          <title><?start?></title>
+          <text>
+            <paragraph/>
+          </text>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="btec_first_section3">
+      <x:name>Section3</x:name>
+      <x:templates>
+        <x:template>
+
+          <title><?start?></title>
+          <text>
+            <paragraph/>
+          </text>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+    <x:node match="btec_first_section4">
+      <x:name>Section4</x:name>
+      <x:templates>
+        <x:template>
+
+          <title><?start?></title>
+          <text>
+            <paragraph/>
+          </text>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+    <x:node match="btec_first_section5">
+      <x:name>Section5</x:name>
+      <x:templates>
+        <x:template>
+
+          <title><?start?></title>
+          <text>
+            <paragraph/>
+          </text>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+
+    <x:node match="btec_first_section6">
+      <x:name>Section6</x:name>
+      <x:templates>
+        <x:template>
+
+          <title><?start?></title>
+          <text>
+            <paragraph/>
+          </text>
+
+        </x:template>
+      </x:templates>
+    </x:node>
+
+
+
+
+
+  </x:nodeConfig>
+
+</x:config>
