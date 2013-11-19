@@ -4,7 +4,7 @@
   <x:import src="../../shared/xml/config.xml"/>
 
   <x:miscellaneous>
-    <hideTableToolbar>true</hideTableToolbar>
+    <hideTableToolbar>false</hideTableToolbar>
   </x:miscellaneous>
 
 
@@ -242,7 +242,19 @@
               </distinction_criterion>
             </distinction_criteria>
           </assessment_criteria>
+		  
           <suggested_assignment_outlines>
+                <suggested_assignment_outlines_text>
+                  <paragraph/>
+                  <describedlist>
+                    <list_description/>
+                    <unorderedlist>
+                      <item>
+                        <paragraph/>
+                      </item>
+                    </unorderedlist>
+                  </describedlist>
+                </suggested_assignment_outlines_text>		  
             <distinct_suggested_assignment_outline>
               <criteria_covered>
                 <criterion_id/>
@@ -991,4 +1003,6 @@
 
 
   </x:nodeConfig>
-</x:config>
+
+  
+  </x:config>

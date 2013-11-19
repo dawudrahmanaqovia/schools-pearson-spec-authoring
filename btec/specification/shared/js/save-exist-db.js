@@ -1,6 +1,6 @@
 IO.setSaveXMLFunction(function(xmlURI, xmlDocument){
 
-/*alert('>> Saving:'+xmlURI);*/
+alert('>> Saving:'+xmlURI);
 /*
 
 Old code to create a filename automatically however this would not work long term

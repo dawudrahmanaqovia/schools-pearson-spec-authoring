@@ -69,13 +69,26 @@
         </p>
     </xsl:template>
     
+    
     <xsl:template match="describedlist">
         <div class="{name()}">
           <!--  <span class="blurb">Described List</span>-->
-            <xsl:apply-templates select="list_description"/>
-            <xsl:apply-templates select="unorderedlist | orderedlist"/>
+            <!--<xsl:apply-templates select="list_description"/>
+            <xsl:apply-templates select="unorderedlist | orderedlist"/>-->
+            
+        <p class="editable">
+            <xsl:apply-templates select="@*|node()"/>
+        </p>    
+                
         </div>
     </xsl:template>
+   
+   
+       <xsl:template match="describedlist/paragraph | describedlist/description">
+			<p class="editable">
+				<xsl:apply-templates select="@*|node()"/>
+			</p>                
+        </xsl:template>
     
     
     <xsl:template match="generated_table_reference">

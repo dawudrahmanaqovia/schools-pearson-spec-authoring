@@ -1,1075 +1,1146 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="stylesheet.xsl" view="defaultView" ?>
 
 <unit>
-        
-    <meta>
-        <number>14</number>
-
-        <unit_title>Installing and Maintaining Computer Hardware </unit_title>
-
-        <level>1 and 2</level>
-
-        <type>Optional specialist</type>
-
-        <guided_learning_hours>60</guided_learning_hours>
-
-        <assessment_type>Internal</assessment_type>
-    </meta>
-    <introduction>
-        <paragraph>Technology systems can include a multitude of external hardware devices and internal hardware components. Over time it is necessary to maintain the system to repair faults (such as a loose component) and improve performance or upgrade the system’s functionality (for instance by installing a faster processor). Job roles that demonstrate installing and maintaining computer
-            hardware include computer technician, technical support engineer, service team leader, and helpdesk engineer. </paragraph>
-        <paragraph> In this unit, you will develop an understanding of the benefits and implications of installing and maintaining hardware in technology systems. For a specific brief, you will install and maintain hardware in a technology system. This will involve finding and repairing faults with the internal hardware components of a computer, such as the processor or internal bus, and upgrading
-            other internal components, such as adding a network card or additional memory. You will also learn how to install a new external hardware device, such as a printer or barcode scanner. </paragraph>
-        <paragraph>The technology system will then be tested for functionality and performance. Once completed, you will review your modified technology system against the brief and obtain feedback from the ‘client’, and evaluate possible improvements. </paragraph>
-        <paragraph>In particular, this unit develops skills from Unit 2: Technology Systems and supports Unit 11: Computer Networks, Unit 15: Installing and Maintaining Computer Software and Unit 16: Automated Computer Systems. </paragraph>
-    </introduction>
-
-    <learning_objectives>
-        <learning_objective>
-            <learning_objective_title>Understand the benefits and implications of installing and maintaining hardware in technology systems </learning_objective_title>
-            <distinct_objective>
-                <distinct_objective_title>Computer hardware</distinct_objective_title>
-                <distinct_objective_text>
-                    <describedlist>
-                        <list_description>Hardware to include:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>internal components of a computer, e.g. network card, memory, processor</paragraph>
-                            </item>
-                            <item>
-                                <paragraph> external hardware devices, e.g. printer, network router, barcode reader.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                </distinct_objective_text>
-            </distinct_objective>
-            <distinct_objective>
-                <distinct_objective_title>Reasons to maintain technology systems</distinct_objective_title>
-                <distinct_objective_text>
-                    <describedlist>
-
-                        <list_description>Know why we maintain technology systems, e.g.:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>to prevent faults occurring and/or to repair faults</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>to upgrade internal components, e.g. processor, memory and/or storage, to improve performance</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>to upgrade external hardware devices to improve performance</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>to change system functionality, e.g. to network the technology system or allow printing/scanning.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                    <describedlist>
-                        <list_description>Know that:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>computer faults are often connected to errors, mistakes, defects and/or failures found with some components of a technology system</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>examples of typical faults include power supply faults, loose connections, and graphics, sound or network card faults</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>faults vary depending on the hardware technology being maintained as hardware evolves over time.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                </distinct_objective_text>
-            </distinct_objective>
-            <distinct_objective>
-                <distinct_objective_title>Benefits and implications of installing and maintaining hardware</distinct_objective_title>
-                <distinct_objective_text>
-                    <describedlist>
-                        <list_description>Benefits, e.g.:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>to reduce costs</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>to improve performance, e.g. efficiency and effectiveness</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>to improve/maintain customer service</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>to improve health and safety awareness.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                    <describedlist>
-                        <list_description>Implications, e.g.:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>training</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>compatibility</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>decommissioning</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>service level agreements</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>risks, such as:</paragraph>
-                                <unorderedlist>
-                                    <item>
-                                        <paragraph>electrostatic discharge (damage to components including printed circuit boards, memory cards)</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>component damage</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>data risk, (data loss, data corruption)</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>to improve health and safety awareness.</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>other risks (e.g. service loss).</paragraph>
-                                    </item>
-                                </unorderedlist>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                    <describedlist>
-                        <list_description>How these implications could impact on an individual or organisation, e.g.:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>upgrading a hard disk drive could mean losing valuable data</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>causing an electrostatic discharge to a new processor could damage the component resulting in a financial loss.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                </distinct_objective_text>
-            </distinct_objective>
-            <assessment_guidance>
-                <assessment_guidance_text>
-                    <paragraph>Learners will develop an understanding of the computer hardware in two different technology systems, describing the benefits and implications of maintaining them. </paragraph>
-                </assessment_guidance_text>
-            </assessment_guidance>
-            <assessment_criteria>
-                <level_1_criteria>
-                    <level_1_criterion>
-                        <criterion_id>1A.1</criterion_id>
-                        <criterion>
-                            <paragraph>Identify the benefits of installing and maintaining hardware for two different technology systems</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                    </level_1_criterion>
-                </level_1_criteria>
-                <pass_criteria>
-                    <pass_criterion>
-                        <criterion_id>2A.P1</criterion_id>
-                        <criterion>
-                            <paragraph>Explain the benefits of installing and maintaining hardware for two different technology systems.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>Learners should explain the benefits of installing and maintaining hardware in two different technology systems. For example, a benefit for a computer owner of maintaining their own technology system is saving on consultancy and labour costs. </paragraph>
-                            <paragraph> For level 1, as a minimum, learners should have identified the benefits of installing and maintaining the hardware in two different technology systems. They are likely to have listed only two examples, without any description. </paragraph>
-                        </criterion_guidance>
-                    </pass_criterion>
-                </pass_criteria>
-                <merit_criteria>
-                    <merit_criterion>
-                        <criterion_id>2A.M1</criterion_id>
-                        <criterion>
-                            <paragraph>Review how installing and maintaining software in one technology system could improve productivity for an individual or organisation</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners should review how installing and maintaining the hardware in one technology system could affect an individual or organisation. For example, hardware components could be damaged during an installation or upgrade because of mishandling, resulting in a financial loss to a business.</paragraph>
-                        </criterion_guidance>
-
-                    </merit_criterion>
-                </merit_criteria>
-                <distinction_criteria>
-
-                    <distinction_criterion>
-                        <criterion_id>2A.D1</criterion_id>
-                        <criterion>
-                            <paragraph>Discuss the strengths and weaknesses of hardware for a given technology system.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners should discuss the strengths and weaknesses of hardware for a given technology system. For example, one weakness of the hardware could be that the manufacturer’s warranty could be void if anyone attempts to upgrade the technology system. Learners should discuss at least one strength and at least one weakness.</paragraph>
-                        </criterion_guidance>
-                    </distinction_criterion>
-                </distinction_criteria>
-            </assessment_criteria>
-            <suggested_assignment_outlines>
-                <distinct_suggested_assignment_outline>
-                    <criteria_covered>
-                        <criterion_id>2A.P1</criterion_id>
-                        <criterion_id>2A.M1</criterion_id>
-                        <criterion_id>2A.D1</criterion_id>
-                        <criterion_id>(1A.1)</criterion_id>
-                    </criteria_covered>
-                    <assignment_title>Investigation</assignment_title>
-                    <scenario>
-                        <paragraph>You work as a consultant for an IT company that specialises in maintaining technology systems.</paragraph>
-                        <paragraph>For this scenario, a ‘client’ manages a small company with employees who use technology systems. They have found a few technical problems.</paragraph>
-                        <paragraph>Before the ‘client’ decides whether to buy a brand new system, they would like some advice from you about repairing and maintaining the existing system.</paragraph>
-                        <describedlist>
-                            <list_description>They want to know:</list_description>
-                            <unorderedlist>
-                                <item>
-                                    <paragraph>the benefits of installing and maintaining hardware in at least two different technology systems</paragraph>
-                                </item>
-                                <item>
-                                    <paragraph>the implications for the organisation of maintaining hardware in at least one technology system.</paragraph>
-                                </item>
-                            </unorderedlist>
-                        </describedlist>
-                        <paragraph>You need to consider the strengths and weaknesses of the hardware for a given technology system.</paragraph>
-                        <paragraph>Prepare a presentation or a report for the ‘client’.</paragraph>
-                    </scenario>
-                    <assessment_evidence>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>Web page.</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>Presentation.</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>Report.</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>Interview.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </assessment_evidence>
-                </distinct_suggested_assignment_outline>
-            </suggested_assignment_outlines>
-        </learning_objective>
-
-        <learning_objective>
-            <learning_objective_title>plan installation and maintenance of hardware in a technology system</learning_objective_title>
-            <distinct_objective>
-                <distinct_objective_title>Planning for installation and maintenance</distinct_objective_title>
-                <distinct_objective_text>
-                    <describedlist>
-                        <list_description>Plan to include:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>purpose of the installation or maintenance, e.g. compatibility, increased capacity, increased speed, increased reliability, software requirements, network requirements</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>requirements of the brief (‘client’/user requirements)</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>alternative ideas for installing and maintaining hardware, i.e. there will be more than one way of improving the performance of the technology system, e.g. by increasing the memory or upgrading the processor</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>hardware required, e.g.:</paragraph>
-                                <unorderedlist>
-                                    <item>
-                                        <paragraph>internal components of a computer, such as:</paragraph>
-                                        <unorderedlist>
-                                            <item>
-                                                <paragraph>motherboard</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>central processing unit (CPU) or graphics processing unit (GPU)</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>memory</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>sound/video/network cards</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>heat dispersal systems, e.g. fans, heat sinks</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>storage devices, e.g. solid state, optical, magnetic</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>power supply unit (PSU)</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>connectors/ports</paragraph>
-                                            </item>
-                                        </unorderedlist>
-                                    </item>
-                                    <item>
-                                        <paragraph>external hardware devices, such as:</paragraph>
-                                        <unorderedlist>
-                                            <item>
-                                                <paragraph>monitor</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>printer</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>scanner</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>webcam</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>router</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>storage devices</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>broadcasting devices</paragraph>
-                                            </item>
-                                            <item>
-                                                <paragraph>lighting and/or sound devices</paragraph>
-                                            </item>
-                                        </unorderedlist>
-                                    </item>
-                                </unorderedlist>
-                            </item>
-                            <item>
-                                <paragraph>tools required, e.g.:</paragraph>
-                                <unorderedlist>
-                                    <item>
-                                        <paragraph>antistatic equipment, e.g. antistatic packaging, wrist straps, antistatic mats</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>computer toolkits, e.g. chip inserter, chip extractor, assembly tweezers, slotted screwdriver, Phillips screwdriver, Torx screwdriver</paragraph>
-                                    </item>
-                                </unorderedlist>
-                            </item>
-                            <item>
-                                <paragraph>software resources, e.g. printer driver, installation setup and configuration</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>installation and maintenance activity list, e.g. replace the motherboard battery, remove the heat sink and fan to access the processor, back up data and add a printer (external device) as part of an upgrade</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>constraints (costs and technical), e.g. component cost, hardware and software availability, tools and component/device compatibility</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>test plan and, if appropriate, test data (for functionality and performance).</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                </distinct_objective_text>
-            </distinct_objective>
-            <assessment_guidance>
-                <assessment_guidance_text>
-                    <paragraph>Learners should have an understanding of the typical faults found in most technology systems, as well as the range of hardware components that could be upgraded to improve performance. </paragraph>
-                    <paragraph>Learners will establish the requirements for installing and maintaining hardware in a technology system based on a brief. The brief should allow learners to explore different possibilities for fulfilling the requirements. It should also allow them to produce a plan, outlining their ideas for repairing and upgrading a technology system, for both the internal hardware
-                        components of the computer and external hardware devices. </paragraph>
-                    <describedlist>
-                        <list_description>The brief should ideally be written with a ‘client’ in mind and must include the following requirements (as a minimum):</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>the reason (purpose) for a change to the hardware in a technology system and/or user requirements, and the requirements of any ‘client’ for the system</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>a description of at least two different faults (arising from malfunctioning internal hardware components of a technology system)</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>an outline of at least two different performance enhancements that would require the internal hardware components of a computer to be upgraded, e.g. additional memory to stream video</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>a description of additional system functionality that would require the addition of at least one new external hardware device</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>any special requirements/instructions/configuration</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>timeframe</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>budget (costs)</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>constraints.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                    <paragraph>Centres are encouraged to use evidence for the installation and maintenance of the technology system as part of the learner’s digital portfolio (Unit 3: A Digital Portfolio). </paragraph>
-                </assessment_guidance_text>
-            </assessment_guidance>
-            <assessment_criteria>
-                <level_1_criteria>
-                    <level_1_criterion>
-                        <criterion_id>1B.2</criterion_id>
-                        <criterion>
-                            <paragraph>Identify the purpose and ‘client’ requirements for installing and maintaining hardware in a technology system.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                    </level_1_criterion>
-                    <level_1_criterion>
-                        <criterion_id>1B.3</criterion_id>
-                        <criterion>
-                            <describedlist>
-                                <list_description>Produce a plan for installing and maintaining hardware in a technology system, with guidance, including:</list_description>
-                                <unorderedlist>
-                                    <item>
-                                        <paragraph>a list of installation and maintenance activities</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>a list of hardware components and devices and software resources required for an upgrade.</paragraph>
-                                    </item>
-                                </unorderedlist>
-                            </describedlist>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                    </level_1_criterion>
-                </level_1_criteria>
-                <pass_criteria>
-                    <pass_criterion>
-                        <criterion_id>2B.P2</criterion_id>
-                        <criterion>
-                            <paragraph>Describe the purpose and ‘client’ requirements for installing and maintaining hardware in a technology system.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>in order to produce a plan for the installation and maintenance of hardware in a technology system, learners must first be able to understand and interpret the requirements from the brief. Learners should be able to provide a description of the purpose and ‘client’ requirements for installing and maintaining hardware in a technology system. </paragraph>
-                            <paragraph> If it is to be upgraded, learners will need to investigate the technology system to get an idea of its current state of repair and of its capabilities. It is expected that learners will ‘lift the lid’ of the technology system to maintain and upgrade what is inside. </paragraph>
-                            <paragraph> For level 1, as a minimum, learners will identify the ‘client’ requirements and purpose for installing and maintaining hardware in a technology system. </paragraph>
-                        </criterion_guidance>
-                    </pass_criterion>
-                    <pass_criterion>
-                        <criterion_id>2B.P3</criterion_id>
-                        <criterion>
-                            <describedlist>
-                                <list_description>Produce a plan for installing and maintaining hardware in a technology system including:</list_description>
-                                <unorderedlist>
-                                    <item>
-                                        <paragraph>a list of installation and maintenance activities</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>a description of hardware components and devices and software resources required for an upgrade</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>a description of faultfinding tools and techniques</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>a test plan.</paragraph>
-                                    </item>
-                                </unorderedlist>
-                            </describedlist>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners will plan the installation and maintenance of hardware in a technology system. </paragraph>
-                            <describedlist>
-                                <list_description>They should include:</list_description>
-                                <unorderedlist>
-                                    <item>
-                                        <paragraph>a list of installation and maintenance activities</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>a description of internal hardware components and external hardware devices</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>software resources they would need to carry out an upgrade, including the role of the software and its relationship to the technology system and user</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>a description of fault-finding tools and techniques to determine the hardware faults (observation, diagnostic tools).</paragraph>
-                                    </item>
-                                </unorderedlist>
-                            </describedlist>
-
-                            <paragraph> They should also provide a test plan to cover the installation and maintenance of hardware in a technology system, giving an outline of the range of tests that they will perform once the technology system is modified. The test plan should also clearly show how they would find system faults, e.g. use of diagnostic tools and software. </paragraph>
-                            <paragraph> For level 1, as a minimum, learners should produce, with guidance, a plan for the installation and maintenance of hardware in a technology system. An outline plan would contain a list of installation and maintenance activities to be carried out, and a list of hardware components and devices and software resources needed for the upgrade. </paragraph>
-                        </criterion_guidance>
-                    </pass_criterion>
-                </pass_criteria>
-                <merit_criteria>
-                    <merit_criterion>
-                        <criterion_id>2B.M2</criterion_id>
-                        <criterion>
-                            <paragraph>Produce a detailed plan including reasons why alternative ideas for installing and maintaining hardware have been discarded</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners should consider alternative ideas for an upgrade within their plan. For example, in a scenario to increase the performance of a technology system, the alternatives to achieve this could include increasing the memory, swapping the processor or replacing magnetic hard disk drives for new solid state disk drives.</paragraph>
-                        </criterion_guidance>
-
-                    </merit_criterion>
-                </merit_criteria>
-                <distinction_criteria>
-
-                    <distinction_criterion>
-                        <criterion_id>2B.D2</criterion_id>
-                        <criterion>
-                            <paragraph>Justify final decisions, explaining how the technology system will fulfil the stated purpose and ‘client’ requirements, describing the impact of any constraints on the plan.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners should justify decisions in their plan, explaining why they have chosen different hardware components, fault-finding tools and techniques while rejecting others, making reference to the given purpose and the ‘client’ requirements. Learners must also think about constraints, e.g. the availability of tools and hardware and whether or not this will have
-                                an impact on maintaining the hardware in a technology system. If it does, are there any alternatives for modifying the technology system to meet the same requirements? For example, if the ‘client’ requires an 80 GB hard disk drive but the only size available is 160 GB, consideration of this would be sufficient to cover the requirements.</paragraph>
-                        </criterion_guidance>
-                    </distinction_criterion>
-                </distinction_criteria>
-            </assessment_criteria>
-            <suggested_assignment_outlines>
-                <distinct_suggested_assignment_outline>
-                    <criteria_covered>
-                        <criterion_id>2B.P2</criterion_id>
-                        <criterion_id>2B.P3</criterion_id>
-                        <criterion_id>2B.M2</criterion_id>
-                        <criterion_id>2B.D2</criterion_id>
-                        <criterion_id>(1B.2)</criterion_id>
-                        <criterion_id>(1B.3)</criterion_id>
-                    </criteria_covered>
-                    <assignment_title>Planning</assignment_title>
-                    <scenario>
-                        <paragraph>The ‘client’ would like you to upgrade and maintain the hardware in one technology system.</paragraph>
-                        <paragraph>Your task is to plan the installation and maintenance of hardware to fulfil your user requirements for the ‘client’.</paragraph>
-                        <describedlist>
-                            <list_description>Produce a plan to include:</list_description>
-                            <unorderedlist>
-                                <item>
-                                    <paragraph>a list of the installation and maintenance activities</paragraph>
-                                </item>
-                                <item>
-                                    <paragraph>a description of hardware components and devices and software resources required for an upgrade</paragraph>
-                                </item>
-                                <item>
-                                    <paragraph>a description of fault-finding tools and techniques</paragraph>
-                                </item>
-                                <item>
-                                    <paragraph>a test plan</paragraph>
-                                </item>
-                            </unorderedlist>
-                        </describedlist>
-                        <paragraph>You must also consider alternative ideas, e.g. alternative hardware solutions that will fulfil the same purpose.</paragraph>
-                        <paragraph>It is important that you explain how the plan meets the purpose and ‘client’ requirements and what effect it will have on users.</paragraph>
-                    </scenario>
-                    <assessment_evidence>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>Web page.</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>Report.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </assessment_evidence>
-                </distinct_suggested_assignment_outline>
-            </suggested_assignment_outlines>
-        </learning_objective>
-
-        <learning_objective>
-            <learning_objective_title>install, maintain and test hardware in a technology system</learning_objective_title>
-            <distinct_objective>
-                <distinct_objective_title>Install and maintain hardware</distinct_objective_title>
-                <distinct_objective_text>
-                    <describedlist>
-                        <list_description>Preparation, e.g.:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>read manufacturer’s hardware instructions</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>test selection</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>test configuration</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>health and safety considerations, including antistatic equipment, precautions</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>obtain resources (tools, hardware components and devices, access rights, software resources)</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>check equipment</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>other tasks (backing up data, recording serial numbers).</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                </distinct_objective_text>
-            </distinct_objective>
-            <distinct_objective>
-                <distinct_objective_title>Fault finding</distinct_objective_title>
-                <distinct_objective_text>
-                    <describedlist>
-                        <list_description>Tools and techniques, e.g.:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>utility</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>run-time analysers</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>test procedures, e.g. follow a test plan</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>validating information</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>responding to test plan (error messages, inconsistent data)</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>loose connections</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>jumper settings</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>power support</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>power-on self-test (POST)</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>diagnostic software.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                </distinct_objective_text>
-            </distinct_objective>
-            <distinct_objective>
-                <distinct_objective_title>Installation and maintenance activities</distinct_objective_title>
-                <distinct_objective_text>
-                    <describedlist>
-                        <list_description>Activities including, e.g.:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>fit new components and reconnect components and devices</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>reassemble the computer system</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>download software resources (hardware drivers)</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>clean</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>carry out safety checks</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>system test</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>dispose of packaging</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>other tasks (i.e. restore data).</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                    <paragraph> Feedback from ‘client’, e.g. functionality and performance. Potential improvements to the technology system (e.g. performance, capacity, accessibility, reliability, security, user requirements). </paragraph>
-                    <describedlist>
-                        <list_description>Health and safety issues throughout the installation and maintenance of a computer system, e.g.:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>hardware</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>electrical connection risks and guidelines</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>handling equipment</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                </distinct_objective_text>
-            </distinct_objective>
-            <assessment_guidance>
-                <assessment_guidance_text>
-                    <paragraph>Learners will install and maintain hardware in a technology system. They should apply their practical skills and knowledge to do this. </paragraph>
-                </assessment_guidance_text>
-            </assessment_guidance>
-            <assessment_criteria>
-                <level_1_criteria>
-                    <level_1_criterion>
-                        <criterion_id>1C.4</criterion_id>
-                        <criterion>
-                            <describedlist>
-                                <list_description>Install and maintain hardware in a technology system, with guidance, that includes the:</list_description>
-
-                                <unorderedlist>
-                                    <item>
-                                        <paragraph>repair of at least one different internal hardware component faults</paragraph>
-                                    </item>
-
-                                    <item>
-                                        <paragraph>upgrade of at least one internal hardware component.</paragraph>
-                                    </item>
-                                </unorderedlist>
-                            </describedlist>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                    </level_1_criterion>
-                    <level_1_criterion>
-                        <criterion_id>1C.5</criterion_id>
-                        <criterion>
-                            <paragraph>Test the modified technology system for functionality and repair any faults, with guidance.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                    </level_1_criterion>
-                </level_1_criteria>
-                <pass_criteria>
-                    <pass_criterion>
-                        <criterion_id>2C.P4</criterion_id>
-                        <criterion>
-                            <describedlist>
-
-                                <list_description>Install and maintain hardware in a technology system that includes the:</list_description>
-
-                                <unorderedlist>
-                                    <item>
-                                        <paragraph>repair of at least two different internal hardware component faults</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>upgrade of at least two different internal hardware components</paragraph>
-                                    </item>
-                                    <item>
-                                        <paragraph>installation of at least one additional external hardware device.</paragraph>
-                                    </item>
-                                </unorderedlist>
-                            </describedlist>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-
-                        <criterion_guidance>
-                            <paragraph>learners should use appropriate resources and fault-finding tools and techniques (as identified in their plan) to install and maintain the hardware in a technology system. </paragraph>
-                            <paragraph> As a minimum, learners should have used appropriate fault-finding tools and techniques to identify and repair at least two different internal hardware faults in a technology system. They should also install and configure (upgrade) at least two internal hardware components and add at least one additional external hardware device. </paragraph>
-                            <paragraph> For level 1, as a minimum, learners should repair at least one internal hardware faults and upgrade at least one internal hardware component, with guidance. </paragraph>
-                        </criterion_guidance>
-
-                    </pass_criterion>
-                    <pass_criterion>
-                        <criterion_id>2C.P5</criterion_id>
-                        <criterion>
-
-                            <paragraph>Test the modified technology system for functionality against the purpose and repair any faults as necessary.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners will be expected to follow their test plans (as identified in their plan) and test for functionality and purpose against the original requirements of the modification. </paragraph>
-
-                            <paragraph> Learners are likely to experience technical difficulties as they install and maintain the hardware in a technology system. Where this happens, learners are expected to troubleshoot and resolve the difficulties, finding and repairing any internal computer hardware faults. It is important that learners make appropriate comments in their plans and test plans
-                                about any issues they discover and how they resolved them. Where appropriate to do so, it is acceptable to photograph problems and solutions or use witness statements and observation records as evidence of this process. </paragraph>
-                            <paragraph> Learners must adhere to all health and safety guidelines when undertaking practical activities with electronic equipment. </paragraph>
-                            <paragraph> For level 1, as a minimum, learners should test their system and repair any faults, with guidance. </paragraph>
-                        </criterion_guidance>
-                    </pass_criterion>
-                </pass_criteria>
-                <merit_criteria>
-                    <merit_criterion>
-                        <criterion_id>2C.M3</criterion_id>
-                        <criterion>
-                            <paragraph>Install and maintain hardware in a technology system, using appropriate tools and techniques to protect the data and system settings, demonstrating awareness of the user requirements and taking account of usability.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners should demonstrate good practice to protect data and system settings when maintaining hardware in a technology system. Learners should use appropriate tools and techniques to safely back up data prior to making any modifications to the technology system. They should also safely restore the data and system settings to the technology system after the
-                                modifications are complete. The modified technology system must demonstrate the learner’s awareness of purpose, meet the user requirements and improve the usability of the system.</paragraph>
-                        </criterion_guidance>
-
-                    </merit_criterion>
-                    <merit_criterion>
-                        <criterion_id>2C.M4</criterion_id>
-                        <criterion>
-                            <paragraph>Test the modified technology system and gather feedback, and use it to improve the technology system for user experience.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners will be required to test the functionality of the technology system while ensuring that data is safely backed up and that system settings can be restored. Learners will also complete user-experience testing with the help of at least one person who can act as the ‘client’. The ‘client’ should be commenting on the usability and the user-experience of
-                                the modified technology system. Learners should record this feedback as part of the testing process.</paragraph>
-                        </criterion_guidance>
-
-                    </merit_criterion>
-                </merit_criteria>
-                <distinction_criteria>
-
-                    <distinction_criterion>
-                        <criterion_id>2C.D3</criterion_id>
-                        <criterion>
-                            <paragraph>Refine the modified technology system in order to improve performance, taking account of feedback.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>teachers should recognise that the process of installing, maintaining and testing hardware in technology systems is an iterative one.</paragraph>
-                            <paragraph>Learners should refine the modified technology system in order to improve its performance. Learners are also expected to make further refinements based on their test results and feedback. These refinements will probably involve customising the hardware components to suit the ‘client’. Other refinements could include accessing the advanced settings of the
-                                hardware components to see if they can be customised to make full use of their features and capabilities in a way that satisfies the ‘client’ or user, for example, by using software drivers to optimise a graphics card that takes full advantage of memory and processing power. This can be achieved by either reallocating physical memory resources or utilising USB flash
-                                drives to extend and support the memory, for example, ReadyBoost. Cleaning the internal hardware components, such as the power supply unit or heat sink, will also improve the performance of a technology system and prevent any overheating caused by particle build-up.</paragraph>
-                            <paragraph>If it is not possible for learners to apply their refinements (for example, because of software or hardware constraints), learners should explain what they would do if they had the opportunity, focusing on performance. For example, the scarcity of highperformance graphics cards could prevent learners from refining the modified technology system. However, they
-                                could discuss how these graphics cards would improve performance with an explanation of how they would be configured.</paragraph>
-                            <paragraph>All of the ideas from testing, reviewing and receiving feedback on the modified technology system should be considered as learners go through the refinement process.</paragraph>
-                        </criterion_guidance>
-                    </distinction_criterion>
-                </distinction_criteria>
-            </assessment_criteria>
-            <suggested_assignment_outlines>
-                <distinct_suggested_assignment_outline>
-                    <criteria_covered>
-                        <criterion_id>2C.P4</criterion_id>
-                        <criterion_id>2C.P5</criterion_id>
-                        <criterion_id>2C.M3</criterion_id>
-                        <criterion_id>2C.M4</criterion_id>
-                        <criterion_id>2C.D3</criterion_id>
-                        <criterion_id>(1C.4)</criterion_id>
-                        <criterion_id>(1C.5)</criterion_id>
-                    </criteria_covered>
-                    <assignment_title>Repair and Upgrade</assignment_title>
-                    <scenario>
-                        <describedlist>
-                            <list_description>You should now have everything you need to start maintaining the technology system. You must demonstrate that you can follow your plan to:</list_description>
-
-                            <unorderedlist>
-                                <item>
-                                    <paragraph>safely back up all data and system settings in preparation for a system restore</paragraph>
-                                </item>
-                                <item>
-                                    <paragraph>fault-find and repair at least two different hardware faults within the technology system</paragraph>
-                                </item>
-                                <item>
-                                    <paragraph>install and configure at least two different internal hardware components in a technology as part of an upgrade</paragraph>
-                                </item>
-                                <item>
-                                    <paragraph>install and configure at least one external hardware device as part of an upgrade</paragraph>
-                                </item>
-                                <item>
-                                    <paragraph>restore all data and system settings.</paragraph>
-                                </item>
-                            </unorderedlist>
-                        </describedlist>
-                        <paragraph>Test the modified technology system for functionality and performance and record the results.</paragraph>
-                        <paragraph>Meet with your ‘client’ to discuss your progress and to gather some feedback about your modified technology system.</paragraph>
-                        <paragraph>Make any necessary improvements to the modified technology system to improve the overall performance, taking on board feedback from your ‘client’ and test results.</paragraph>
-                    </scenario>
-                    <assessment_evidence>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>Witness statements.</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>Observation records.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </assessment_evidence>
-                </distinct_suggested_assignment_outline>
-            </suggested_assignment_outlines>
-        </learning_objective>
-
-
-        <learning_objective>
-            <learning_objective_title>review the modified technology system.</learning_objective_title>
-            <distinct_objective>
-                <distinct_objective_title>review the modified technology system.</distinct_objective_title>
-                <distinct_objective_text>
-                    <describedlist>
-                        <list_description>Review the modified technology system against:</list_description>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>the original brief (‘client’/user requirements)</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>purpose</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>choice of hardware components</paragraph>
-                            </item>
-                            <item>
-                                <paragraph>constraints, e.g. budget and compatibility of hardware components.</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </describedlist>
-                </distinct_objective_text>
-            </distinct_objective>
-
-            <assessment_criteria>
-                <level_1_criteria>
-                    <level_1_criterion>
-                        <criterion_id>1D.6</criterion_id>
-                        <criterion>
-                            <paragraph> For the modified technology system, identify how it is suitable for the intended purpose and original requirements.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                    </level_1_criterion>
-                </level_1_criteria>
-                <pass_criteria>
-                    <pass_criterion>
-                        <criterion_id>2D.P6</criterion_id>
-                        <criterion>
-                            <paragraph>Explain how the modified technology system is suitable for the intended purpose and original requirements.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners should explain why their modified technology system is suitable for the intended purpose and the original requirements. </paragraph>
-                            <paragraph> For level 1, as a minimum, learners should identify how their modified technology system is suitable for the purpose and the original requirements. </paragraph>
-                        </criterion_guidance>
-                    </pass_criterion>
-                </pass_criteria>
-                <merit_criteria>
-                    <merit_criterion>
-                        <criterion_id>2D.M5</criterion_id>
-                        <criterion>
-                            <paragraph>Review the extent to which the modified technology system meets the original requirements, considering feedback from others and any constraints.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners should build on the explanations for the Pass criteria, and review how well the ‘client’ requirements and purpose have been met, and should include details of how any constraints have affected the modified system. They should also seek feedback from the ‘client’ about the modified technology system. An interview would be an ideal way of discussing
-                                the modified technology system and recording the feedback.</paragraph>
-                            <paragraph>Learners should consider any constraints that they have had to deal with when modifying the system.</paragraph>
-                        </criterion_guidance>
-
-                    </merit_criterion>
-                </merit_criteria>
-                <distinction_criteria>
-                    <distinction_criterion>
-                        <criterion_id>2D.D4</criterion_id>
-                        <criterion>
-                            <paragraph>Evaluate the initial plan against the modified technology system and justify any changes that were made, making recommendations for further improvements.</paragraph>
-                        </criterion>
-                        <GSCE_english>No</GSCE_english>
-                        <GSCE_math>Yes</GSCE_math>
-                        <criterion_guidance>
-                            <paragraph>learners should evaluate their initial plans against the modified technology system. They should justify any changes that were made and explain the rationale for those changes. They should also give recommendations for at least three improvements but do not need to implement any enhancements.</paragraph>
-                        </criterion_guidance>
-                    </distinction_criterion>
-                </distinction_criteria>
-            </assessment_criteria>
-            <suggested_assignment_outlines>
-                <distinct_suggested_assignment_outline>
-                    <criteria_covered>
-                        <criterion_id>2D.P6</criterion_id>
-                        <criterion_id>2D.M5</criterion_id>
-                        <criterion_id>2D.D4</criterion_id>
-                        <criterion_id>(1D.6)</criterion_id>
-                    </criteria_covered>
-                    <assignment_title>Review</assignment_title>
-                    <scenario>
-                        <paragraph> Evaluate the modified technology system, explaining why and how it meets the brief, suggesting improvements and considering any constraints. </paragraph>
-                    </scenario>
-                    <assessment_evidence>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>Report</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </assessment_evidence>
-                </distinct_suggested_assignment_outline>
-                <distinct_suggested_assignment_outline>
-                    <criteria_covered>
-                        <criterion_id>2D.P6</criterion_id>
-                        <criterion_id>2D.M5</criterion_id>
-                        <criterion_id>2D.D4</criterion_id>
-                        <criterion_id>(1D.6)</criterion_id>
-                    </criteria_covered>
-                    <assignment_title>Review</assignment_title>
-                    <scenario>
-                        <paragraph> Evaluate the modified technology system, explaining why and how it meets the brief, suggesting improvements and considering any constraints. </paragraph>
-                    </scenario>
-                    <assessment_evidence>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>Report</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </assessment_evidence>
-                </distinct_suggested_assignment_outline>
-                <distinct_suggested_assignment_outline>
-                    <criteria_covered>
-                        <criterion_id>2D.P6</criterion_id>
-                        <criterion_id>2D.M5</criterion_id>
-                        <criterion_id>2D.D4</criterion_id>
-                        <criterion_id>(1D.6)</criterion_id>
-                    </criteria_covered>
-                    <assignment_title>Review</assignment_title>
-                    <scenario>
-                        <paragraph> Evaluate the modified technology system, explaining why and how it meets the brief, suggesting improvements and considering any constraints. </paragraph>
-                    </scenario>
-                    <assessment_evidence>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>Report</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </assessment_evidence>
-                </distinct_suggested_assignment_outline>
-                <distinct_suggested_assignment_outline>
-                    <criteria_covered>
-                        <criterion_id>2D.P6</criterion_id>
-                        <criterion_id>2D.M5</criterion_id>
-                        <criterion_id>2D.D4</criterion_id>
-                        <criterion_id>(1D.6)</criterion_id>
-                    </criteria_covered>
-                    <assignment_title>Review</assignment_title>
-                    <scenario>
-                        <paragraph> Evaluate the modified technology system, explaining why and how it meets the brief, suggesting improvements and considering any constraints. </paragraph>
-                    </scenario>
-                    <assessment_evidence>
-                        <unorderedlist>
-                            <item>
-                                <paragraph>Report</paragraph>
-                            </item>
-                        </unorderedlist>
-                    </assessment_evidence>
-                </distinct_suggested_assignment_outline>
-            </suggested_assignment_outlines>
-        </learning_objective>
-
-
-
-
-
-
-
-    </learning_objectives>
-    <teacher_guidance>
-        <distinct_teacher_guidance>
-            <subtitle>Resources</subtitle>
-            <teacher_guidance_text>
-                <describedlist>
-                    <list_description>As a minimum, each learner will need to access a technology system that can be dismantled, repaired and upgraded to meet a brief. Learners will need: </list_description>
-                    <unorderedlist>
-                        <item>
-                            <paragraph>access to internal hardware components in a computer, e.g. a memory card, processor, hard disk drive, optical storage device, graphics card</paragraph>
-                        </item>
-                        <item>
-                            <paragraph>at least one additional external hardware device, e.g. a printer, scanner, webcam.</paragraph>
-                        </item>
-                    </unorderedlist>
-                </describedlist>
-                <paragraph>It is important that the hardware components and devices have the accompanying manuals and any software installation disks (or at least links to download these from the manufacturer’s website). </paragraph>
-                <paragraph>The practical activities should take place in a workshop with appropriate tools and take account of health and safety requirements. </paragraph>
-                <paragraph>Learners need access to a brief. The brief can either be created by the centre or be generated by the learner and approved by the centre. </paragraph>
-            </teacher_guidance_text>
-        </distinct_teacher_guidance>
-        <global_assessment_guidance>
-            <assessment_guidance_text>
-                <paragraph>This unit is assessed internally by the centre and externally verified by Edexcel. Please read this guidance in conjunction with Section 8 Internal assessment. </paragraph>
-            </assessment_guidance_text>
-        </global_assessment_guidance>
-    </teacher_guidance>
+  <meta>
+    <number>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T095617+0000'?>1<?xm-insertion_mark_end ?></number>
+    <unit_title>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T095727+0000'?>The Online World<?xm-insertion_mark_end ?></unit_title>
+    <level>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T095737+0000'?>1 and 2<?xm-insertion_mark_end ?></level>
+    <type>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T095753+0000'?>Core/Mandatory<?xm-insertion_mark_end ?></type>
+    <guided_learning_hours>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T095820+0000'?>30<?xm-insertion_mark_end ?></guided_learning_hours>
+    <assessment_type>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T095834+0000'?>External<?xm-insertion_mark_end ?></assessment_type>
+  </meta>
+  <introduction>
+    <paragraph>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T100834+0000'?>How do websites work? How do emails reach your computer? How does the use of computer applications affect your daily life? This unit provides an introduction to the modern online world. Starting with your own experiences, you will extend your knowledge of online services and investigate the technology and software that supports them. You will learn more about a range of services including email, online data storage, collaborative software, search engines and blogging.<?xm-insertion_mark_end ?></paragraph>
+    <paragraph>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T100834+0000'?>This unit will help you understand the main technologies and processes behind the internet and investigate how they come together to let you view websites and send information across the world. The internet and web of tomorrow will be even more powerful, more connected, more intuitive and a more important part of our lives. This will result in an internet of services, objects and infrastructure (ubiquitous computing) which will radically change our lives. For example, smart appliances will be able to talk to each other, clothes will monitor our health and retailers will access social media to gain insight into shoppers' preferences.<?xm-insertion_mark_end ?></paragraph>
+    <paragraph>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T101610+0000'?>You will explore a range of digital devices, such as smart phones and digital music players and consider the technology that enables these devices to share and exchange information.<?xm-insertion_mark_end ?></paragraph>
+    <paragraph>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085519+0000'?>This technology has created new concerns regarding security and privacy. You will investigate these concerns and consider how users should behave online to safeguard themselves and respect others.<?xm-insertion_mark_end ?></paragraph>
+    <paragraph>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085533+0000'?>This unit is essential if you are considering a career in the IT sector. Online systems and technology have become part of everyday work, so being able to understand and work with this technology is relevant in many roles in the industry.<?xm-insertion_mark_end ?></paragraph>
+    <paragraph>
+      <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>This unit supports all of the optional specialist units in the Award, especially: <?xm-insertion_mark_end ?><emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>Unit 4: Creating Digital Animation<?xm-insertion_mark_end ?></emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>, <?xm-insertion_mark_end ?><emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>Unit 5: Creating Digital Audio<?xm-insertion_mark_end ?></emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>, <?xm-insertion_mark_end ?><emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>Unit 6: Creating Digital Graphics<?xm-insertion_mark_end ?></emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>, and <?xm-insertion_mark_end ?><emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>Unit 7: Creating Digital Video<?xm-insertion_mark_end ?></emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>. It also supports <?xm-insertion_mark_end ?><emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>Unit 8: Mobile Apps Development<?xm-insertion_mark_end ?></emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>, <?xm-insertion_mark_end ?><emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>Unit 9: Spreadsheet Development<?xm-insertion_mark_end ?></emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>, <?xm-insertion_mark_end ?><emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>Unit 10: Database Development<?xm-insertion_mark_end ?></emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>, <?xm-insertion_mark_end ?><emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>Unit 11: Computer Networks<?xm-insertion_mark_end ?></emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?> and <?xm-insertion_mark_end ?><emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>Unit 13: Website Development<?xm-insertion_mark_end ?></emphasis><?xm-insertion_mark_start author='Andreas Vergara' time='20130902T102743+0000'?>, as these technologies form an important part of our online world.<?xm-insertion_mark_end ?></paragraph>
+  </introduction>
+  <learning_objectives>
+    <learning_objective>
+      <learning_objective_title>
+        <?xm-insertion_mark_start author='Andreas Vergara' time='20130902T103757+0000'?>A investigate online services and online communication<?xm-insertion_mark_end ?></learning_objective_title>
+      <distinct_objective>
+        <distinct_objective_title>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085824+0000'?>Online services<?xm-insertion_mark_end ?></distinct_objective_title>
+        <distinct_objective_text>
+          <paragraph>
+            <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085833+0000'?>Understand how and why online services can be used.<?xm-insertion_mark_end ?></paragraph>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085842+0000'?>Examples of online services, include:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085850+0000'?>communication (email, instant messaging, newsgroups, social networking, online conferencing, blogs) <?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085850+0000'?> real-time information (train timetables, news services, traffic reports, flight status updates, weather)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085850+0000'?>commerce (internet banking, online auction websites, retail sales, publishing)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085850+0000'?>government (online tax returns, e-voting, applications for services/grants, revenue collection)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085850+0000'?>education (online learning/training)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085850+0000'?> virtual learning environments (VLEs)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085850+0000'?>business (video conferencing, collaborative working, business networks)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085850+0000'?> entertainment (multi-user games, radio players)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T085850+0000'?> download services (music, film, upgrades, software).<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090050+0000'?>Understand:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090104+0000'?>the features of online advertising designed to capture attention and retain interest<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090104+0000'?>the affiliate model of pay-per-click direction of traffic to websites<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090104+0000'?> the services provided for online data storage including data backup, file access and file sharing.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </distinct_objective_text>
+      </distinct_objective>
+      <distinct_objective>
+        <distinct_objective_title>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090152+0000'?>Online documents<?xm-insertion_mark_end ?></distinct_objective_title>
+        <distinct_objective_text>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090159+0000'?>Understand online document systems, including:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090212+0000'?>the need to compress (.zip) files for download/upload <?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090212+0000'?> how files are compressed and expanded<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090212+0000'?> the advantages of using online software to create documents, including collaborative working, sharing documents and automatic backup<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090212+0000'?>comparing the use of online software with standalone software for the creation of documents<?xm-insertion_mark_end ?><strong></strong></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090212+0000'?> the need for version control, levels of access and file permissions, including read only, read/write and full control when sharing documents online.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </distinct_objective_text>
+      </distinct_objective>
+      <distinct_objective>
+        <distinct_objective_title>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090437+0000'?>Online communication<?xm-insertion_mark_end ?></distinct_objective_title>
+        <distinct_objective_text>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090445+0000'?>Understand how and why online communication can be used, including:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090500+0000'?>contemporary social media to publish and access information, including web logs (blogs), wikis and podcasting<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090500+0000'?> virtual learning environments (VLE) in education<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090500+0000'?> social networking websites to share information and build online communities.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090527+0000'?>Recognise and use appropriate key terms in online communication:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090534+0000'?>netiquette <?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090534+0000'?>profile <?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090534+0000'?>network of friends<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090534+0000'?>online community<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090534+0000'?> virtual world<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090534+0000'?>chat<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090534+0000'?>chatroom.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090617+0000'?>Understand the implications of online communication:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090713+0000'?>the advantages of using social networking websites for communication<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090713+0000'?>the use of instant messaging<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090713+0000'?>the client and server roles required to support instant messaging<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090713+0000'?> real-time communication over the internet using speech and live video, including Voice over Internet Protocol (VoIP) and web meeting/conferencing software.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090809+0000'?>Understand and compare the issues involvedwhen commuinicating and working online, including:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090852+0000'?>the concept and implications of 'cloud computing' , including cloud storage<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090852+0000'?> the concept, application of and implications of 'ubiquitous computing'.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+          <paragraph>
+            <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T090928+0000'?>Understand how ubiquitous computing systems/environments are the internet of objects. For example, when information processing has been thoroughly integrated into everyday objects and activities, such as a fridge that monitors supplies, stock control and location in a warehouse, office buildings that record where people are in the building, a plant watering system or a pet collar. Everyday objects in ubiquitous computing systems/environments usually contain RFID chips (radio frequency identification systems).<?xm-insertion_mark_end ?></paragraph>
+        </distinct_objective_text>
+      </distinct_objective>
+      <assessment_guidance>
+        <assessment_guidance_text>
+          <paragraph>
+            <?xm-insertion_mark_start author='Dawud Rahman' time='20130926T065622+0000'?>The<?xm-insertion_mark_end ?></paragraph>
+          <describedlist>
+            <list_description>
+            </list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                </paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </assessment_guidance_text>
+      </assessment_guidance>
+      <assessment_criteria>
+        <level_1_criteria>
+          <level_1_criterion>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Dawud Rahman' time='20130926T065753+0000'?>1A.2<?xm-insertion_mark_end ?></criterion_id>
+            <criterion>
+              <paragraph>
+                <?xm-insertion_mark_start author='Dawud Rahman' time='20130926T065553+0000'?>OneA Two A<?xm-insertion_mark_end ?></paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+              <?xm-insertion_mark_start author='Dawud Rahman' time='20130926T065708+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_english>
+            <GSCE_math>
+              <?xm-insertion_mark_start author='Dawud Rahman' time='20130926T065711+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </level_1_criterion>
+        </level_1_criteria>
+        <pass_criteria>
+          <pass_criterion>
+            <criterion_id>
+            </criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+            </GSCE_english>
+            <GSCE_math>
+            </GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </pass_criterion>
+        </pass_criteria>
+        <merit_criteria>
+          <merit_criterion>
+            <criterion_id>
+            </criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+            </GSCE_english>
+            <GSCE_math>
+            </GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </merit_criterion>
+        </merit_criteria>
+        <distinction_criteria>
+          <distinction_criterion>
+            <criterion_id>
+            </criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+            </GSCE_english>
+            <GSCE_math>
+            </GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </distinction_criterion>
+        </distinction_criteria>
+      </assessment_criteria>
+      <suggested_assignment_outlines>
+        <distinct_suggested_assignment_outline>
+          <criteria_covered>
+            <criterion_id>
+            </criterion_id>
+          </criteria_covered>
+          <assignment_title>
+          </assignment_title>
+          <scenario>
+            <paragraph>
+            </paragraph>
+          </scenario>
+          <assessment_evidence>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                </paragraph>
+              </item>
+            </unorderedlist>
+          </assessment_evidence>
+        </distinct_suggested_assignment_outline>
+      </suggested_assignment_outlines>
+    </learning_objective>
+    <learning_objective>
+      <learning_objective_title>
+        <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091625+0000'?>B investigate components of the internet and how digital devices exchange and store information<?xm-insertion_mark_end ?></learning_objective_title>
+      <distinct_objective>
+        <distinct_objective_title>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091927+0000'?>The internet<?xm-insertion_mark_end ?></distinct_objective_title>
+        <distinct_objective_text>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091935+0000'?>Understand what the internet is, how it works, and how it is structured, including:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091947+0000'?> the internet as a global network of interconnected computers<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091947+0000'?> roles of Points of Presence (PoP) and Network Access Points (NAP) in the infrastructure of the internet.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091947+0000'?> internet infrastructure in terms of clients, servers, routers, networks and connecting backbones<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091947+0000'?> when it is appropriate to use different internet connection methods including broadband, wireless and dial-up, and advantages and disadvantages of alternative connection methods<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091947+0000'?> Internet Protocols (IP), including Transmission Control Protocol (TCP) and File Transfer Protocol (FTP)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091947+0000'?> the role of an Internet Service Provider (ISP)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091947+0000'?> the main services offered by Internet Service Providers (ISPs) including email, web space, internet access and online support<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091947+0000'?> the relationship between bandwidth and transmission rates.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </distinct_objective_text>
+      </distinct_objective>
+      <distinct_objective>
+        <distinct_objective_title>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092059+0000'?>Worldwide web<?xm-insertion_mark_end ?></distinct_objective_title>
+        <distinct_objective_text>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092106+0000'?>Understand the concepts, functions and impact of the worldwide web (WWW), including:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092123+0000'?> the worldwide web (WWW) as the collection of information on computers connected to the internet<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092123+0000'?> the role of a web server<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092123+0000'?> the structure of a website in terms of hyperlinked web pages.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092123+0000'?> the components of a Uniform Resource Locator (URL) and the roles of each component<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092123+0000'?> the function of HyperText Transfer Protocol (HTTP) <?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092123+0000'?>that HyperText Markup Language (HTML) is used to create web pages<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092123+0000'?> the main features of HyperText Markup Language (HTML) source code<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092123+0000'?> the role of internet browsers in requesting and displaying web page components<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092123+0000'?> the purpose of search engines and their role in maintaining indexes of web pages.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </distinct_objective_text>
+      </distinct_objective>
+      <distinct_objective>
+        <distinct_objective_title>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092157+0000'?>Email<?xm-insertion_mark_end ?></distinct_objective_title>
+        <distinct_objective_text>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092209+0000'?>Understand the purpose, concepts, processes and implications of email, including:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092222+0000'?> email as a system for sending messages through the internet from user to user<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092222+0000'?> what happens to send an email<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092222+0000'?> the advantages of using email, including the ability to send attachments and to send the same email to more than one recipient<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092222+0000'?> email protocols including Simple Mail Transfer Protocol (SMTP), Post Office Protocol 3 (POP3), Internet Message Access Protocol (IMAP)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092222+0000'?> the advantages and drawbacks of using email and webmail<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092222+0000'?> the ‘store and forward’ email model and describe its role in sending messages from user to user through the internet.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </distinct_objective_text>
+      </distinct_objective>
+      <distinct_objective>
+        <distinct_objective_title>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092300+0000'?>Data exchange<?xm-insertion_mark_end ?></distinct_objective_title>
+        <distinct_objective_text>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092307+0000'?>Understand the concepts, processes and implications of data exchange and compare different methods, including:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092330+0000'?> data exchange as the passing of data between computers in a network including the internet<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092330+0000'?> transmission modes (simplex, half-duplex and duplex) used by digital devices including smart phones, printers, computer processors, remote controllers (e.g. for TVs)<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092330+0000'?> the hardware and software required for real-time communication including Voice over Internet Protocol (VoIP) and web meeting/conferencing<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092330+0000'?> the role of a Coder/Decoder (CODEC) in the transmission of a VoIP, audio-file and video-file conversation<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092330+0000'?> main characteristics of alternative transmission methods, including:<?xm-insertion_mark_end ?></paragraph>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                      <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092423+0000'?>fibre optic<?xm-insertion_mark_end ?></paragraph>
+                  </item>
+                  <item>
+                    <paragraph>
+                      <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092423+0000'?>wireless (infrared, microwave, satellite)<?xm-insertion_mark_end ?></paragraph>
+                  </item>
+                  <item>
+                    <paragraph>
+                      <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092423+0000'?> wire connectors<?xm-insertion_mark_end ?></paragraph>
+                  </item>
+                </unorderedlist>
+              </item>
+            </unorderedlist>
+          </describedlist>
+          <describedlist>
+            <list_description>
+              <?xm-comment_start comment_1378200429931?>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092618+0000'?>XXX<?xm-insertion_mark_end ?><?xm-comment_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092518+0000'?> parallel and serial transmission of data, and bi-directional transmission<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092534+0000'?> the benefits of packet switching as a method of sending data over a wide area network<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092534+0000'?> the contents of a packet as a group of bits that include packet identification, error control bits, coded data, destination address<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T092534+0000'?> comparison of data transfer rates, effective ranges, and identify appropriate uses of different transmission methods, including:<?xm-insertion_mark_end ?></paragraph>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                      <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093215+0000'?>fibre optic<?xm-insertion_mark_end ?></paragraph>
+                  </item>
+                  <item>
+                    <paragraph>
+                      <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093215+0000'?>wireless (infrared, microwave, satellite)<?xm-insertion_mark_end ?></paragraph>
+                  </item>
+                  <item>
+                    <paragraph>
+                      <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093215+0000'?> wire connectors.<?xm-insertion_mark_end ?></paragraph>
+                  </item>
+                </unorderedlist>
+              </item>
+            </unorderedlist>
+          </describedlist>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093237+0000'?>Understand the concepts, structures and implications of wireless networks, including:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093243+0000'?> the components of a wireless network including router, access points and wireless network adaptors<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093243+0000'?> client-side processing including the use of rollover images on a web page<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093243+0000'?>server-side processing including submitting a completed form on a web page<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093243+0000'?> the difference between client-side processing and server-side processing and examples of client-side and server-side processes.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </distinct_objective_text>
+      </distinct_objective>
+      <distinct_objective>
+        <distinct_objective_title>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093307+0000'?>Data storage<?xm-insertion_mark_end ?></distinct_objective_title>
+        <distinct_objective_text>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093313+0000'?>Understand the concepts, processes and implications of data storage, including:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093324+0000'?>a database structure in terms of tables, records, fields, data types and relationships<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093324+0000'?>an online database such as a database that can be accessed via a network, including the internet<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093324+0000'?> the roles of a Database Management System (DBMS) and structured query languages in the manipulation of data stored in an online database.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </distinct_objective_text>
+      </distinct_objective>
+      <assessment_guidance>
+        <assessment_guidance_text>
+          <paragraph>
+          </paragraph>
+          <describedlist>
+            <list_description>
+            </list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                </paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </assessment_guidance_text>
+      </assessment_guidance>
+      <assessment_criteria>
+        <level_1_criteria>
+          <level_1_criterion>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T094626+0000'?>1A.1<?xm-insertion_mark_end ?></criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091445+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_english>
+            <GSCE_math>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091445+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </level_1_criterion>
+        </level_1_criteria>
+        <pass_criteria>
+          <pass_criterion>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091748+0000'?>1A.1<?xm-insertion_mark_end ?></criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091445+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_english>
+            <GSCE_math>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091445+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </pass_criterion>
+        </pass_criteria>
+        <merit_criteria>
+          <merit_criterion>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091759+0000'?>1A.1<?xm-insertion_mark_end ?></criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091445+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_english>
+            <GSCE_math>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091445+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </merit_criterion>
+        </merit_criteria>
+        <distinction_criteria>
+          <distinction_criterion>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091744+0000'?>1A.1<?xm-insertion_mark_end ?></criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091445+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_english>
+            <GSCE_math>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091445+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </distinction_criterion>
+        </distinction_criteria>
+      </assessment_criteria>
+      <suggested_assignment_outlines>
+        <distinct_suggested_assignment_outline>
+          <criteria_covered>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091836+0000'?>1<?xm-insertion_mark_end ?></criterion_id>
+          </criteria_covered>
+          <assignment_title>
+          </assignment_title>
+          <scenario>
+            <paragraph>
+            </paragraph>
+          </scenario>
+          <assessment_evidence>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                </paragraph>
+              </item>
+            </unorderedlist>
+          </assessment_evidence>
+        </distinct_suggested_assignment_outline>
+      </suggested_assignment_outlines>
+    </learning_objective>
+    <learning_objective>
+      <learning_objective_title>
+        <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093720+0000'?>C investigate issues with operating online.<?xm-insertion_mark_end ?></learning_objective_title>
+      <distinct_objective>
+        <distinct_objective_title>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093734+0000'?>Possible threats to data <?xm-insertion_mark_end ?></distinct_objective_title>
+        <distinct_objective_text>
+          <describedlist>
+            <list_description>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093741+0000'?>Understand the concepts, applications, process and implications regarding protecting data online, including:<?xm-insertion_mark_end ?></list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093757+0000'?> malicious and accidental damage to data and situations where either could occur <?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093757+0000'?> security measures taken to protect data that is transmitted and stored digitally including encryption, firewalls and anti-virus software<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093757+0000'?> measures taken to protect the security and integrity of data, including passwords, levels of permitted access, firewalls and anti-virus software<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093757+0000'?> the need to backup data and identify and describe different procedures for backing up data.<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093757+0000'?> how data might be recovered if lost<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093757+0000'?> the benefits and possible inherent dangers of widespread use of social networking websites and instant messaging<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093757+0000'?> the importance to individuals of the management of their e-reputation<?xm-insertion_mark_end ?></paragraph>
+              </item>
+              <item>
+                <paragraph>
+                  <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093757+0000'?> security issues and consequences associated with the widespread use of email, including spread of viruses, phishing and identity theft. <?xm-insertion_mark_end ?></paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+          <paragraph>
+            <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093932+0000'?>Consider ways in which online technology can be used to monitor individuals' movements and communications.<?xm-insertion_mark_end ?></paragraph>
+          <paragraph>
+            <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T094030+0000'?>In relation to IT systems, consider how current legislation controls how personal data can be used and must be protected by organisations.<?xm-insertion_mark_end ?></paragraph>
+        </distinct_objective_text>
+      </distinct_objective>
+      <assessment_guidance>
+        <assessment_guidance_text>
+          <paragraph>
+          </paragraph>
+          <describedlist>
+            <list_description>
+            </list_description>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                </paragraph>
+              </item>
+            </unorderedlist>
+          </describedlist>
+        </assessment_guidance_text>
+      </assessment_guidance>
+      <assessment_criteria>
+        <level_1_criteria>
+          <level_1_criterion>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093511+0000'?>1A.1<?xm-insertion_mark_end ?></criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093358+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_english>
+            <GSCE_math>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093358+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </level_1_criterion>
+        </level_1_criteria>
+        <pass_criteria>
+          <pass_criterion>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093516+0000'?>1A.1<?xm-insertion_mark_end ?></criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093358+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_english>
+            <GSCE_math>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093358+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </pass_criterion>
+        </pass_criteria>
+        <merit_criteria>
+          <merit_criterion>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093519+0000'?>1A.1<?xm-insertion_mark_end ?></criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093358+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_english>
+            <GSCE_math>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093358+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </merit_criterion>
+        </merit_criteria>
+        <distinction_criteria>
+          <distinction_criterion>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093523+0000'?>1A.1<?xm-insertion_mark_end ?></criterion_id>
+            <criterion>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion>
+            <GSCE_english>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093358+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_english>
+            <GSCE_math>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093358+0000'?>Yes<?xm-insertion_mark_end ?></GSCE_math>
+            <criterion_guidance>
+              <paragraph>
+              </paragraph>
+              <describedlist>
+                <list_description>
+                </list_description>
+                <unorderedlist>
+                  <item>
+                    <paragraph>
+                    </paragraph>
+                  </item>
+                </unorderedlist>
+              </describedlist>
+            </criterion_guidance>
+          </distinction_criterion>
+        </distinction_criteria>
+      </assessment_criteria>
+      <suggested_assignment_outlines>
+        <distinct_suggested_assignment_outline>
+          <criteria_covered>
+            <criterion_id>
+              <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T093529+0000'?>1A.1<?xm-insertion_mark_end ?></criterion_id>
+          </criteria_covered>
+          <assignment_title>
+          </assignment_title>
+          <scenario>
+            <paragraph>
+            </paragraph>
+          </scenario>
+          <assessment_evidence>
+            <unorderedlist>
+              <item>
+                <paragraph>
+                </paragraph>
+              </item>
+            </unorderedlist>
+          </assessment_evidence>
+        </distinct_suggested_assignment_outline>
+      </suggested_assignment_outlines>
+    </learning_objective>
+  </learning_objectives>
+  <teacher_guidance>
+    <distinct_teacher_guidance>
+      <subtitle>
+        <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091150+0000'?>Resources<?xm-insertion_mark_end ?></subtitle>
+      <teacher_guidance_text>
+        <paragraph>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091226+0000'?>There are no special resources needed for this unit.<?xm-insertion_mark_end ?></paragraph>
+      </teacher_guidance_text>
+    </distinct_teacher_guidance>
+    <global_assessment_guidance>
+      <assessment_guidance_text>
+        <paragraph>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091059+0000'?>This unit is assessed using an onscreen test. Edexcel sets and marks the test. The test lasts for 1 hour and has 50 marks. The assessment is available on demand.<?xm-insertion_mark_end ?></paragraph>
+        <paragraph>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091059+0000'?>Learners will complete an onscreen test that has different types of questions including objective and short-answer questions. Where appropriate, questions will contain graphics, photos, animations or video. An onscreen calculator is available for questions requiring calculations. An onscreen notepad is available for making notes. Each item will have an accessibility panel that allows a learner to zoom in and out, and apply a colour filter.<?xm-insertion_mark_end ?></paragraph>
+        <paragraph>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091059+0000'?>Learners should be encouraged to keep up to date with emerging technology as part of their learning experience. <?xm-insertion_mark_end ?></paragraph>
+        <paragraph>
+          <?xm-insertion_mark_start author='Andreas Vergara' time='20130903T091059+0000'?> Centres are encouraged to be aware of developments in systems and technologies. In terms of assessment, we will issue updates annually in April to be taken into account during delivery from the following September. External assessments will reflect updates from the subsequent January.<?xm-insertion_mark_end ?></paragraph>
+      </assessment_guidance_text>
+    </global_assessment_guidance>
+  </teacher_guidance>
 </unit>
